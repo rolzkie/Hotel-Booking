@@ -16,9 +16,9 @@
 <body>
   <header class="top-bar">
     <div class="top-left">
-      <span><i class="fas fa-phone-alt"></i>  <div class="top-left-text">+63 2 7755 7888</span>
-      <span><i class="fas fa-envelope"></i> reservations@imhotel.com</span>
-    </div></div>
+      <h3><span><i class="fas fa-phone-alt"></i> +63 2 7755 7888</span></h3>
+      <h3><span><i class="fas fa-envelope"></i> reservations@imhotel.com</span></h3>
+    </div>
     <div class="top-right">
       <a href="#"><i class="fab fa-facebook-f"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
@@ -327,8 +327,8 @@
     <div class="container footer-top">
       <div class="footer-brand">
         <h2>Diamond Hotel Philippines</h2>
-        <p>Roxas Boulevard, corner Dr. J. Quintos Street, Manila, Philippines 1000</p>
-        <p>(632) 8-528-3000 | (632) 5-305-3000</p>
+        <h3>Roxas Boulevard, corner Dr. J. Quintos Street, Manila, Philippines 1000</h3>
+        <h3>(632) 8-528-3000 | (632) 5-305-3000</h3>
       </div>
       <div class="footer-links">
         <div>
@@ -351,11 +351,13 @@
           <a href="#">Online Shopping</a>
           <a href="#">Privacy Policy</a>
         </div>
+        <div>
+          
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>All Rights Reserved 2026 © Copyright Diamond Hotel Philippines</p>
+      <h3>All Rights Reserved 2026 © Copyright Diamond Hotel Philippines</h3>
     </div>
   </footer>
 
