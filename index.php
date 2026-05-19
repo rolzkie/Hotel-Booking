@@ -41,6 +41,39 @@
     <a class="btn-book" href="#offers">BOOK NOW</a>
     <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
   </nav>
+<main class="welcome-section">
+  <div class="welcome-copy">
+    <span class="eyebrow">Premium comfort in Manila</span>
+    <h1>Experience the city in style</h1>
+    <p>Stay at the landmark destination with refined rooms, contemporary dining, and thoughtfully curated amenities.</p>
+  </div>
+
+  <form class="search-form" action="#" method="get">
+    <div class="search-field">
+      <label for="checkin">CHECK-IN</label>
+      <input type="date" id="checkin" name="checkin" />
+    </div>
+    <div class="search-field">
+      <label for="checkout">CHECK-OUT</label>
+      <input type="date" id="checkout" name="checkout" />
+    </div>
+    <div class="search-field">
+      <label for="adults">ADULTS</label>
+      <select id="adults" name="adults">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </div>
+    <button type="submit">SEARCH AVAILABILITY</button>
+  </form>
+</main>
+
 
 <section id="about" class="section about-section">
   <div class="container split-grid about-grid">
@@ -53,7 +86,7 @@
       <p class="section-copy">Our newly refreshed spaces blend luxury with local charm, making every visit unforgettable whether you are here for leisure, business, or a special celebration.</p>
     </div>
     <div class="about-visual">
-      <img src="image/akin.jpg" alt="Diamond Hotel lobby" />
+      <img src="assets/1.jpg" alt="Diamond Hotel lobby" />
     </div>
   </div>
 </section>
