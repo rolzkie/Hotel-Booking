@@ -6,19 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hotel</title>
-  <link rel="stylesheet" href="Styles/index.css" />
+  <link rel="stylesheet" href="styles/index.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="image/Logo/VLogo.png" />
+  <link rel="icon" href="assets/iconblack.png" />
 </head>
 
 <body>
   <header class="top-bar">
     <div class="top-left">
-      <span><i class="fas fa-phone-alt"></i> +63 2 7755 7888</span>
+      <span><i class="fas fa-phone-alt"></i>  <div class="top-left-text">+63 2 7755 7888</span>
       <span><i class="fas fa-envelope"></i> reservations@imhotel.com</span>
-    </div>
+    </div></div>
     <div class="top-right">
       <a href="#"><i class="fab fa-facebook-f"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
@@ -28,7 +28,7 @@
 
   <nav class="main-nav">
     <div class="brand">
-      <a href="#">Diamond Hotel</a>
+      <a class="logo" href="#"><img class="logo-img" src="assets/logo.png" alt="Diamond Hotel logo" /></a>
     </div>
     <ul class="nav-links">
       <li><a href="#rooms">Rooms</a></li>
@@ -86,7 +86,7 @@
       <p class="section-copy">Our newly refreshed spaces blend luxury with local charm, making every visit unforgettable whether you are here for leisure, business, or a special celebration.</p>
     </div>
     <div class="about-visual">
-      <img src="assets/1.jpg" alt="Diamond Hotel lobby" />
+      <img src="assets/1.png" alt="Diamond Hotel lobby" />
     </div>
   </div>
 </section>
@@ -104,7 +104,7 @@
       <div class="scroll-row room-scroll">
       <article class="media-card">
         <div class="card-image">
-          <img class="base-img" src="image/ronron.JPG" alt="Deluxe room exterior" />
+          <img class="base-img" src="assets/2.jpg" alt="Deluxe room exterior" />
           <img class="hover-img" src="image/k.JPG" alt="Deluxe room interior" />
           <div class="card-hover-text">
             <h3>Deluxe Room</h3>

@@ -31,7 +31,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  
 }
 
 button,
@@ -56,6 +56,7 @@ img {
   padding: 0 1.2rem;
 }
 
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
@@ -68,13 +69,15 @@ img {
     padding: 0 0.9rem;
   }
 }
-
+top-left .top-left-text a{
+  color :gold;
+}
 .top-bar {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
   padding: 0.85rem 2rem;
-  color: var(--muted);
+
   background: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid var(--border);
 }
@@ -84,7 +87,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--muted);
+  
   font-size: 0.92rem;
 }
 
@@ -102,7 +105,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.95);
+  background: black;
   border-bottom: 1px solid var(--border);
 }
 
@@ -111,6 +114,13 @@ img {
   letter-spacing: 0.2em;
   font-weight: 700;
   color: var(--text);
+}
+
+.brand a img,
+.logo img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
 }
 
 .nav-links {
@@ -122,7 +132,7 @@ img {
 
 .nav-links li a {
   font-size: 0.95rem;
-  color: var(--text);
+  color: gold;
   transition: color 0.2s ease;
 }
 
