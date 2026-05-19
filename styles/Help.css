@@ -1,0 +1,482 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("/fonts/Oswald/static/Oswald-Bold.ttf");
+}
+
+@font-face {
+    font-family: "black-theory";
+    src: url("/fonts/black_theory/Black-Theory.otf");
+}
+
+@font-face {
+    font-family: "pricedown";
+    src: url("/fonts/pricedown/Pricedown\ Bl.otf");
+}
+
+@font-face {
+    font-family: "YanoneKaffeesatz";
+    src: url("/fonts/YanoneKaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url("/fonts/Teko/Teko-VariableFont_wght.ttf");
+}
+
+button {
+    font-size: 70px;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+    cursor: grab;
+}
+
+button:hover {
+    transform: scale(1.0);
+    transition: 0.5s ease;
+}
+
+.Home-screen {
+    display: inline-block;
+    animation: 40s sliding infinite linear;
+
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@keyframes sliding {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-101%);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 99vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 5rem;
+}
+
+section nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+section nav .logo img {
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav .dropdown {
+    height: 60px;
+    display: flex;
+}
+
+section nav .dropdown .dropdown-content {
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    top: 70px;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+section nav .dropdown .links {
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+section nav .dropdown .links summary {
+    width: 1rem;
+    height: 100%;
+}
+
+section nav .dropdown .links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section nav .dropdown .links a:hover::after {
+    width: 100%;
+}
+
+section nav .dropdown .links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+section nav .dropdown .links a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #000;
+    display: block;
+}
+
+section nav .icon i {
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 200ms ease-out;
+}
+
+section nav .icon i:hover {
+    font-size: 18px;
+    color: #008000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section .main {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+section .main .men_text h1 {
+    width: 35rem;
+    font-size: 20px;
+    /* LINE HEIGHT TO AHH!!! */
+    position: relative;
+    top: -70px;
+    text-align: center;
+    line-height: 90px;
+    left: 30px;
+}
+
+section .main .men_text h1 span {
+
+    color: black;
+    font-family: "Teko";
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+
+.sub_main .sub_text {
+    width: 500px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+    position: relative;
+    left: -600px;
+    top: 300px;
+
+}
+
+.sub_text h2 {
+    font-family: "YanoneKaffeesatz";
+}
+
+section .main .main_image img {
+    width: 700px;
+    left: 30px;
+    position: relative;
+}
+
+section p {
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 100px;
+    bottom: 430px;
+    line-height: 22px;
+}
+
+section .main_btn {
+    background: green;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+    position: absolute;
+    top: 170px;
+    left: -10px;
+    font-size: 18px;
+}
+
+section .main_btn a {
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: "Oswald";
+    text-align: right;
+}
+
+section .main_btn i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+section .main_btn:hover i {
+    transform: translateX(7px);
+}
+
+.FAQ {
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FAQ .questions {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* From Uiverse.io by gharsh11032000 */
+.FAQ .questions .card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background: linear-gradient(-45deg, #90ff90 0%, #008000 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.FAQ .questions .card .front {
+    width: 280px;
+    text-align: center;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.FAQ .questions .card:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.FAQ .questions .card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.FAQ .questions .card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+.FAQ .questions .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.FAQ .questions .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.FAQ .questions .card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}
+
+
+.header-links {
+    font-family: "Oswald";
+    cursor: pointer;
+}
+
+
+.not-active {
+    color: #acacac;
+}
+
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    background: #ffffff;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .footer_main {
+    flex: 1;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    /* Distribute space around items */
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+footer .footer_img {
+    flex: 1;
+    display: inline-flex;
+    justify-content: center;
+}
+
+footer .footer_img img {
+    width: 300px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+footer .footer_tag {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .footer_tag h2 {
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_tag a {
+    text-decoration: none;
+}
+
+footer .footer_main .footer_tag h2 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.footer_tag h2 {
+    position: relative;
+    top: 15px;
+
+}
+
+footer .footer_main .footer_tag p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+footer .footer_main .footer_tag i {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+}
+
+footer .footer_main .footer_tag i:hover {
+    color: green;
+}
+
+.footer_icon {
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    left: 0px;
+
+}
+
+footer .footer_bottom {
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer_bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 15px;
+}
