@@ -29,7 +29,7 @@
           <li><a href="#explore">Explore</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="btn nav__btn">Book Now</button>
+        <a href="Check-in-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Simple - Unique - Friendly</p>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="input__group input__btn">
-          <button class="btn">BOOK NOW</button>
+        <a href="Check-in-Page.php"><button class="btn">Book Now</button></a>
         </div>
       </form>
     </section>
