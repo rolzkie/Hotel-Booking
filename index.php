@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="icon" href="Assets/iconred.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
   <body>
