@@ -139,10 +139,9 @@ top-left .top-left-text a{
 .nav-links li a:hover {
   color: var(--accent);
 }
-
 .btn-book {
-  background: var(--accent);
-  color: #fff;
+  background: white;
+  color:gold;
   padding: 0.95rem 1.45rem;
   border-radius: 999px;
   font-weight: 700;
@@ -958,6 +957,7 @@ top-left .top-left-text a{
   color: #fff;
   transform: translateY(-50%) scale(1.1);
 }
+
 
 .prev-btn { left: 10px; }
 .next-btn { right: 10px; }

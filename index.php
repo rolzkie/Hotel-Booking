@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="assets/iconblack.png" />
+  <link rel="icon" href="Assets/iconred.png" />
 </head>
 
 <body>
@@ -86,7 +86,7 @@
       <p class="section-copy">Our newly refreshed spaces blend luxury with local charm, making every visit unforgettable whether you are here for leisure, business, or a special celebration.</p>
     </div>
     <div class="about-visual">
-      <img src="assets/1.png" alt="Diamond Hotel lobby" />
+      <img src="Assets/1.png" alt="Diamond Hotel lobby" />
     </div>
   </div>
 </section>
