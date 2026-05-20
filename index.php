@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hotel</title>
-  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/index.css?v=4" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -104,8 +104,8 @@
       <div class="scroll-row room-scroll">
       <article class="media-card">
         <div class="card-image">
-          <img class="base-img" src="assets/2.jpg" alt="Deluxe room exterior" />
-          <img class="hover-img" src="image/k.JPG" alt="Deluxe room interior" />
+          <img class="base-img" src="assets/2.png" alt="Deluxe room exterior" />
+          <img class="hover-img" src="assets/2.1.png" alt="Deluxe room interior" />
           <div class="card-hover-text">
             <h3>Deluxe Room</h3>
             <p>Step inside a modern retreat with city views, plush bedding, and premium amenities.</p>
