@@ -252,29 +252,7 @@ nav {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.25s ease;
 }
-
-/* Make room cards feel wider on hover and allow “toggle up” behavior */
-.room__card__image {
-  position: relative;
-  isolation: isolate;
-}
-
-/* Toggle text/button overlay on hover (image area only) */
-.room__card__details {
-  transform: translateY(12px);
-  opacity: 0;
-  pointer-events: none;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.room__card:hover .room__card__details {
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
-}
-
 
 .room__card__image {
   position: relative;
