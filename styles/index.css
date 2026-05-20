@@ -363,30 +363,29 @@ top-left .top-left-text a{
 
 .scroll-row {
   display: flex;
-  gap: 0.75rem;
-  overflow-x: auto;      /* Enables automatic horizontal scroll */
+  gap: 1.5rem;
+  overflow-x: auto;
   overflow-y: hidden;
   padding: 0.8rem 0.25rem;
   scroll-snap-type: x mandatory;
   scroll-padding-inline: 0.75rem;
   -webkit-overflow-scrolling: touch;
 
-  /* Hide scrollbar but keep swipe/scroll */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .scroll-row::-webkit-scrollbar {
-  display: none; /* Chrome/Safari/Webkit */
+  display: none;
 }
 
 /* Ensure cards keep a fixed width and don't shrink */
 .scroll-row .review-card,
 .scroll-row .media-card {
   flex: 0 0 auto;
-  width: 200px;
-  max-width: 200px;
-  min-width: 200px;
+  width: 280px;
+  max-width: 280px;
+  min-width: 280px;
   scroll-snap-align: start;
 }
 
@@ -397,10 +396,10 @@ top-left .top-left-text a{
 
 .review-card,
 .media-card {
-  width: 200px;
-  max-width: 200px;
-  min-width: 200px;
-  flex: 0 0 200px;
+  width: 280px;
+  max-width: 280px;
+  min-width: 280px;
+  flex: 0 0 280px;
   scroll-snap-align: start;
   border-radius: 20px;
   overflow: hidden;
@@ -413,21 +412,36 @@ top-left .top-left-text a{
 
 @media (max-width: 1024px) {
   .scroll-row {
-    gap: 0.65rem;
+    gap: 1.2rem;
   }
   .review-card,
   .media-card {
-    width: 180px;
-    max-width: 180px;
-    min-width: 180px;
-    flex: 0 0 180px;
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
+    flex: 0 0 240px;
   }
 }
 
 @media (max-width: 768px) {
   .scroll-row {
-    gap: 0.6rem;
+    gap: 1rem;
     padding-top: 0.7rem;
+  }
+  .review-card,
+  .media-card {
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    flex: 0 0 200px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-row {
+    gap: 0.8rem;
+    padding-top: 0.6rem;
   }
   .review-card,
   .media-card {
@@ -435,70 +449,43 @@ top-left .top-left-text a{
     max-width: 160px;
     min-width: 160px;
     flex: 0 0 160px;
-    border-radius: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  .scroll-row {
-    gap: 0.5rem;
-    padding-top: 0.6rem;
-  }
-  .review-card,
-  .media-card {
-    width: 140px;
-    max-width: 140px;
-    min-width: 140px;
-    flex: 0 0 140px;
     border-radius: 14px;
   }
 }
 
 .media-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   box-shadow: 0 24px 50px rgba(149, 132, 107, 0.18);
+}
+
+.media-card:hover .card-copy {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
 }
 
 .card-image {
   position: relative;
-  min-height: 240px;
+  height: 280px;
   overflow: hidden;
   border-radius: 20px;
 }
 
 @media (max-width: 1024px) {
   .card-image {
-    min-height: 210px;
+    height: 240px;
   }
 }
 
 @media (max-width: 768px) {
   .card-image {
-    min-height: 190px;
+    height: 200px;
   }
 }
 
 @media (max-width: 480px) {
   .card-image {
-    min-height: 170px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .card-image {
-    min-height: 210px;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-image {
-    min-height: 190px;
-  }
-}
-
-@media (max-width: 480px) {
-  .card-image {
-    min-height: 170px;
+    height: 160px;
   }
 }
 
@@ -534,18 +521,6 @@ top-left .top-left-text a{
   color: #fff;
   opacity: 0;
   transition: opacity 0.25s ease;
-}
-
-@media (max-width: 768px) {
-  .card-hover-text {
-    padding: 1rem 0.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .card-hover-text {
-    padding: 0.75rem 0.6rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -598,6 +573,7 @@ top-left .top-left-text a{
 
 .card-copy {
   padding: 1.75rem;
+  transition: transform 0.35s ease, opacity 0.35s ease;
 }
 
 .card-copy h3 {
@@ -886,10 +862,6 @@ top-left .top-left-text a{
   }
 }
 
-/* ============================================
-   CAROUSEL / SLIDER STYLES (ADDED AT BOTTOM)
-   ============================================ */
-
 .carousel-wrapper {
   position: relative;
   width: 100%;
@@ -907,25 +879,22 @@ top-left .top-left-text a{
 }
 
 .carousel-slide {
-  min-width: calc(100% / 3); /* Shows 3 items on desktop */
+  min-width: calc(100% / 3);
   flex-shrink: 0;
 }
 
-/* Responsive: Show 2 items on tablet */
 @media (max-width: 1080px) {
   .carousel-slide {
     min-width: calc(100% / 2);
   }
 }
 
-/* Responsive: Show 1 item on mobile */
 @media (max-width: 620px) {
   .carousel-slide {
     min-width: 100%;
   }
 }
 
-/* Navigation Buttons */
 .nav-btn {
   position: absolute;
   top: 50%;
@@ -952,7 +921,6 @@ top-left .top-left-text a{
 .prev-btn { left: 10px; }
 .next-btn { right: 10px; }
 
-/* Responsive button positioning */
 @media (max-width: 620px) {
   .nav-btn {
     padding: 8px 12px;
@@ -962,7 +930,6 @@ top-left .top-left-text a{
   .next-btn { right: 5px; }
 }
 
-/* Button inside cards (matching your style) */
 .card-btn {
   background: var(--accent);
   color: #fff;
@@ -977,11 +944,10 @@ top-left .top-left-text a{
   background: #9a7a2e;
 }
 
-/* Ensure media cards fit properly inside slides */
 .carousel-slide .media-card {
   width: 100%;
   max-width: 100%;
-  min-width: auto; /* Override existing fixed width */
+  min-width: auto;
   flex: 1;
   margin: 0 auto;
 }

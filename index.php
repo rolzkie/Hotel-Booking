@@ -307,7 +307,7 @@
         <span>— Peter L.</span>
       </article>
       <article class="review-card">
-        <p>"Excellent food, thoughtful staff, and the perfect location near the city’s attractions."</p>
+        <p>"Excellent food, thoughtful staff, and the perfect location near the city's attractions."</p>
         <span>— Sophia M.</span>
       </article>
       <article class="review-card">
@@ -381,7 +381,7 @@
 
       let paused = false;
       const speed = 1;
-      const moveDistance = 206; // 200px card + 6px gap
+      const moveDistance = 286; // 280px card + 6px gap
 
       // Scroll by button click
       prevBtn.addEventListener('click', () => {
