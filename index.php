@@ -1,421 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hotel</title>
-  <link rel="stylesheet" href="styles/index.css?v=4" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="Assets/iconred.png" />
-</head>
-
-<body>
-  <header class="top-bar">
-    <div class="top-left">
-      <h3><span><i class="fas fa-phone-alt"></i> +63 2 7755 7888</span></h3>
-      <h3><span><i class="fas fa-envelope"></i> reservations@imhotel.com</span></h3>
-    </div>
-    <div class="top-right">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-tiktok"></i></a>
-    </div>
-  </header>
-
-  <nav class="main-nav">
-    <div class="brand">
-      <a class="logo" href="#"><img class="logo-img" src="assets/logo.png" alt="Diamond Hotel logo" /></a>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#rooms">Rooms</a></li>
-      <li><a href="#dining">Dining</a></li>
-      <li><a href="#facilities">Facilities</a></li>
-      <li><a href="#offers">Offers</a></li>
-      <li><a href="#reviews">Guest Reviews</a></li>
-      <li><a href="#about">About Us</a></li>
-    </ul>
-    <a class="btn-book" href="#offers">BOOK NOW</a>
-    <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
-  </nav>
-<main class="welcome-section">
-  <div class="welcome-copy">
-    <span class="eyebrow">Premium comfort in Manila</span>
-    <h1>Experience the city in style</h1>
-    <p>Stay at the landmark destination with refined rooms, contemporary dining, and thoughtfully curated amenities.</p>
-  </div>
-
-  <form class="search-form" action="#" method="get">
-    <div class="search-field">
-      <label for="checkin">CHECK-IN</label>
-      <input type="date" id="checkin" name="checkin" />
-    </div>
-    <div class="search-field">
-      <label for="checkout">CHECK-OUT</label>
-      <input type="date" id="checkout" name="checkout" />
-    </div>
-    <div class="search-field">
-      <label for="adults">ADULTS</label>
-      <select id="adults" name="adults">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-      </select>
-    </div>
-    <button type="submit">SEARCH AVAILABILITY</button>
-  </form>
-</main>
-
-
-<section id="about" class="section about-section">
-  <div class="container split-grid about-grid">
-    <div>
-      <div class="section-header">
-        <p>About Us</p>
-        <h2>Where iconic hospitality meets modern comfort.</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Web Design Mastery | Rayal Park</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Book Now</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Simple - Unique - Friendly</p>
+        <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
       </div>
-      <p class="section-copy">Diamond Hotel Philippines offers a welcoming retreat at the heart of the city. Every stay is enhanced by elegant rooms, vibrant dining, and thoughtful service tailored to your lifestyle.</p>
-      <p class="section-copy">Our newly refreshed spaces blend luxury with local charm, making every visit unforgettable whether you are here for leisure, business, or a special celebration.</p>
-    </div>
-    <div class="about-visual">
-      <img src="Assets/1.png" alt="Diamond Hotel lobby" />
-    </div>
-  </div>
-</section>
+    </header>
 
-<section id="rooms" class="section rooms-section">
-  <div class="container">
-    <div class="section-header">
-      <p>Rooms</p>
-      <h2>Relax in stylish accommodations.</h2>
-    </div>
-    <div class="carousel-container">
-      <button class="carousel-btn carousel-btn-prev" aria-label="Previous slide">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <div class="scroll-row room-scroll">
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="assets/2.png" alt="Deluxe room exterior" />
-          <img class="hover-img" src="assets/2.1.png" alt="Deluxe room interior" />
-          <div class="card-hover-text">
-            <h3>Deluxe Room</h3>
-            <p>Step inside a modern retreat with city views, plush bedding, and premium amenities.</p>
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="text" placeholder="Check In" />
           </div>
         </div>
-        <div class="card-copy">
-          <h3>Deluxe Room</h3>
-          <p>Modern luxury with premium comfort</p>
-          <button class="card-btn">View Room</button>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/k.JPG" alt="Executive suite exterior" />
-          <img class="hover-img" src="image/jr.JPG" alt="Executive suite interior" />
-          <div class="card-hover-text">
-            <h3>Executive Suite</h3>
-            <p>Enjoy a separate living area, premium amenities, and elegant styling.</p>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="text" placeholder="Check Out" />
           </div>
         </div>
-        <div class="card-copy">
-          <h3>Executive Suite</h3>
-          <p>Spacious suite with living area</p>
-          <button class="card-btn">View Suite</button>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/jr.JPG" alt="Premier room exterior" />
-          <img class="hover-img" src="image/akin.jpg" alt="Premier room interior" />
-          <div class="card-hover-text">
-            <h3>Premier Room</h3>
-            <p>Designed for business and leisure with extra space and upscale comforts.</p>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">GUEST</label>
+            <input type="text" placeholder="Guest" />
           </div>
         </div>
-        <div class="card-copy">
-          <h3>Premier Room</h3>
-          <p>Executive comfort with extra space</p>
-          <button class="card-btn">View Room</button>
+        <div class="input__group input__btn">
+          <button class="btn">CHECH OUT</button>
         </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/jrrr.webp" alt="Grand corner room exterior" />
-          <img class="hover-img" src="image/ronron.JPG" alt="Grand corner room interior" />
-          <div class="card-hover-text">
-            <h3>Grand Corner Room</h3>
-            <p>Experience panoramic city views from a spacious corner room with premium finishes.</p>
-          </div>
-        </div>
-        <div class="card-copy">
-          <h3>Grand Corner</h3>
-          <p>Panoramic city views</p>
-          <button class="card-btn">View Room</button>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/akin.jpg" alt="Presidential suite exterior" />
-          <img class="hover-img" src="image/jrrr.webp" alt="Presidential suite interior" />
-          <div class="card-hover-text">
-            <h3>Presidential Suite</h3>
-            <p>Unwind in luxurious style with a private living area, dining space, and top-tier amenities.</p>
-          </div>
-        </div>
-        <div class="card-copy">
-          <h3>Presidential Suite</h3>
-          <p>Ultimate luxury experience</p>
-          <button class="card-btn">View Suite</button>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/ronron.JPG" alt="Club access room exterior" />
-          <img class="hover-img" src="image/k.JPG" alt="Club access room interior" />
-          <div class="card-hover-text">
-            <h3>Club Access Room</h3>
-            <p>Enjoy exclusive lounge benefits and elevated comfort in a refined hospitality setting.</p>
-          </div>
-        </div>
-        <div class="card-copy">
-          <h3>Club Access Room</h3>
-          <p>Exclusive lounge access</p>
-          <button class="card-btn">View Room</button>
-        </div>
-      </article>
+      </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
       </div>
-      <button class="carousel-btn carousel-btn-next" aria-label="Next slide">
-        <i class="fas fa-chevron-right"></i>
-      </button>
-    </div>
-  </div>
-</section>
-
-<section id="facilities" class="section facilities-section">
-  <div class="container">
-    <div class="section-header">
-      <p>Hotel Facilities</p>
-      <h2>Everything you need on site.</h2>
-    </div>
-    <div class="carousel-container">
-      <button class="carousel-btn carousel-btn-prev" aria-label="Previous slide">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <div class="scroll-row facility-scroll">
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/jrrr.webp" alt="Pool area" />
-          <img class="hover-img" src="image/ronron.JPG" alt="Pool inside" />
-          <div class="card-hover-text">
-            <h3>Pool</h3>
-            <p>Enjoy a serene pool deck with comfortable seating and refreshing views.</p>
-          </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__description">
+          With a focus on quality accommodations, personalized experiences, and
+          seamless booking, our platform is dedicated to ensuring that every
+          traveler embarks on their dream holiday with confidence and
+          excitement.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Read More</button>
         </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/akin.jpg" alt="Fitness center" />
-          <img class="hover-img" src="image/k.JPG" alt="Fitness inside" />
-          <div class="card-hover-text">
-            <h3>Fitness Center</h3>
-            <p>Stay active with modern equipment and dedicated workout spaces.</p>
-          </div>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/jr.JPG" alt="Spa lobby" />
-          <img class="hover-img" src="image/akin.jpg" alt="Spa treatment" />
-          <div class="card-hover-text">
-            <h3>Spa</h3>
-            <p>Pamper yourself with relaxing treatments in a tranquil spa environment.</p>
-          </div>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/k.JPG" alt="Meeting room" />
-          <img class="hover-img" src="image/jrrr.webp" alt="Meeting room interior" />
-          <div class="card-hover-text">
-            <h3>Meeting Rooms</h3>
-            <p>Host events in flexible meeting spaces equipped for business gatherings.</p>
-          </div>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/ronron.JPG" alt="Business center" />
-          <img class="hover-img" src="image/jr.JPG" alt="Business center interior" />
-          <div class="card-hover-text">
-            <h3>Business Center</h3>
-            <p>Work comfortably with fully equipped business services and meeting support.</p>
-          </div>
-        </div>
-      </article>
-      <article class="media-card">
-        <div class="card-image">
-          <img class="base-img" src="image/akin.jpg" alt="Concierge lounge" />
-          <img class="hover-img" src="image/k.JPG" alt="Concierge lounge interior" />
-          <div class="card-hover-text">
-            <h3>Concierge Lounge</h3>
-            <p>Enjoy personalized attention and premium access to local experiences.</p>
-          </div>
-        </div>
-      </article>
       </div>
-      <button class="carousel-btn carousel-btn-next" aria-label="Next slide">
-        <i class="fas fa-chevron-right"></i>
-      </button>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section id="reviews" class="section reviews-section">
-  <div class="container">
-    <div class="section-header">
-      <p>Guest Reviews</p>
-      <h2>See what guests love.</h2>
-    </div>
-    <div class="carousel-container">
-      <button class="carousel-btn carousel-btn-prev" aria-label="Previous slide">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <div class="scroll-row review-scroll">
-      <article class="review-card">
-        <p>"A memorable stay with excellent service. The rooms were beautiful and the staff took great care of us."</p>
-        <span>— Maria C.</span>
-      </article>
-      <article class="review-card">
-        <p>"Amazing dining and comfortable rooms. I loved the wellness facilities and central location."</p>
-        <span>— John D.</span>
-      </article>
-      <article class="review-card">
-        <p>"Perfect for business and leisure. The team made our visit easy, and the hotel felt warm and welcoming."</p>
-        <span>— Anna R.</span>
-      </article>
-      <article class="review-card">
-        <p>"The atmosphere was exceptional and the room was pristine. We will return for sure."</p>
-        <span>— Peter L.</span>
-      </article>
-      <article class="review-card">
-        <p>"Excellent food, thoughtful staff, and the perfect location near the city's attractions."</p>
-        <span>— Sophia M.</span>
-      </article>
-      <article class="review-card">
-        <p>"A relaxing stay with impressive amenities and smooth check-in. Highly recommended."</p>
-        <span>— Lucas G.</span>
-      </article>
-      </div>
-      <button class="carousel-btn carousel-btn-next" aria-label="Next slide">
-        <i class="fas fa-chevron-right"></i>
-      </button>
-    </div>
-  </div>
-</section>
-
-
-  <footer class="site-footer">
-    <div class="container footer-top">
-      <div class="footer-brand">
-        <h2>Diamond Hotel Philippines</h2>
-        <h3>Roxas Boulevard, corner Dr. J. Quintos Street, Manila, Philippines 1000</h3>
-        <h3>(632) 8-528-3000 | (632) 5-305-3000</h3>
-      </div>
-      <div class="footer-links">
-        <div>
-          <h3>Explore</h3>
-          <a href="#rooms">Rooms</a>
-          <a href="#dining">Dining</a>
-          <a href="#facilities">Meetings & Events</a>
-          <a href="#facilities">Facilities & Amenities</a>
+    <section class="section__container room__container">
+      <p class="section__subheader">OUR LIVING ROOM</p>
+      <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Ocean View</h4>
+            <p>
+              Bask in luxury with breathtaking ocean views from your private
+              suite.
+            </p>
+            <h5>Starting from <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
-        <div>
-          <h3>More</h3>
-          <a href="#offers">Latest Offers</a>
-          <a href="#reviews">News</a>
-          <a href="#reviews">Guest Reviews</a>
-          <a href="#">Explore Manila</a>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Executive Cityscape Room</h4>
+            <p>
+              Experience urban elegance and modern comfort in the heart of the
+              city.
+            </p>
+            <h5>Starting from <span>$199/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
-        <div>
-          <h3>Support</h3>
-          <a href="#">Contact Us</a>
-          <a href="#">Online Shopping</a>
-          <a href="#">Privacy Policy</a>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Family Garden Retreat</h4>
+            <p>
+              Spacious and inviting, perfect for creating cherished memories
+              with loved ones.
+            </p>
+            <h5>Starting from <span>$249/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
         </div>
-        <div>
-          
       </div>
-    </div>
+    </section>
 
-    <div class="footer-bottom">
-      <h3>All Rights Reserved 2026 © Copyright Diamond Hotel Philippines</h3>
-    </div>
-  </footer>
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Conference Room
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <script>
-  // Mobile Menu Toggle
-  const toggle = document.querySelector('.menu-toggle');
-  const links = document.querySelector('.nav-links');
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>25+</h4>
+          <p>Properties Available</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
 
-  toggle.addEventListener('click', () => {
-    links.classList.toggle('active');
-  });
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORE</p>
+      <h2 class="section__header">What's New Today.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">10th MAR 2023</p>
+          <h4>A New Menu Is Available In Our Hotel.</h4>
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </section>
 
-  // Initialize all carousels
-  document.addEventListener('DOMContentLoaded', () => {
-    const carousels = document.querySelectorAll('.carousel-container');
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Browse Destinations</a></li>
+            <li><a href="#">Special Offers & Packages</a></li>
+            <li><a href="#">Room Types & Amenities</a></li>
+            <li><a href="#">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Concierge Assistance</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Wellness & Recreation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="#">rayalpark@info.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
 
-    carousels.forEach((carousel) => {
-      const scrollRow = carousel.querySelector('.scroll-row');
-      const prevBtn = carousel.querySelector('.carousel-btn-prev');
-      const nextBtn = carousel.querySelector('.carousel-btn-next');
-
-      let paused = false;
-      const speed = 1;
-      const moveDistance = 286; // 280px card + 6px gap
-
-      // Scroll by button click
-      prevBtn.addEventListener('click', () => {
-        paused = true;
-        scrollRow.scrollBy({ left: -moveDistance, behavior: 'smooth' });
-        setTimeout(() => { paused = false; }, 600);
-      });
-
-      nextBtn.addEventListener('click', () => {
-        paused = true;
-        scrollRow.scrollBy({ left: moveDistance, behavior: 'smooth' });
-        setTimeout(() => { paused = false; }, 600);
-      });
-
-      // Pause on hover
-      scrollRow.addEventListener('mouseenter', () => { paused = true; });
-      scrollRow.addEventListener('mouseleave', () => { paused = false; });
-
-      // Auto-scroll animation
-      const autoScroll = () => {
-        if (!paused && scrollRow.scrollWidth > scrollRow.clientWidth) {
-          scrollRow.scrollLeft += speed;
-
-          // Reset to start when reaching end
-          if (scrollRow.scrollLeft + scrollRow.clientWidth >= scrollRow.scrollWidth - 2) {
-            scrollRow.scrollLeft = 0;
-          }
-        }
-        requestAnimationFrame(autoScroll);
-      };
-
-      autoScroll();
-    });
-  });
-  </script>
-</body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
