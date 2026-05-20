@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/room.css" />
     <link rel="icon" href="Assets/iconred.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
@@ -25,11 +26,13 @@
         <ul class="nav__links" id="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="room.html">Rooms</a></li>
+          <li><a href="hotel-facilities.html">Facilities</a></li>
           <li><a href="#service">Services</a></li>
           <li><a href="#explore">Explore</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="Check-in-Page.php"><button class="btn nav__btn">Book Now</button></a>
+        <button class="btn nav__btn">Book Now</button>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Simple - Unique - Friendly</p>
@@ -63,7 +66,7 @@
           </div>
         </div>
         <div class="input__group input__btn">
-        <a href="Check-in-Page.php"><button class="btn">Book Now</button></a>
+          <button class="btn">BOOK NOW</button>
         </div>
       </form>
     </section>
@@ -93,14 +96,26 @@
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img src="assets/room-1.jpg" alt="room" />
+            <img class="room__img primary" src="assets/room-1.jpg" alt="Deluxe Ocean View" />
+            <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe Ocean View alternate" />
+            <div class="room__hover-btn">
+              <button class="btn">View Details</button>
+            </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
               <span><i class="ri-paint-fill"></i></span>
               <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
+          <div class="room__thumbs">
+            <div class="room__thumb"><img src="assets/1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/2.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
+          </div>
           <div class="room__card__details">
+            <div class="room__card__badge">
+              <img src="assets/PremierBed.png" alt="bed" />
+            </div>
             <h4>Deluxe Ocean View</h4>
             <p>
               Bask in luxury with breathtaking ocean views from your private
@@ -112,14 +127,26 @@
         </div>
         <div class="room__card">
           <div class="room__card__image">
-            <img src="assets/room-2.jpg" alt="room" />
+            <img class="room__img primary" src="assets/room-2.jpg" alt="Executive Cityscape Room" />
+            <img class="room__img secondary" src="assets/about.jpg" alt="Executive Cityscape alternate" />
+            <div class="room__hover-btn">
+              <button class="btn">View Details</button>
+            </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
               <span><i class="ri-paint-fill"></i></span>
               <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
+          <div class="room__thumbs">
+            <div class="room__thumb"><img src="assets/2.1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/about.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 3" /></div>
+          </div>
           <div class="room__card__details">
+            <div class="room__card__badge">
+              <img src="assets/room-2.jpg" alt="city room" />
+            </div>
             <h4>Executive Cityscape Room</h4>
             <p>
               Experience urban elegance and modern comfort in the heart of the
@@ -131,14 +158,26 @@
         </div>
         <div class="room__card">
           <div class="room__card__image">
-            <img src="assets/room-3.jpg" alt="room" />
+            <img class="room__img primary" src="assets/room-3.jpg" alt="Family Garden Retreat" />
+            <img class="room__img secondary" src="assets/explore.jpg" alt="Family Garden alternate" />
+            <div class="room__hover-btn">
+              <button class="btn">View Details</button>
+            </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
               <span><i class="ri-paint-fill"></i></span>
               <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
+          <div class="room__thumbs">
+            <div class="room__thumb"><img src="assets/explore.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/service.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/room-3.jpg" alt="option 3" /></div>
+          </div>
           <div class="room__card__details">
+            <div class="room__card__badge">
+              <img src="assets/room-3.jpg" alt="garden room" />
+            </div>
             <h4>Family Garden Retreat</h4>
             <p>
               Spacious and inviting, perfect for creating cherished memories
