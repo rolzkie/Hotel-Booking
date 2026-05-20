@@ -139,7 +139,7 @@ top-left .top-left-text a{
 .nav-links li a:hover {
   color: var(--accent);
 }
-.btn-book {
+a .btn-book {
   background: white;
   color:gold;
   padding: 0.95rem 1.45rem;
