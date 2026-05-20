@@ -37,7 +37,7 @@
       </div>
     </header>
 
-    <p>jr kalbo</p>
+  
     <section class="section__container booking__container">
       <form action="/" class="booking__form">
         <div class="input__group">
