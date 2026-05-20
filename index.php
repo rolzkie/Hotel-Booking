@@ -43,25 +43,26 @@
           <span><i class="ri-calendar-2-fill"></i></span>
           <div>
             <label for="check-in">CHECK-IN</label>
-            <input type="text" placeholder="Check In" />
+           <input type="date" id="checkin" name="checkin" />
+
           </div>
         </div>
         <div class="input__group">
           <span><i class="ri-calendar-2-fill"></i></span>
           <div>
             <label for="check-out">CHECK-OUT</label>
-            <input type="text" placeholder="Check Out" />
+            <input type="date" placeholder="Check Out" /> 
           </div>
         </div>
         <div class="input__group">
           <span><i class="ri-user-fill"></i></span>
           <div>
             <label for="guest">GUEST</label>
-            <input type="text" placeholder="Guest" />
+            <input type="number" placeholder=" " />
           </div>
         </div>
         <div class="input__group input__btn">
-          <button class="btn">CHECH OUT</button>
+          <button class="btn">BOOK NOW</button>
         </div>
       </form>
     </section>
