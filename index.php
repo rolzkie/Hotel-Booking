@@ -29,7 +29,8 @@
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="#service">Services</a></li>
-          <li><a href="#explore">Explore</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="reviews.php">Reviews</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <button class="btn nav__btn">Book Now</button>
@@ -234,14 +235,14 @@
       </div>
     </section>
 
-    <section class="explore" id="explore">
-      <p class="section__subheader">EXPLORE</p>
-      <h2 class="section__header">What's New Today.</h2>
+    <section class="explore" id="events">
+      <p class="section__subheader">EVENTS</p>
+      <h2 class="section__header">What's Happening This Month.</h2>
       <div class="explore__bg">
         <div class="explore__content">
-          <p class="section__description">10th MAR 2023</p>
-          <h4>A New Menu Is Available In Our Hotel.</h4>
-          <button class="btn">Continue</button>
+          <p class="section__description">10th MAR 2026</p>
+          <h4>Join our special hotel experiences and seasonal celebrations.</h4>
+          <button class="btn">See Events</button>
         </div>
       </div>
     </section>

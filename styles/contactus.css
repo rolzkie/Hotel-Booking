@@ -1,0 +1,251 @@
+.contact__container {
+  padding-bottom: 0;
+}
+
+.contact__overview {
+  max-width: 760px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact__grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact__card {
+  padding: 1.75rem;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact__card h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
+
+.contact__card p {
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.contact__form__section {
+  margin-top: 4rem;
+}
+
+.contact__form__wrapper {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+}
+
+.contact__form__content {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact__form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form__row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  outline: none;
+}
+
+.contact__form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contact__image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .contact__grid,
+  .contact__form__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team .team_box .profile:hover img{
+    border-radius: 20%;
+    margin-top: -230px;
+}
+
+.team .team_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+    top: 60%;
+}
+
+.team .team_box .profile .info .name{
+    color: #2a2516;
+    margin-bottom: 15px;
+}
+
+.team .team_box .profile .info .bio{
+    width: 70%;
+    text-align: center;
+    position: relative;
+    top:-10px;
+    left:40px;
+    
+}
+.bio_img img {
+  height:1px;
+  width:10px;
+}
+
+.team .team_box .profile .info .team_icon i{
+    margin: 10px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 30px;
+     color:black;
+}
+
+.team .team_box .profile .info .team_icon i:hover{
+    color: #fac031;
+}
+
+footer {
+  width: 100%;
+  padding: 30px 0;
+  background: #ffffff;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer .footer_main {
+  flex: 1;
+  display:flex;
+  position: relative;
+  justify-content: space-around; /* Distribute space around items */
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+footer .footer_img {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+}
+
+footer .footer_img img {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+footer .footer_tag {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .footer_tag h2 {
+  color: #000;
+  margin-bottom: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer_tag a{
+  text-decoration: none;
+}
+
+footer .footer_main .footer_tag h2 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.footer_tag h2{
+  position:relative;
+  top:15px;
+  
+}
+
+footer .footer_main .footer_tag p {
+  margin: 10px 50px 0;
+  text-align: center;
+  position: relative;
+  top:0px;
+  left:0px;
+  
+}
+
+footer .footer_main .footer_tag i {
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  color:black;
+}
+
+footer .footer_main .footer_tag i:hover {
+  color: green;
+}
+.footer_icon{
+  font-size:20px;
+  align-items:center;
+  position: relative;
+  left:0px;
+  
+}
+
+ .footer_bottom {
+  width: 100%;
+  height: 100px;
+  padding: 1px 0;
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  
+}
+
+footer .footer_bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer_bottom p{
+  position: relative;
+  top:33px;
+  left:430px;
+color:white;
+}
+.footer_bottom a{
+  text-decoration: none;
+  color:white;
+}

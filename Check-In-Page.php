@@ -15,18 +15,20 @@
         <nav>
             <div class="nav__bar">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+                    <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
                 </div>
                 <div class="nav__menu__btn" id="menu-btn">
                     <i class="ri-menu-line"></i>
                 </div>
             </div>
             <ul class="nav__links" id="nav-links">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#service">Services</a></li>
-                <li><a href="index.html#explore">Explore</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.php#home">Home</a></li>
+                <li><a href="index.php#about">About</a></li>
+                <li><a href="room.php">Rooms</a></li>
+                <li><a href="hotel-facilities.php">Facilities</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="reviews.php">Reviews</a></li>
+                <li><a href="index.php#contact">Contact</a></li>
             </ul>
             <button class="btn nav__btn">Book Now</button>
         </nav>

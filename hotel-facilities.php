@@ -17,20 +17,21 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
         </div>
         <ul class="nav__links" id="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="room.html">Rooms</a></li>
-          <li><a href="hotel-facilities.html">Facilities</a></li>
-          <li><a href="index.html#service">Services</a></li>
-          <li><a href="index.html#explore">Explore</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a href="hotel-facilities.php">Facilities</a></li>
+          <li><a href="index.php#service">Services</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="reviews.php">Reviews</a></li>
+          <li><a href="index.php#contact">Contact</a></li>
         </ul>
         <button class="btn nav__btn">Book Now</button>
       </nav>
@@ -224,7 +225,7 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
             Explore the hotel amenities that make every stay effortless and memorable.
@@ -234,10 +235,10 @@
         <div class="footer__col">
           <h4>QUICK LINKS</h4>
           <ul class="footer__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="room.html">Rooms</a></li>
-            <li><a href="hotel-facilities.html">Facilities</a></li>
-            <li><a href="index.html#service">Services</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="room.php">Rooms</a></li>
+            <li><a href="hotel-facilities.php">Facilities</a></li>
+            <li><a href="index.php#service">Services</a></li>
           </ul>
         </div>
         <div class="footer__col">
