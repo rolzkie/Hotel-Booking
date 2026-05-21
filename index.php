@@ -34,7 +34,7 @@
           <li><a href="reviews.php">Reviews</a></li>
           <li><a href="contactus.php">Contact</a></li>
         </ul>
-        <a href="./Php/Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
+        <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Elegance - Comfort - Excellence</p>
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="input__group input__btn">
-          <button class="btn">BOOK NOW</button>
+          <a href="Check-In-Page.php"><button class="btn">BOOK NOW</button></a>
         </div>
       </form>
     </section>
