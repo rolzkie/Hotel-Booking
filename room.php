@@ -17,14 +17,14 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
         </div>
-        <ul class="nav__links" id="nav-links">
-          <li><a href="../index.php">Home</a></li>
+         <ul class="nav__links" id="nav-links">
+          <li><a href="index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
@@ -200,7 +200,7 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
             Discover a world of comfort, luxury, and adventure as you explore our curated selection of rooms.
@@ -210,10 +210,10 @@
         <div class="footer__col">
           <h4>QUICK LINKS</h4>
           <ul class="footer__links">
-            <li><a href="../index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="room.php">Rooms</a></li>
             <li><a href="hotel-facilities.php">Facilities</a></li>
-            <li><a href="../index.php#service">Services</a></li>
+            <li><a href="index.php#service">Services</a></li>
           </ul>
         </div>
         <div class="footer__col">
@@ -244,6 +244,6 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../Js/main.js"></script>
+    <script src="Js/main.js"></script>
   </body>
 </html>
