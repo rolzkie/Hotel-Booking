@@ -7,9 +7,9 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/contactus.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/contactus.css" />
+    <link rel="icon" href="../Assets/iconred.png" />
     <title>Contact Us | Rayal Park Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -84,7 +84,7 @@
           </form>
         </div>
         <div class="contact__image">
-          <img src="assets/service.jpg" alt="Contact support" />
+          <img src="../Assets/service.jpg" alt="Contact support" />
         </div>
       </div>
     </section>
@@ -93,7 +93,7 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
             Discover a world of comfort, luxury, and adventure as you explore our curated selection of rooms.
@@ -124,10 +124,10 @@
             <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
           </ul>
           <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+            <a href="#"><img src="../Assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="../Assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="../Assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="../Assets/twitter.png" alt="twitter" /></a>
           </div>
         </div>
       </div>

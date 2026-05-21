@@ -7,9 +7,9 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/reviews.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/reviews.css" />
+    <link rel="icon" href="../Assets/iconred.png" />
     <title>Reviews | Rayal Park Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -46,7 +46,7 @@
       <div class="review__grid">
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="../Assets/room-1.jpg" alt="reviewer" />
           </div>
           <h4>Anna S.</h4>
           <p>"A perfect stay from arrival to checkout. The rooms were clean, the staff were attentive, and the breakfast was exceptional."</p>
@@ -54,7 +54,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="../Assets/room-2.jpg" alt="reviewer" />
           </div>
           <h4>Michael T.</h4>
           <p>"The event night was beautiful, and the service made our anniversary unforgettable. Highly recommended!"</p>
@@ -62,7 +62,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-3.jpg" alt="reviewer" />
+            <img src="../Assets/room-3.jpg" alt="reviewer" />
           </div>
           <h4>Sophia R.</h4>
           <p>"Loved the decor, the amenities, and the calm ambiance. The fitness center and dining options were a great bonus."</p>
@@ -70,7 +70,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/about.jpg" alt="reviewer" />
+            <img src="../Assets/about.jpg" alt="reviewer" />
           </div>
           <h4>Jason P.</h4>
           <p>"Everything was on point — from check-in to room service. A wonderful place for a relaxing city escape."</p>
@@ -83,7 +83,7 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
             Read guest reviews and see why our hotel is a top choice for travelers and special occasions.
@@ -114,10 +114,10 @@
             <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
           </ul>
           <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+            <a href="#"><img src="../Assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="../Assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="../Assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="../Assets/twitter.png" alt="twitter" /></a>
           </div>
         </div>
       </div>
