@@ -26,16 +26,15 @@
             <i class="ri-menu-line"></i>
           </div>
         </div>
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
+         <ul class="nav__links" id="nav-links">
+          <li><a href="index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
-          <li><a href="#service">Services</a></li>
+          <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="reviews.php">Reviews</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="contactus.php">Contact</a></li>
         </ul>
-        <a href = "Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
+        <a href = "./php/Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Simple - Unique - Friendly</p>

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="styleheet" />
-    <link rel="styleheet" href="./style/index.css" />
-    <link rel="styleheet" href="./style/checkin.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/checkin.css" />
     <link rel="icon" href="./Assets/iconred.png" />
     <title>Check-In | Hotel Booking</title>
 </head>
@@ -21,16 +21,15 @@
                     <i class="ri-menu-line"></i>
                 </div>
             </div>
-            <ul class="nav__links" id="nav-links">
-                <li><a href="index.php#home">Home</a></li>
-                <li><a href="index.php#about">About</a></li>
-                <li><a href="room.php">Rooms</a></li>
-                <li><a href="hotel-facilities.php">Facilities</a></li>
-                <li><a href="events.php">Events</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li><a href="index.php#contact">Contact</a></li>
-            </ul>
-            <button class="btn nav__btn">Book Now</button>
+       <ul class="nav__links" id="nav-links">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a href="hotel-facilities.php">Facilities</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="reviews.php">Reviews</a></li>
+          <li><a href="contactus.php">Contact</a></li>
+        </ul>
+            <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
         </nav>
         <div class="section__container header__container checkin-title">
             <h1>Check-In & Booking</h1>

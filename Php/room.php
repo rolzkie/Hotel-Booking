@@ -25,13 +25,11 @@
         </div>
         <ul class="nav__links" id="nav-links">
           <li><a href="index.php">Home</a></li>
-          <li><a href="index.php#about">About</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
-          <li><a href="index.php#service">Services</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="reviews.php">Reviews</a></li>
-          <li><a href="index.php#contact">Contact</a></li>
+          <li><a href="contactus.php">Contact</a></li>
         </ul>
         <button class="btn nav__btn">Book Now</button>
       </nav>

@@ -23,9 +23,8 @@
             <i class="ri-menu-line"></i>
           </div>
         </div>
-        <ul class="nav__links" id="nav-links">
+      <ul class="nav__links" id="nav-links">
           <li><a href="index.php">Home</a></li>
-          <li><a href="index.php#about">About</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
