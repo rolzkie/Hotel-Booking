@@ -9,15 +9,18 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/room.css" />
-    <link rel="icon" href="Assets/iconred.png" />
+    <link rel="icon" href="./Assets/ICON.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
   <body>
     <header class="header">
+      <video autoplay muted loop id="header-Video">
+        <source src="./Assets/headerVideo.mp4">
+      </video>
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="./index.php"><img src="./Assets/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -27,7 +30,6 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="room.php">Rooms</a></li>
-          <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="#service">Services</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="reviews.php">Reviews</a></li>
@@ -40,37 +42,6 @@
         <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
       </div>
     </header>
-
-  
-    <section class="section__container booking__container">
-      <form action="/" class="booking__form">
-        <div class="input__group">
-          <span><i class="ri-calendar-2-fill"></i></span>
-          <div>
-            <label for="check-in">CHECK-IN</label>
-           <input type="date" id="checkin" name="checkin" />
-
-          </div>
-        </div>
-        <div class="input__group">
-          <span><i class="ri-calendar-2-fill"></i></span>
-          <div>
-            <label for="check-out">CHECK-OUT</label>
-            <input type="date" placeholder="Check Out" /> 
-          </div>
-        </div>
-        <div class="input__group">
-          <span><i class="ri-user-fill"></i></span>
-          <div>
-            <label for="guest">GUEST</label>
-            <input type="number" placeholder=" " />
-          </div>
-        </div>
-        <div class="input__group input__btn">
-          <button class="btn">BOOK NOW</button>
-        </div>
-      </form>
-    </section>
 
     <section class="section__container about__container" id="about">
       <div class="about__image">

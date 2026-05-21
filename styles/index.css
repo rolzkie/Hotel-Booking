@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #e82574;
-  --primary-color-dark: #bc1c5c;
+  --color1: #998254;
+  --color2: #EFDFAE;
+  --primary-color: #998254;
+  --primary-color-dark: #EFDFAE;
   --text-dark: #0c0a09;
   --text-light: #78716c;
   --white: #ffffff;
-  --max-width: 1200px;
+  --max-width: 100vw;
 }
 
 * {
@@ -81,7 +83,15 @@ a {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 80px;
+}
+
+.logo a {
+  width: 80px;
+}
+
+.nav-logo {
+  width: 80px;
 }
 
 html,
@@ -93,19 +103,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.header {
-  background-image: url("../assets/header.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 nav {
   position: fixed;
   isolation: isolate;
   top: 0;
   width: 100%;
   max-width: var(--max-width);
+  background-color: #000000AA;
   margin: auto;
   z-index: 9;
 }
@@ -154,6 +158,16 @@ nav {
 
 .nav__btn {
   display: none;
+}
+
+.header #header-Video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
 }
 
 .header__container {
@@ -455,7 +469,7 @@ nav {
 
 @media (width > 768px) {
   nav {
-    padding: 2rem 1rem;
+    padding: 2rem 10rem;
     position: static;
     display: flex;
     align-items: center;
