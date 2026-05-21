@@ -114,12 +114,6 @@
             <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-<<<<<<< HEAD:index.php
-=======
-            <div class="room__card__badge">
-              <img src="../Assets/PremierBed.png" alt="bed" />
-            </div>
->>>>>>> 0ab50a91d12b60a52e9b6b7c885dbfcf5b16ab6f:Php/index.php
             <h4>Deluxe Ocean View</h4>
             <p>
               Bask in luxury with breathtaking ocean views from your private
@@ -146,12 +140,6 @@
             <div class="room__thumb"><img src="../Assets/room-2.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-<<<<<<< HEAD:index.php
-=======
-            <div class="room__card__badge">
-              <img src="../Assets/room-2.jpg" alt="city room" />
-            </div>
->>>>>>> 0ab50a91d12b60a52e9b6b7c885dbfcf5b16ab6f:Php/index.php
             <h4>Executive Cityscape Room</h4>
             <p>
               Experience urban elegance and modern comfort in the heart of the
@@ -178,12 +166,6 @@
             <div class="room__thumb"><img src="../Assets/room-3.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-<<<<<<< HEAD:index.php
-=======
-            <div class="room__card__badge">
-              <img src="../Assets/room-3.jpg" alt="garden room" />
-            </div>
->>>>>>> 0ab50a91d12b60a52e9b6b7c885dbfcf5b16ab6f:Php/index.php
             <h4>Family Garden Retreat</h4>
             <p>
               Spacious and inviting, perfect for creating cherished memories

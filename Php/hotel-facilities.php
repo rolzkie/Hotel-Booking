@@ -54,8 +54,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -64,9 +62,6 @@
             <div class="room__thumb"><img src="../Assets/2.1.png" alt="treatment" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/service.jpg" alt="spa" />
-            </div>
             <h4>Spa & Wellness</h4>
             <p>Relax with luxurious spa treatments, sauna, and wellness therapies.</p>
             <h5>Available <span>24/7</span></h5>
@@ -83,8 +78,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -93,9 +86,6 @@
             <div class="room__thumb"><img src="../Assets/about.jpg" alt="terrace" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/explore.jpg" alt="pool" />
-            </div>
             <h4>Pool & Terrace</h4>
             <p>Swim, lounge, and soak up views from our stylish outdoor terrace.</p>
             <h5>Open <span>7am - 10pm</span></h5>
@@ -112,8 +102,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -122,9 +110,6 @@
             <div class="room__thumb"><img src="../Assets/1.png" alt="weights" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/header.jpg" alt="gym" />
-            </div>
             <h4>Gym & Fitness</h4>
             <p>State-of-the-art training equipment and personal workout spaces.</p>
             <h5>Open <span>6am - 11pm</span></h5>
@@ -141,8 +126,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -151,9 +134,6 @@
             <div class="room__thumb"><img src="../Assets/1.png" alt="restaurant" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/about.jpg" alt="dining" />
-            </div>
             <h4>Dining & Bar</h4>
             <p>Enjoy curated menus, cocktails, and coffee in a relaxing space.</p>
             <h5>Open <span>7am - 12am</span></h5>
@@ -170,8 +150,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -180,9 +158,6 @@
             <div class="room__thumb"><img src="../Assets/1.png" alt="meeting" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/room-2.jpg" alt="conference" />
-            </div>
             <h4>Conference Hall</h4>
             <p>Flexible meeting space for events, presentations, and seminars.</p>
             <h5>Up to <span>120 guests</span></h5>
@@ -199,8 +174,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -209,9 +182,6 @@
             <div class="room__thumb"><img src="../Assets/room-3.jpg" alt="social" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/room-1.jpg" alt="lounge" />
-            </div>
             <h4>Lounge & Lobby</h4>
             <p>Meet, relax, and unwind in our beautifully furnished lounge area.</p>
             <h5>Open <span>All day</span></h5>

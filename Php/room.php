@@ -62,9 +62,6 @@
             <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/PremierBed.png" alt="bed" />
-            </div>
             <h4>Deluxe Ocean View</h4>
             <p>Wake up to shimmering ocean views in a stylish, spacious suite.</p>
             <h5>From <span>$299/night</span></h5>
@@ -89,9 +86,6 @@
             <div class="room__thumb"><img src="../Assets/about.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/room-2.jpg" alt="city room" />
-            </div>
             <h4>Executive Cityscape</h4>
             <p>Stylish comfort and city views in a premium urban retreat.</p>
             <h5>From <span>$219/night</span></h5>
@@ -116,9 +110,6 @@
             <div class="room__thumb"><img src="../Assets/1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/room-3.jpg" alt="garden room" />
-            </div>
             <h4>Family Garden Retreat</h4>
             <p>Roomy, warm, and perfect for families looking for extra comfort.</p>
             <h5>From <span>$249/night</span></h5>
@@ -143,9 +134,6 @@
             <div class="room__thumb"><img src="../Assets/room-1.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/2.png" alt="suite" />
-            </div>
             <h4>Junior Suite</h4>
             <p>A bright suite with premium amenities, ideal for short stays.</p>
             <h5>From <span>$179/night</span></h5>
@@ -170,9 +158,6 @@
             <div class="room__thumb"><img src="../Assets/service.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/explore.jpg" alt="premium" />
-            </div>
             <h4>Premium Retreat</h4>
             <p>Refined design, extra space, and thoughtful touches for a luxury stay.</p>
             <h5>From <span>$339/night</span></h5>
@@ -197,9 +182,6 @@
             <div class="room__thumb"><img src="../Assets/2.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="../Assets/2.1.png" alt="signature suite" />
-            </div>
             <h4>Signature Suite</h4>
             <p>Exclusive suite experience with premium seating and modern design.</p>
             <h5>From <span>$399/night</span></h5>
