@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-      rel="stylesheet"
+      rel="styleheet"
     />
-    <link rel="stylesheet" href="./Styles/index.css" />
-    <link rel="stylesheet" href="./Styles/facilities.css" />
+    <link rel="styleheet" href="./style/index.css" />
+    <link rel="styleheet" href="./style/facilities.css" />
     <link rel="icon" href="./Assets/iconred.png" />
     <title>Facilities | Rayal Park Hotel</title>
   </head>
