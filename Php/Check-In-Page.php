@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../Styles/index.css" />
-    <link rel="stylesheet" href="../Styles/checkin.css" />
-    <link rel="icon" href="../Assets/iconred.png" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/checkin.css" />
+    <link rel="icon" href="./Assets/iconred.png" />
     <title>Check-In | Hotel Booking</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <nav>
             <div class="nav__bar">
                 <div class="logo">
-                    <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
+                    <a href="index.php"><img src="./Assets/logo.png" alt="logo" /></a>
                 </div>
                 <div class="nav__menu__btn" id="menu-btn">
                     <i class="ri-menu-line"></i>
@@ -245,7 +245,7 @@
         </div>
     </section>
 
-    <script src="../Js/main.js"></script>
-    <script src="../Js/checkin.js"></script>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/checkin.js"></script>
 </body>
 </html>
