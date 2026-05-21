@@ -35,7 +35,7 @@
           <li><a href="reviews.php">Reviews</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="btn nav__btn">Book Now</button>
+        <a href = "Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Simple - Unique - Friendly</p>
