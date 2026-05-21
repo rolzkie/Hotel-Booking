@@ -7,20 +7,20 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/room.css" />
-    <link rel="icon" href="./Assets/ICON.png" />
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/room.css" />
+    <link rel="icon" href="../Assets/ICON.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
   <body>
     <header class="header">
       <video autoplay muted loop id="header-Video">
-        <source src="./Assets/headerVideo.mp4">
+        <source src="../Assets/headerVideo.mp4">
       </video>
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="./index.php"><img src="./Assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+            <a href="./index.php"><img src="../Assets/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -45,7 +45,7 @@
 
     <section class="section__container about__container" id="about">
       <div class="about__image">
-        <img src="assets/about.jpg" alt="about" />
+        <img src="../Assets/about.jpg" alt="about" />
       </div>
       <div class="about__content">
         <p class="section__subheader">ABOUT US</p>
@@ -68,8 +68,8 @@
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-1.jpg" alt="Deluxe Ocean View" />
-            <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe Ocean View alternate" />
+            <img class="room__img primary" src="../Assets/room-1.jpg" alt="Deluxe Ocean View" />
+            <img class="room__img secondary" src="../Assets/PremierRoom.png" alt="Deluxe Ocean View alternate" />
             <div class="room__hover-btn">
               <button class="btn">View Details</button>
             </div>
@@ -80,13 +80,13 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/1.png" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
+            <div class="room__thumb"><img src="../Assets/1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/2.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/PremierBed.png" alt="bed" />
+              <img src="../Assets/PremierBed.png" alt="bed" />
             </div>
             <h4>Deluxe Ocean View</h4>
             <p>
@@ -99,8 +99,8 @@
         </div>
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-2.jpg" alt="Executive Cityscape Room" />
-            <img class="room__img secondary" src="assets/about.jpg" alt="Executive Cityscape alternate" />
+            <img class="room__img primary" src="../Assets/room-2.jpg" alt="Executive Cityscape Room" />
+            <img class="room__img secondary" src="../Assets/about.jpg" alt="Executive Cityscape alternate" />
             <div class="room__hover-btn">
               <button class="btn">View Details</button>
             </div>
@@ -111,13 +111,13 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/2.1.png" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/about.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/about.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/room-2.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/room-2.jpg" alt="city room" />
+              <img src="../Assets/room-2.jpg" alt="city room" />
             </div>
             <h4>Executive Cityscape Room</h4>
             <p>
@@ -130,8 +130,8 @@
         </div>
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-3.jpg" alt="Family Garden Retreat" />
-            <img class="room__img secondary" src="assets/explore.jpg" alt="Family Garden alternate" />
+            <img class="room__img primary" src="../Assets/room-3.jpg" alt="Family Garden Retreat" />
+            <img class="room__img secondary" src="../Assets/explore.jpg" alt="Family Garden alternate" />
             <div class="room__hover-btn">
               <button class="btn">View Details</button>
             </div>
@@ -142,13 +142,13 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/explore.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/service.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="../Assets/explore.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/service.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/room-3.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/room-3.jpg" alt="garden room" />
+              <img src="../Assets/room-3.jpg" alt="garden room" />
             </div>
             <h4>Family Garden Retreat</h4>
             <p>
@@ -222,7 +222,7 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="#home"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
             Discover a world of comfort, luxury, and adventure as you explore
@@ -256,10 +256,10 @@
             <li><a href="#">rayalpark@info.com</a></li>
           </ul>
           <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+            <a href="#"><img src="../Assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="../Assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="../Assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="../Assets/twitter.png" alt="twitter" /></a>
           </div>
         </div>
       </div>
@@ -269,6 +269,6 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
+    <script src="../Js/main.js"></script>
   </body>
 </html>

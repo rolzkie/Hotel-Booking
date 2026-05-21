@@ -7,17 +7,17 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/facilities.css" />
-    <link rel="icon" href="assets/iconred.png" />
-    <title>Facilities | Rayal Park Hotel</title>
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/room.css" />
+    <link rel="icon" href="../Assets/iconred.png" />
+    <title>Rooms | Rayal Park Hotel</title>
   </head>
   <body>
     <header class="header">
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -36,21 +36,21 @@
         <button class="btn nav__btn">Book Now</button>
       </nav>
       <div class="section__container header__container" id="home">
-        <p>Premium Convenience</p>
-        <h1>Discover Hotel Facilities<br />Built For Your Comfort.</h1>
+        <p>Elegant Stays & Comfort</p>
+        <h1>Browse Our Rooms<br />Designed For Every Stay.</h1>
       </div>
     </header>
 
     <section class="section__container room__container">
-      <p class="section__subheader">FACILITIES</p>
-      <h2 class="section__header">Explore the comforts and amenities available in our hotel.</h2>
+      <p class="section__subheader">ROOMS</p>
+      <h2 class="section__header">Choose the perfect room for your next getaway.</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/service.jpg" alt="Spa & Wellness" />
-            <img class="room__img secondary" src="assets/about.jpg" alt="Spa alternate" />
+            <img class="room__img primary" src="../Assets/room-1.jpg" alt="Deluxe Ocean View" />
+            <img class="room__img secondary" src="../Assets/PremierRoom.png" alt="Deluxe alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -59,27 +59,27 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/1.png" alt="spa" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="wellness" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="treatment" /></div>
+            <div class="room__thumb"><img src="../Assets/1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/2.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/service.jpg" alt="spa" />
+              <img src="../Assets/PremierBed.png" alt="bed" />
             </div>
-            <h4>Spa & Wellness</h4>
-            <p>Relax with luxurious spa treatments, sauna, and wellness therapies.</p>
-            <h5>Available <span>24/7</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Deluxe Ocean View</h4>
+            <p>Wake up to shimmering ocean views in a stylish, spacious suite.</p>
+            <h5>From <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/explore.jpg" alt="Pool & Terrace" />
-            <img class="room__img secondary" src="assets/room-1.jpg" alt="Pool alternate" />
+            <img class="room__img primary" src="../Assets/room-2.jpg" alt="Executive Cityscape" />
+            <img class="room__img secondary" src="../Assets/about.jpg" alt="City alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -88,27 +88,27 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-1.jpg" alt="pool" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="sunset" /></div>
-            <div class="room__thumb"><img src="assets/about.jpg" alt="terrace" /></div>
+            <div class="room__thumb"><img src="../Assets/room-2.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/explore.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/about.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/explore.jpg" alt="pool" />
+              <img src="../Assets/room-2.jpg" alt="city room" />
             </div>
-            <h4>Pool & Terrace</h4>
-            <p>Swim, lounge, and soak up views from our stylish outdoor terrace.</p>
-            <h5>Open <span>7am - 10pm</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Executive Cityscape</h4>
+            <p>Stylish comfort and city views in a premium urban retreat.</p>
+            <h5>From <span>$219/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/header.jpg" alt="Gym & Fitness" />
-            <img class="room__img secondary" src="assets/service.jpg" alt="Gym alternate" />
+            <img class="room__img primary" src="../Assets/room-3.jpg" alt="Family Garden Retreat" />
+            <img class="room__img secondary" src="../Assets/explore.jpg" alt="Garden alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -117,27 +117,27 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/2.1.png" alt="fitness" /></div>
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="cardio" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="weights" /></div>
+            <div class="room__thumb"><img src="../Assets/service.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/room-3.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/header.jpg" alt="gym" />
+              <img src="../Assets/room-3.jpg" alt="garden room" />
             </div>
-            <h4>Gym & Fitness</h4>
-            <p>State-of-the-art training equipment and personal workout spaces.</p>
-            <h5>Open <span>6am - 11pm</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Family Garden Retreat</h4>
+            <p>Roomy, warm, and perfect for families looking for extra comfort.</p>
+            <h5>From <span>$249/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/about.jpg" alt="Dining & Bar" />
-            <img class="room__img secondary" src="assets/room-3.jpg" alt="Dining alternate" />
+            <img class="room__img primary" src="../Assets/about.jpg" alt="Junior Suite" />
+            <img class="room__img secondary" src="../Assets/service.jpg" alt="Suite alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -146,27 +146,27 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="dining" /></div>
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="bar" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="restaurant" /></div>
+            <div class="room__thumb"><img src="../Assets/2.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/2.1.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/room-1.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/about.jpg" alt="dining" />
+              <img src="../Assets/2.png" alt="suite" />
             </div>
-            <h4>Dining & Bar</h4>
-            <p>Enjoy curated menus, cocktails, and coffee in a relaxing space.</p>
-            <h5>Open <span>7am - 12am</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Junior Suite</h4>
+            <p>A bright suite with premium amenities, ideal for short stays.</p>
+            <h5>From <span>$179/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-2.jpg" alt="Conference Hall" />
-            <img class="room__img secondary" src="assets/explore.jpg" alt="Conference alternate" />
+            <img class="room__img primary" src="../Assets/explore.jpg" alt="Premium Retreat" />
+            <img class="room__img secondary" src="../Assets/room-2.jpg" alt="Premium alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -175,27 +175,27 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/service.jpg" alt="conference" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="events" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="meeting" /></div>
+            <div class="room__thumb"><img src="../Assets/room-1.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/about.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/service.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/room-2.jpg" alt="conference" />
+              <img src="../Assets/explore.jpg" alt="premium" />
             </div>
-            <h4>Conference Hall</h4>
-            <p>Flexible meeting space for events, presentations, and seminars.</p>
-            <h5>Up to <span>120 guests</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Premium Retreat</h4>
+            <p>Refined design, extra space, and thoughtful touches for a luxury stay.</p>
+            <h5>From <span>$339/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-1.jpg" alt="Lounge & Lobby" />
-            <img class="room__img secondary" src="assets/service.jpg" alt="Lounge alternate" />
+            <img class="room__img primary" src="../Assets/service.jpg" alt="Signature Suite" />
+            <img class="room__img secondary" src="../Assets/room-3.jpg" alt="Signature alternate" />
             <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
+              <button class="btn">View Details</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -204,18 +204,18 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/about.jpg" alt="lounge" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="lobby" /></div>
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="social" /></div>
+            <div class="room__thumb"><img src="../Assets/room-2.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="../Assets/1.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="../Assets/2.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <div class="room__card__badge">
-              <img src="assets/room-1.jpg" alt="lounge" />
+              <img src="../Assets/2.1.png" alt="signature suite" />
             </div>
-            <h4>Lounge & Lobby</h4>
-            <p>Meet, relax, and unwind in our beautifully furnished lounge area.</p>
-            <h5>Open <span>All day</span></h5>
-            <button class="btn">Reserve</button>
+            <h4>Signature Suite</h4>
+            <p>Exclusive suite experience with premium seating and modern design.</p>
+            <h5>From <span>$399/night</span></h5>
+            <button class="btn">Book Now</button>
           </div>
         </div>
       </div>
@@ -225,10 +225,10 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            Explore the hotel amenities that make every stay effortless and memorable.
+            Discover a world of comfort, luxury, and adventure as you explore our curated selection of rooms.
           </p>
           <button class="btn">Book Now</button>
         </div>
@@ -256,10 +256,10 @@
             <li><a href="#">rayalpark@info.com</a></li>
           </ul>
           <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+            <a href="#"><img src="../Assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="../Assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="../Assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="../Assets/twitter.png" alt="twitter" /></a>
           </div>
         </div>
       </div>
