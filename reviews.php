@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
     <link rel="icon" href="assets/iconred.png" />
-    <title>Reviews | Rayal Park Hotel</title>
+    <title>Reviews | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
@@ -110,7 +110,7 @@
         <div class="footer__col">
           <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
@@ -121,7 +121,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 Rayal Park Hotel. All rights reserved.
+        Copyright © 2026 Aurora Hotel. All rights reserved.
       </div>
     </footer>
 

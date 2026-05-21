@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/contactus.css" />
     <link rel="icon" href="assets/iconred.png" />
-    <title>Contact Us | Rayal Park Hotel</title>
+    <title>Contact Us | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
         </div>
       <ul class="nav__links" id="nav-links">
-          <li><a href="index.php">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
@@ -92,17 +92,17 @@
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            Discover a world of comfort, luxury, and adventure as you explore our curated selection of rooms.
+            Experience Aurora Hotel's world-class amenities that make every stay comfortable, memorable, and effortless.
           </p>
           <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
         </div>
         <div class="footer__col">
           <h4>QUICK LINKS</h4>
           <ul class="footer__links">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="room.php">Rooms</a></li>
             <li><a href="hotel-facilities.php">Facilities</a></li>
             <li><a href="events.php">Events</a></li>
@@ -120,7 +120,7 @@
         <div class="footer__col">
           <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
@@ -131,7 +131,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 Rayal Park Hotel. All rights reserved.
+        Copyright © 2026 Aurora Hotel. All rights reserved.
       </div>
     </footer>
 

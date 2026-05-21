@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/room.css" />
     <link rel="icon" href="assets/ICON.png" />
-    <title>Web Design Mastery | Rayal Park</title>
+    <title>Aurora Hotel | Your Perfect Escape Awaits</title>
   </head>
   <body>
     <header class="header">
@@ -37,8 +37,8 @@
         <a href="./Php/Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
-        <p>Simple - Natatangi - Pang-Kaibigan</p>
-        <h1>Gawing Tahanan Ang Inyong Sarili<br />Sa Aming <span>Hotel</span>.</h1>
+        <p>Elegance - Comfort - Excellence</p>
+        <h1>Welcome to <span>Aurora Hotel</span><br />Your Perfect Escape Awaits.</h1>
       </div>
     </header>
   
@@ -78,20 +78,20 @@
         <img src="assets/about.jpg" alt="about" />
       </div>
       <div class="about__content">
-        <p class="section__subheader">TUNGKOL SA AMIN</p>
-        <h2 class="section__header">Ang Pinakamahusay na Bakasyon Nagsisimula Dito!</h2>
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">Experience Luxury at Aurora Hotel</h2>
         <p class="section__description">
-          Nakatuon kami sa pagbibigay ng de-kalidad na akomodasyon, personalized na karanasan, at walang kapintasan na pag-booking. Kami ay nakatuon sa pagsisiguro na bawat manlalakbay ay magsisimula ng kanilang dream holiday nang may kumpiyansa at excitement.
+          Aurora Hotel stands as a beacon of hospitality, dedicated to providing exceptional accommodations, personalized service, and seamless bookings. We ensure that every traveler begins their journey with confidence and unforgettable memories at our premium property.
         </p>
         <div class="about__btn">
-          <button class="btn">Basahin Ang Higit Pa</button>
+          <button class="btn">Learn More</button>
         </div>
       </div>
     </section>
 
     <section class="section__container room__container">
-      <p class="section__subheader">ANG AMING MGA KWARTO</p>
-      <h2 class="section__header">Ang Pinakanatandaang Oras ng Pahinga Nagsisimula Dito.</h2>
+      <p class="section__subheader">OUR ROOMS</p>
+      <h2 class="section__header">Discover Aurora Hotel's Finest Accommodations</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
@@ -175,23 +175,23 @@
       <div class="section__container service__container">
         <div class="service__content">
           <p class="section__subheader">SERVICES</p>
-          <h2 class="section__header">Strive Only For The Best.</h2>
+          <h2 class="section__header">Excellence in Every Detail</h2>
           <ul class="service__list">
             <li>
               <span><i class="ri-shield-star-line"></i></span>
-              High Class Security
+              Premium Security & Safety
             </li>
             <li>
               <span><i class="ri-24-hours-line"></i></span>
-              24 Hours Room Service
+              24-Hour Concierge Service
             </li>
             <li>
               <span><i class="ri-headphone-line"></i></span>
-              Conference Room
+              Event & Meeting Facilities
             </li>
             <li>
               <span><i class="ri-map-2-line"></i></span>
-              Tourist Guide Support
+              Travel Concierge & Local Guides
             </li>
           </ul>
         </div>
@@ -201,28 +201,28 @@
     <section class="section__container banner__container">
       <div class="banner__content">
         <div class="banner__card">
-          <h4>25+</h4>
-          <p>Mga Available na Property</p>
+          <h4>50+</h4>
+          <p>Premium Rooms & Suites</p>
         </div>
         <div class="banner__card">
-          <h4>350+</h4>
-          <p>Mga Completed na Booking</p>
+          <h4>5000+</h4>
+          <p>Happy Guests Served</p>
         </div>
         <div class="banner__card">
-          <h4>600+</h4>
-          <p>Mga Masayang Customers</p>
+          <h4>20+</h4>
+          <p>Years of Excellence</p>
         </div>
       </div>
     </section>
 
     <section class="explore" id="events">
-      <p class="section__subheader">MGA KAGANAPAN</p>
-      <h2 class="section__header">Ano Ang Nangyayari Sa Buwan Na Ito.</h2>
+      <p class="section__subheader">EVENTS</p>
+      <h2 class="section__header">Special Experiences at Aurora Hotel</h2>
       <div class="explore__bg">
         <div class="explore__content">
-          <p class="section__description">Ika-10 ng MAR 2026</p>
-          <h4>Sumali sa aming special hotel experiences at seasonal celebrations.</h4>
-          <button class="btn">Tingnan Ang Mga Kaganapan</button>
+          <p class="section__description">March 10, 2026</p>
+          <h4>Join Aurora Hotel for exclusive seasonal celebrations and premium experiences.</h4>
+          <button class="btn">View Events</button>
         </div>
       </div>
     </section>
@@ -234,33 +234,33 @@
             <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            Tuklasin ang isang mundo ng kaginhawahan, luho, at kasiyahan habang ina-explore ang aming curated selection ng mga hotel, na ginagawang tunay na kahanga-hanga ang bawat sandali ng inyong bakasyon.
+            Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
           </p>
-          <a href="./Php/Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+          <a href="./Php/Check-In-Page.php"><button class="btn">Book Now</button></a>
         </div>
         <div class="footer__col">
-          <h4>MABILIS NA LINKS</h4>
+          <h4>QUICK LINKS</h4>
           <ul class="footer__links">
-            <li><a href="#">I-browse ang Mga Destinasyon</a></li>
-            <li><a href="#">Special Offers & Packages</a></li>
-            <li><a href="#">Mga Uri ng Kwarto & Amenities</a></li>
-            <li><a href="#">Reviews at Ratings ng Customers</a></li>
-            <li><a href="#">Travel Tips & Guides</a></li>
+            <li><a href="#">Browse All Rooms</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Room Types & Amenities</a></li>
+            <li><a href="#">Guest Reviews</a></li>
+            <li><a href="#">Travel Guides</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4>ANG AMING SERBISYO</h4>
+          <h4>OUR SERVICES</h4>
           <ul class="footer__links">
-            <li><a href="#">Concierge Assistance</a></li>
-            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Concierge Service</a></li>
+            <li><a href="#">Flexible Booking</a></li>
             <li><a href="#">Airport Transfers</a></li>
             <li><a href="#">Wellness & Recreation</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4>MAKIPAG-UGNAYAN SA AMIN</h4>
+          <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
@@ -271,7 +271,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 Rayal Park Hotel. Lahat ng karapatan ay nireserba.
+        Copyright © 2026 Aurora Hotel. All rights reserved.
       </div>
     </footer>
 

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/facilities.css" />
     <link rel="icon" href="assets/iconred.png" />
-    <title>Facilities | Rayal Park Hotel</title>
+    <title>Facilities | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
@@ -24,7 +24,7 @@
           </div>
         </div>
          <ul class="nav__links" id="nav-links">
-          <li><a href="index.php">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
@@ -41,21 +41,21 @@
         <button class="slideshow-arrow right" onclick="slideshowNext()">&#10095;</button>
       </div>
       <div class="section__container header__container" id="home">
-        <p>Premium Convenience</p>
-        <h1>Tuklasin ang Mga Pasilidad ng Hotel<br />Binuo Para sa Inyong Kaginhawahan.</h1>
+        <p>World-Class Amenities</p>
+        <h1>Discover Aurora Hotel's<br />Premium Facilities</h1>
       </div>
     </header>
 
-    <section class="section__container room__container">
-      <p class="section__subheader">MGA PASILIDAD</p>
-      <h2 class="section__header">I-explore ang mga kaginhawahan at amenities na available sa aming hotel.</h2>
+    <section class=\"section__container room__container\">
+      <p class=\"section__subheader\">FACILITIES</p>
+      <h2 class=\"section__header\">Experience Excellence at Aurora Hotel</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
             <img class="room__img primary" src="assets/service.jpg" alt="Spa & Wellness" />
             <img class="room__img secondary" src="assets/about.jpg" alt="Spa alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -68,9 +68,9 @@
           </div>
           <div class="room__card__details">
             <h4>Spa & Wellness</h4>
-            <p>Mag-relax sa luxury spa treatments, sauna, at wellness therapies.</p>
+            <p>Indulge in luxurious spa treatments, sauna, and wellness therapies at Aurora Hotel. Complete rejuvenation awaits.</p>
             <h5>Available <span>24/7</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
 
@@ -79,7 +79,7 @@
             <img class="room__img primary" src="assets/explore.jpg" alt="Pool & Terrace" />
             <img class="room__img secondary" src="assets/room-1.jpg" alt="Pool alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -92,9 +92,9 @@
           </div>
           <div class="room__card__details">
             <h4>Pool & Terrace</h4>
-            <p>Lumangoy, mag-lounge, at mag-enjoy ng views mula sa aming stylish outdoor terrace.</p>
+            <p>Swim, relax, and enjoy breathtaking views from Aurora Hotel's elegant outdoor terrace area.</p>
             <h5>Open <span>7am - 10pm</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
 
@@ -103,7 +103,7 @@
             <img class="room__img primary" src="assets/header.jpg" alt="Gym & Fitness" />
             <img class="room__img secondary" src="assets/service.jpg" alt="Gym alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -116,9 +116,9 @@
           </div>
           <div class="room__card__details">
             <h4>Gym & Fitness</h4>
-            <p>State-of-the-art training equipment at personal workout spaces.</p>
+            <p>State-of-the-art equipment and personal training spaces at Aurora Hotel for your fitness journey.</p>
             <h5>Open <span>6am - 11pm</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
 
@@ -127,7 +127,7 @@
             <img class="room__img primary" src="assets/about.jpg" alt="Dining & Bar" />
             <img class="room__img secondary" src="assets/room-3.jpg" alt="Dining alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -140,9 +140,9 @@
           </div>
           <div class="room__card__details">
             <h4>Dining & Bar</h4>
-            <p>Tamasahin ang curated menus, cocktails, at coffee sa relaxing space.</p>
+            <p>Enjoy gourmet cuisine, signature cocktails, and premium coffee in Aurora Hotel's elegant dining venues.</p>
             <h5>Open <span>7am - 12am</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
 
@@ -151,7 +151,7 @@
             <img class="room__img primary" src="assets/room-2.jpg" alt="Conference Hall" />
             <img class="room__img secondary" src="assets/explore.jpg" alt="Conference alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -164,9 +164,9 @@
           </div>
           <div class="room__card__details">
             <h4>Conference Hall</h4>
-            <p>Flexible meeting space para sa events, presentations, at seminars.</p>
+            <p>Modern meeting spaces perfect for corporate events, presentations, and seminars at Aurora Hotel.</p>
             <h5>Up to <span>120 guests</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
 
@@ -175,7 +175,7 @@
             <img class="room__img primary" src="assets/room-1.jpg" alt="Lounge & Lobby" />
             <img class="room__img secondary" src="assets/service.jpg" alt="Lounge alternate" />
             <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Pasilidad</button>
+              <button class="btn">View Facility</button>
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -188,9 +188,9 @@
           </div>
           <div class="room__card__details">
             <h4>Lounge & Lobby</h4>
-            <p>Magsama, mag-relax, at mag-unwind sa aming beautifully furnished lounge area.</p>
+            <p>Meet, relax, and unwind in Aurora Hotel's beautifully designed social spaces and elegant lobby.</p>
             <h5>Open <span>All day</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Reserve</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
           </div>
         </div>
       </div>
@@ -203,32 +203,32 @@
             <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            I-explore ang hotel amenities na ginagawang effortless at memorable ang bawat panatili.
+            Experience Aurora Hotel's world-class amenities that make every stay comfortable, memorable, and effortless.
           </p>
           <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
         </div>
         <div class="footer__col">
-          <h4>MABILIS NA LINKS</h4>
+          <h4>QUICK LINKS</h4>
           <ul class="footer__links">
             <li><a href="../index.php">Home</a></li>
-            <li><a href="room.php">Mga Kwarto</a></li>
-            <li><a href="hotel-facilities.php">Pasilidad</a></li>
-            <li><a href="../index.php#service">Serbisyo</a></li>
+            <li><a href=\"room.php\">Rooms</a></li>
+            <li><a href=\"hotel-facilities.php\">Facilities</a></li>
+            <li><a href=\"../index.php#service\">Services</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4>ANG AMING SERBISYO</h4>
+          <h4>OUR SERVICES</h4>
           <ul class="footer__links">
-            <li><a href="#">Concierge Assistance</a></li>
-            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href=\"#\">Concierge Service</a></li>
+            <li><a href=\"#\">Flexible Booking</a></li>
             <li><a href="#">Airport Transfers</a></li>
             <li><a href="#">Wellness & Recreation</a></li>
           </ul>
         </div>
         <div class="footer__col">
-          <h4>MAKIPAG-UGNAYAN SA AMIN</h4>
+          <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+            <li><a href=\"mailto:info@aurorahotel.com\">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
@@ -239,7 +239,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 Rayal Park Hotel. Lahat ng karapatan ay nireserba.
+        Copyright © 2026 Aurora Hotel. All rights reserved.
       </div>
     </footer>
 
@@ -247,21 +247,3 @@
     <script src="../Js/main.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

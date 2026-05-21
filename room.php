@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/room.css" />
     <link rel="icon" href="assets/iconred.png" />
-    <title>Rooms | Rayal Park Hotel</title>
+    <title>Rooms | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -41,14 +41,14 @@
         <button class="slideshow-arrow right" onclick="slideshowNext()">&#10095;</button>
       </div>
       <div class="section__container header__container" id="home">
-        <p>Elegant Stays & Comfort</p>
-        <h1>I-browse ang Aming Mga Kwarto<br />Dinisenyo Para sa Bawat Panatili.</h1>
+        <p>Premium Accommodations</p>
+        <h1>Explore Aurora Hotel's<br />Exceptional Room Collection</h1>
       </div>
     </header>
 
     <section class="section__container room__container">
-      <p class="section__subheader">MGA KWARTO</p>
-      <h2 class="section__header">Piliin ang perpektong kwarto para sa inyong susunod na bakasyon.</h2>
+      <p class="section__subheader">OUR ROOMS</p>
+      <h2 class="section__header">Select Your Perfect Room at Aurora Hotel</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
@@ -68,9 +68,9 @@
           </div>
           <div class="room__card__details">
             <h4>Deluxe Ocean View</h4>
-            <p>Gumising sa nakakagandang view ng dagat sa isang stylish at malawak na suite.</p>
-            <h5>Mula sa <span>$299/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Experience morning sunrises over the ocean from your private balcony at Aurora Hotel. Luxurious amenities and breathtaking views await.</p>
+            <h5>From <span>₱14,999/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -92,9 +92,9 @@
           </div>
           <div class="room__card__details">
             <h4>Executive Cityscape</h4>
-            <p>Stylish na kaginhawahan at view ng lungsod sa premium na urban retreat.</p>
-            <h5>Mula sa <span>$219/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Sophisticated urban living at Aurora Hotel with panoramic city vistas. Perfect for the business traveler seeking comfort and convenience.</p>
+            <h5>From <span>₱9,499/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -116,9 +116,9 @@
           </div>
           <div class="room__card__details">
             <h4>Family Garden Retreat</h4>
-            <p>Malawak, mainit, at perpekto para sa mga pamilyang naghahanap ng extra comfort.</p>
-            <h5>Mula sa <span>$249/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Spacious and welcoming family suite at Aurora Hotel, ideal for creating cherished memories with loved ones and garden views.</p>
+            <h5>From <span>₱11,999/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -140,9 +140,9 @@
           </div>
           <div class="room__card__details">
             <h4>Junior Suite</h4>
-            <p>Isang maliwanag na suite na may premium amenities, perpekto para sa maikling panatili.</p>
-            <h5>Mula sa <span>$179/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Bright, contemporary suite with premium fixtures and modern conveniences. Ideal for short stays at Aurora Hotel.</p>
+            <h5>From <span>₱8,499/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -164,9 +164,9 @@
           </div>
           <div class="room__card__details">
             <h4>Premium Retreat</h4>
-            <p>Refined design, extra space, at thoughtful touches para sa luxury stay.</p>
-            <h5>Mula sa <span>$339/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Refined elegance and exceptional space with personalized touches for an unforgettable luxury stay at Aurora Hotel.</p>
+            <h5>From <span>₱16,999/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -188,9 +188,9 @@
           </div>
           <div class="room__card__details">
             <h4>Signature Suite</h4>
-            <p>Exclusive suite experience na may premium seating at modern design.</p>
-            <h5>Mula sa <span>$399/gabi</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Mag-Book Na</button></a>
+            <p>Aurora Hotel's crown jewel - an exclusive suite experience with premium seating, modern design, and impeccable service.</p>
+            <h5>From <span>₱19,999/night</span></h5>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
       </div>
@@ -228,7 +228,7 @@
         <div class="footer__col">
           <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+            <li><a href=\"mailto:info@aurorahotel.com\">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
@@ -239,7 +239,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 Rayal Park Hotel. All rights reserved.
+        Copyright © 2026 Aurora Hotel. All rights reserved.
       </div>
     </footer>
 
