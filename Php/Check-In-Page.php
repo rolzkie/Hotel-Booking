@@ -22,7 +22,7 @@
                 </div>
             </div>
        <ul class="nav__links" id="nav-links">
-          <li><a href="index.php">Home</a></li>
+          <li><a href="./index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
@@ -244,6 +244,54 @@
         </div>
     </section>
 
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="../index.php"><img src="./Assets/logo.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.
+          </p>
+          <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="room.php">Rooms</a></li>
+            <li><a href="hotel-facilities.php">Facilities</a></li>
+            <li><a href="events.php">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Concierge Assistance</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Wellness & Recreation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:rayalpark@info.com">rayalpark@info.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="./Assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="./Assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="./Assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="./Assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 Rayal Park Hotel. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./Js/main.js"></script>
     <script src="./Js/checkin.js"></script>
 </body>

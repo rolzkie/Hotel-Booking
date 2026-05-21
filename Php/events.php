@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-      rel="styleheet"
+      rel="stylesheet"
     />
-    <link rel="styleheet" href="./style/index.css" />
-    <link rel="styleheet" href="./tyles/events.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/events.css" />
     <link rel="icon" href="./Assets/iconred.png" />
     <title>Events | Rayal Park Hotel</title>
   </head>
@@ -31,7 +31,7 @@
           <li><a href="reviews.php">Reviews</a></li>
           <li><a href="contactus.php">Contact</a></li>
         </ul>
-        <button class="btn nav__btn">Book Now</button>
+        <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Events & Experiences</p>
@@ -115,7 +115,7 @@
           <p class="section__description">
             Explore our hotel's events and discover something new to enjoy every time you visit.
           </p>
-          <button class="btn">Book Now</button>
+          <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
         </div>
         <div class="footer__col">
           <h4>QUICK LINKS</h4>

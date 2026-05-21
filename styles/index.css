@@ -399,6 +399,8 @@ nav {
 
 .footer {
   background-color: var(--text-dark);
+  margin-top: 4rem;
+  padding-top: 3rem;
 }
 
 .footer__container {
