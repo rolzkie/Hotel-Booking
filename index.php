@@ -7,15 +7,15 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/index.css" />
-    <link rel="stylesheet" href="../styles/room.css" />
-    <link rel="icon" href="../Assets/ICON.png" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/room.css" />
+    <link rel="icon" href="./Assets/ICON.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
   <body>
     <header class="header">
       <video autoplay muted loop id="header-Video">
-        <source src="../Assets/headerVideo.mp4">
+        <source src="./Assets/headerVideo.mp4">
       </video>
       <nav>
         <div class="nav__bar">
