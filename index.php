@@ -7,8 +7,8 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../Styles/index.css" />
-    <link rel="stylesheet" href="../Styles/room.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/room.css" />
     <link rel="icon" href="../Assets/ICON.png" />
     <title>Web Design Mastery | Rayal Park</title>
   </head>
