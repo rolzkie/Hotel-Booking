@@ -42,6 +42,37 @@
         <h1>Make Yourself At Home<br />In Our <span>Hotel</span>.</h1>
       </div>
     </header>
+  
+      
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+           <input type="date" id="checkin" name="checkin" />
+
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="date" placeholder="Check Out" /> 
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">GUEST</label>
+            <input type="number" placeholder=" " />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">BOOK NOW</button>
+        </div>
+      </form>
+    </section>
 
     <section class="section__container about__container" id="about">
       <div class="about__image">
@@ -75,8 +106,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -85,9 +114,6 @@
             <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="assets/PremierBed.png" alt="bed" />
-            </div>
             <h4>Deluxe Ocean View</h4>
             <p>
               Bask in luxury with breathtaking ocean views from your private
@@ -106,8 +132,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -116,9 +140,6 @@
             <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="assets/room-2.jpg" alt="city room" />
-            </div>
             <h4>Executive Cityscape Room</h4>
             <p>
               Experience urban elegance and modern comfort in the heart of the
@@ -137,8 +158,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -147,9 +166,6 @@
             <div class="room__thumb"><img src="assets/room-3.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <div class="room__card__badge">
-              <img src="assets/room-3.jpg" alt="garden room" />
-            </div>
             <h4>Family Garden Retreat</h4>
             <p>
               Spacious and inviting, perfect for creating cherished memories

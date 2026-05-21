@@ -54,8 +54,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -83,8 +81,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -112,8 +108,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -141,8 +135,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -170,8 +162,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
@@ -199,8 +189,6 @@
             </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
-              <span><i class="ri-paint-fill"></i></span>
-              <span><i class="ri-shield-star-line"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
