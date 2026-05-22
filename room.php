@@ -160,9 +160,9 @@
             <div class="room__thumb"><img src="assets/rooms/room-2.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Premium Retreat</h4>
-            <p>Refined elegance and exceptional space with personalized touches for an unforgettable luxury stay at Aurora Hotel.</p>
-            <span>₱16,999 / night</span>
+            <h4>Royal Suite</h4>
+            <p>Experience elegance and sophistication with premium interiors, a luxurious king-sized bed, private lounge area, scenic views, and exclusive amenities for a first-class stay.</p>
+            <span>₱14,500 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
               <a href="room.php" class="btn btn--alt">View Details</a>
