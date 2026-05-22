@@ -142,16 +142,16 @@
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/rooms/presidential(png)/Presidentialbed.png" alt="Family Garden Retreat" />
-              <img class="room__img secondary" src="assets/rooms/presidential(png)/Presidentialmain.png" alt="Family Garden alternate" />
+              <img class="room__img primary" src="assets/rooms/presidential(png)/presidentialbed.jpeg" alt="Family Garden Retreat" />
+              <img class="room__img secondary" src="assets/rooms/presidential(png)/GuestRoom.jpeg" alt="Family Garden alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidentialbed.png" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential3.png" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential4.png" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/MasterBathroom.jpeg" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/livingroom.jpeg" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/winestorage.jpeg" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Presidential Suite</h4>
@@ -236,7 +236,7 @@
             <p class="section__description">
               Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
             </p>
-            <a href="./Php/Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
           <div class="footer__col">
             <h4>QUICK LINKS</h4>
@@ -276,6 +276,6 @@
       </footer>
 
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="./Js/main.js"></script>
+      <script src="Js/main.js"></script>
     </body>
   </html>

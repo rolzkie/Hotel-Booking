@@ -123,21 +123,21 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/about.jpg" alt="Junior Suite" />
-            <img class="room__img secondary" src="assets/rooms/room-1.jpg" alt="Suite alternate" />
+            <img class="room__img primary" src="assets/rooms/FamilySuite/fsbed.jpeg" alt="Junior Suite" />
+            <img class="room__img secondary" src="assets/rooms/FamilySuite/FSLR.jpeg" alt="Suite alternate" />
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/2.png" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/room-1.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/FamilySuite/kitchen.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/FamilySuite/FSCR.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/FamilySuite/terrace.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Junior Suite</h4>
-            <p>Bright, contemporary suite with premium fixtures and modern conveniences. Ideal for short stays at Aurora Hotel.</p>
-            <span>₱8,499 / night</span>
+            <h4>Family Suite</h4>
+            <p>A spacious suite ideal for families or groups. Includes multiple beds, a comfortable lounge area, dining space, large bathroom, and entertainment features to make every stay enjoyable.</p>
+            <span>₱9,500 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
               <a href="room.php" class="btn btn--alt">View Details</a>
@@ -197,54 +197,55 @@
       </div>
     </section>
 
-    <footer class="footer" id="contact">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+     <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="logo">
+              <a href="#home"><img src="assets/icon/ICON.png" alt="logo" /></a>
+            </div>
+            <p class="section__description">
+              Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
+            </p>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
-          <p class="section__description">
-            Discover a world of comfort, luxury, and adventure as you explore our curated selection of rooms.
-          </p>
-          <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
-        </div>
-        <div class="footer__col">
-          <h4>QUICK LINKS</h4>
-          <ul class="footer__links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="room.php">Rooms</a></li>
-            <li><a href="hotel-facilities.php">Facilities</a></li>
-            <li><a href="index.php#service">Services</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>OUR SERVICES</h4>
-          <ul class="footer__links">
-            <li><a href="#">Concierge Assistance</a></li>
-            <li><a href="#">Flexible Booking Options</a></li>
-            <li><a href="#">Airport Transfers</a></li>
-            <li><a href="#">Wellness & Recreation</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>CONTACT US</h4>
-          <ul class="footer__links">
-            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
-          </ul>
-          <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          <div class="footer__col">
+            <h4>QUICK LINKS</h4>
+            <ul class="footer__links">
+              <li><a href="#">Browse All Rooms</a></li>
+              <li><a href="#">Special Offers</a></li>
+              <li><a href="#">Room Types & Amenities</a></li>
+              <li><a href="#">Guest Reviews</a></li>
+              <li><a href="#">Travel Guides</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>OUR SERVICES</h4>
+            <ul class="footer__links">
+              <li><a href="#">Concierge Service</a></li>
+              <li><a href="#">Flexible Booking</a></li>
+              <li><a href="#">Airport Transfers</a></li>
+              <li><a href="#">Wellness & Recreation</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>CONTACT US</h4>
+            <ul class="footer__links">
+              <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
+              <a href="#"><img src="assets/icon/instagram.png" alt="instagram" /></a>
+              <a href="#"><img src="assets/icon/youtube.png" alt="youtube" /></a>
+              <a href="#"><img src="assets/icon/twitter.png" alt="twitter" /></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer__bar">
-        Copyright © 2026 Aurora Hotel. All rights reserved.
-      </div>
-    </footer>
+        <div class="footer__bar">
+          Copyright © 2026 Aurora Hotel. All rights reserved.
+        </div>
+      </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="Js/main.js"></script>
-  </body>
-</html>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="Js/main.js"></script>
+    </body>
+  </html>
