@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+         <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -34,9 +34,9 @@
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="slideshow-bg">
-        <div class="slideshow-item" style="background-image: url('assets/room-1.jpg')"></div>
-        <div class="slideshow-item" style="background-image: url('assets/room-2.jpg')"></div>
-        <div class="slideshow-item" style="background-image: url('assets/room-3.jpg')"></div>
+          <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidential3.png')"></div>
+          <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidentialbed.png')"></div>
+        <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidentialmain.png')"></div>
         <button class="slideshow-arrow left" onclick="slideshowPrev()">&#10094;</button>
         <button class="slideshow-arrow right" onclick="slideshowNext()">&#10095;</button>
       </div>

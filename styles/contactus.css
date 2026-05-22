@@ -95,99 +95,161 @@
 
 .collaborators__section {
   margin-top: 4rem;
+  background: linear-gradient(135deg, #f8f6f0 0%, #fafbfc 100%);
+  border-radius: 24px;
+  padding: 3rem 1rem !important;
+}
+
+.collaborators__section .section__header {
+  max-width: 760px;
+  margin: auto;
+  text-align: center;
 }
 
 .collaborators__grid {
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1200px) {
+  .collaborators__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .collaborators__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .collaborators__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .collaborators__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Fix if another CSS file overrides this page */
 .collaborators__grid .collab__card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-
-
 .collab__card {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 1.25rem;
-  padding: 1.75rem;
+  padding: 2rem 1.5rem;
   background-color: var(--white);
   border-radius: 24px;
-  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.08);
-  align-items: center;
-  min-height: 220px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(186, 66, 43, 0.08);
+  transition: all 0.3s ease;
+  min-height: 320px;
+  justify-content: center;
+}
+
+.collab__card:hover {
+  box-shadow: 0 12px 35px rgba(186, 66, 43, 0.15);
+  transform: translateY(-5px);
+  border-color: rgba(186, 66, 43, 0.15);
 }
 
 /* Fix: ensure collaborators cards actually render even if global styles clash */
 .collaborators__section .collaborators__grid .collab__card {
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: 2px solid rgba(186, 66, 43, 0.08);
 }
 
-
 .collab__avatar {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color), #c94c2f);
   color: var(--white);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 20px rgba(186, 66, 43, 0.3);
   flex-shrink: 0;
 }
 
+.collab__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .collab__info h4 {
-  margin-bottom: 0.25rem;
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-dark);
 }
 
 .collab__role {
-  margin-bottom: 0.75rem;
-  color: var(--text-light);
-  font-weight: 500;
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.95rem;
 }
 
 .collab__info p {
-  margin-bottom: 0.5rem;
-  color: var(--text-dark);
+  margin: 0;
+  color: var(--text-light);
+  font-size: 0.9rem;
 }
 
 .collab__socials {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 .collab__socials a {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
   color: var(--primary-color);
   background-color: #f3f0e8;
   border-radius: 50%;
-  transition: 0.3s;
+  transition: all 0.3s;
+  font-size: 1.1rem;
 }
 
 .collab__socials a:hover {
   background-color: var(--primary-color);
   color: var(--white);
+  transform: scale(1.1);
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .collab__card {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     text-align: center;
   }
 
   .collab__avatar {
-    margin: 0 auto;
+    margin: 0;
   }
 
   .collab__socials {
