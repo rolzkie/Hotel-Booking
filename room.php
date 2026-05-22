@@ -33,13 +33,6 @@
         </ul>
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
-      <div class="slideshow-bg">
-          <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidential3.png')"></div>
-          <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidentialbed.png')"></div>
-        <div class="slideshow-item" style="background-image: url('assets/room/presidential(png)/Presidentialmain.png')"></div>
-        <button class="slideshow-arrow left" onclick="slideshowPrev()">&#10094;</button>
-        <button class="slideshow-arrow right" onclick="slideshowNext()">&#10095;</button>
-      </div>
       <div class="section__container header__container" id="home">
         <p>Premium Accommodations</p>
         <h1>Explore Aurora Hotel's<br />Exceptional Room Collection</h1>
@@ -52,7 +45,7 @@
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-1.jpg" alt="Deluxe Ocean View" />
+            <img class="room__img primary" src="assets/rooms/room-1.jpg" alt="Deluxe Ocean View" />
             <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe alternate" />
            
             <div class="room__card__icons">
@@ -74,7 +67,7 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-2.jpg" alt="Executive Cityscape" />
+            <img class="room__img primary" src="assets/rooms/room-2.jpg" alt="Executive Cityscape" />
             <img class="room__img secondary" src="assets/about.jpg" alt="City alternate" />
            
             <div class="room__card__icons">
@@ -96,7 +89,7 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-3.jpg" alt="Family Garden Retreat" />
+            <img class="room__img primary" src="assets/rooms/room-3.jpg" alt="Family Garden Retreat" />
             <img class="room__img secondary" src="assets/explore.jpg" alt="Garden alternate" />
            
             <div class="room__card__icons">
@@ -104,8 +97,8 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/service.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/room-1.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/room-3.jpg" alt="option 2" /></div>
             <div class="room__thumb"><img src="assets/1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
@@ -119,7 +112,7 @@
         <div class="room__card">
           <div class="room__card__image">
             <img class="room__img primary" src="assets/about.jpg" alt="Junior Suite" />
-            <img class="room__img secondary" src="assets/service.jpg" alt="Suite alternate" />
+            <img class="room__img secondary" src="assets/rooms/room-1.jpg" alt="Suite alternate" />
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -147,9 +140,9 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-1.jpg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/room-1.jpg" alt="option 1" /></div>
             <div class="room__thumb"><img src="assets/about.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/service.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/room-2.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Premium Retreat</h4>
@@ -161,7 +154,7 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/service.jpg" alt="Signature Suite" />
+            <img class="room__img primary" src="assets/rooms/room-1.jpg" alt="Signature Suite" />
             <img class="room__img secondary" src="assets/room-3.jpg" alt="Signature alternate" />
            
             <div class="room__card__icons">
@@ -215,7 +208,7 @@
         <div class="footer__col">
           <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href=\"mailto:info@aurorahotel.com\">info@aurorahotel.com</a></li>
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>

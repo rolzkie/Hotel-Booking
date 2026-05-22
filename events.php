@@ -65,7 +65,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/service.jpg" alt="Wellness Retreat" />
+            <img src="assets/bg/services.jpeg" alt="Wellness Retreat" />
           </div>
           <div class="event__details">
             <h4>Wellness Retreat</h4>
@@ -154,5 +154,6 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="Js/main.js"></script>
   </body>
 </html>

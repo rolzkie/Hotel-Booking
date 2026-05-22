@@ -34,8 +34,8 @@
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
-        <p>Contact & Assistance</p>
-        <h1>Get In Touch<br />With Our Team.</h1>
+        <p class="hero-sub">Contact & Assistance</p>
+        <h1 class="hero-title">Get In Touch<br />With Our Team.</h1>
       </div>
     </header>
 
@@ -155,7 +155,7 @@
           </form>
         </div>
         <div class="contact__image">
-          <img src="assets/service.jpg" alt="Contact support" />
+          <img src="assets/bg/services.jpeg" alt="Contact support" />
         </div>
       </div>
     </section>

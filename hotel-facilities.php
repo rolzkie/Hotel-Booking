@@ -33,26 +33,19 @@
         </ul>
         <a href="Check-In-Page.php"><button class="btn nav__btn">Mag-Book Na</button></a>
       </nav>
-      <div class="slideshow-bg">
-        <div class="slideshow-item" style="background-image: url('assets/service.jpg')"></div>
-        <div class="slideshow-item" style="background-image: url('assets/explore.jpg')"></div>
-        <div class="slideshow-item" style="background-image: url('assets/header.jpg')"></div>
-        <button class="slideshow-arrow left" onclick="slideshowPrev()">&#10094;</button>
-        <button class="slideshow-arrow right" onclick="slideshowNext()">&#10095;</button>
-      </div>
       <div class="section__container header__container" id="home">
         <p>World-Class Amenities</p>
         <h1>Discover Aurora Hotel's<br />Premium Facilities</h1>
       </div>
     </header>
 
-    <section class=\"section__container room__container\">
-      <p class=\"section__subheader\">FACILITIES</p>
-      <h2 class=\"section__header\">Experience Excellence at Aurora Hotel</h2>
+    <section class="section__container room__container">
+      <p class="section__subheader">FACILITIES</p>
+      <h2 class="section__header">Experience Excellence at Aurora Hotel</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/service.jpg" alt="Spa & Wellness" />
+            <img class="room__img primary" src="assets/bg/services.jpeg" alt="Spa & Wellness" />
             <img class="room__img secondary" src="assets/about.jpg" alt="Spa alternate" />
           
             <div class="room__card__icons">
@@ -97,7 +90,7 @@
         <div class="room__card">
           <div class="room__card__image">
             <img class="room__img primary" src="assets/header.jpg" alt="Gym & Fitness" />
-            <img class="room__img secondary" src="assets/service.jpg" alt="Gym alternate" />
+            <img class="room__img secondary" src="assets/rooms/room-3.jpg" alt="Gym alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -148,7 +141,7 @@
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/service.jpg" alt="conference" /></div>
+            <div class="room__thumb"><img src="assets/bg/1.png" alt="conference" /></div>
             <div class="room__thumb"><img src="assets/2.png" alt="events" /></div>
             <div class="room__thumb"><img src="assets/1.png" alt="meeting" /></div>
           </div>
@@ -163,7 +156,7 @@
         <div class="room__card">
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-1.jpg" alt="Lounge & Lobby" />
-            <img class="room__img secondary" src="assets/service.jpg" alt="Lounge alternate" />
+            <img class="room__img secondary" src="assets/rooms/room-3.jpg" alt="Lounge alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
@@ -207,8 +200,8 @@
         <div class="footer__col">
           <h4>OUR SERVICES</h4>
           <ul class="footer__links">
-            <li><a href=\"#\">Concierge Service</a></li>
-            <li><a href=\"#\">Flexible Booking</a></li>
+            <li><a href="#">Concierge Service</a></li>
+            <li><a href="#">Flexible Booking</a></li>
             <li><a href="#">Airport Transfers</a></li>
             <li><a href="#">Wellness & Recreation</a></li>
           </ul>
@@ -216,7 +209,7 @@
         <div class="footer__col">
           <h4>CONTACT US</h4>
           <ul class="footer__links">
-            <li><a href=\"mailto:info@aurorahotel.com\">info@aurorahotel.com</a></li>
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
           </ul>
           <div class="footer__socials">
             <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>

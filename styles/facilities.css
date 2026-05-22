@@ -11,18 +11,22 @@
   border-radius: 24px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--white);
 }
 
 .room__card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 .room__card__image {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  border-radius: 24px;
-  min-height: 250px;
+  border-radius: 24px 24px 0 0;
+  min-height: 300px;
 }
 
 .room__card__image::after {
@@ -157,29 +161,38 @@
 }
 
 .room__card__details {
-  padding: 1rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
 }
 
 .room__card h4 {
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 600;
   color: var(--text-dark);
 }
 
 .room__card p {
-  margin-bottom: 0.5rem;
-  color: var(--text-light);
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+  font-size: 0.98rem;
 }
 
 .room__card h5 {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
   color: var(--text-light);
 }
 
 .room__card h5 span {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-dark);
+  font-weight: 700;
+}
+
+/* Ensure the button sits at the bottom of card */
+.room__card__details .btn {
+  margin-top: 0.5rem;
 }
