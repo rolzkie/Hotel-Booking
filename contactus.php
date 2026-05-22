@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/contactus.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="icon" href="assets/icon/iconred.png" />
     <title>Contact Us | Aurora Hotel</title>
   </head>
   <body>
@@ -17,14 +17,14 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
         </div>
       <ul class="nav__links" id="nav-links">
-          <li><a href="../index.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
           <li><a href="hotel-facilities.php">Facilities</a></li>
           <li><a href="events.php">Events</a></li>
@@ -61,6 +61,78 @@
           <h4>Office Hours</h4>
           <p>Mon - Sun / 8:00 AM - 9:00 PM</p>
         </div>
+      </div>
+    </section>
+
+    <section class="section__container collaborators__section">
+      <p class="section__subheader">TEAM</p>
+      <h2 class="section__header">Website Collaborators</h2>
+      <div class="collaborators__grid">
+        <article class="collab__card">
+          <div class="collab__avatar">A</div>
+          <div class="collab__info">
+            <h4>Andrea Cruz</h4>
+            <p class="collab__role">Front-End Developer</p>
+            <p>+63 912 345 6789</p>
+            <div class="collab__socials">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="collab__card">
+          <div class="collab__avatar">B</div>
+          <div class="collab__info">
+            <h4>Bernard Lim</h4>
+            <p class="collab__role">UI/UX Designer</p>
+            <p>+63 917 234 5678</p>
+            <div class="collab__socials">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="collab__card">
+          <div class="collab__avatar">C</div>
+          <div class="collab__info">
+            <h4>Carlos De Leon</h4>
+            <p class="collab__role">Back-End Developer</p>
+            <p>+63 918 456 7890</p>
+            <div class="collab__socials">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="collab__card">
+          <div class="collab__avatar">D</div>
+          <div class="collab__info">
+            <h4>Diana Salazar</h4>
+            <p class="collab__role">Content Strategist</p>
+            <p>+63 919 567 8901</p>
+            <div class="collab__socials">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </article>
+        <article class="collab__card">
+          <div class="collab__avatar">E</div>
+          <div class="collab__info">
+            <h4>Elijah Torres</h4>
+            <p class="collab__role">Project Coordinator</p>
+            <p>+63 920 678 9012</p>
+            <div class="collab__socials">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 

@@ -9,18 +9,18 @@
       />
       <link rel="stylesheet" href="styles/index.css" />
       <link rel="stylesheet" href="styles/room.css" />
-      <link rel="icon" href="assets/svg/ICON.svg" />
+      <link rel="icon" href="assets/icon/ICON.png" />
       <title>Aurora Hotel | Your Perfect Escape Awaits</title>
     </head>
     <body>
       <header class="header">
         <video autoplay muted loop id="header-Video">
-          <source src="assets/headerVideo.mp4">
+          <source src="assets/vid/headerVideo.mp4">
         </video>
         <nav>
           <div class="nav__bar">
             <div class="logo">
-              <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+              <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
             </div>
             <div class="nav__menu__btn" id="menu-btn">
               <i class="ri-menu-line"></i>
@@ -76,7 +76,7 @@
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
-          <img src="assets/about.jpg" alt="about" />
+          <img src="assets/bg/modelsha.png" alt="about" />
         </div>
         <div class="about__content">
           <p class="section__subheader">ABOUT US</p>
@@ -93,15 +93,15 @@
         <div class="room__grid">
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/PremierRoom.png" alt="Deluxe Ocean View" />
-              <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
+              <img class="room__img primary" src="assets/rooms/deluxepremier/PremierRoom.png" alt="Deluxe Ocean View" />
+              <img class="room__img secondary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/PremierBed.png" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/2.png" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/rooms/deluxepremier/PremierBed.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.png" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.1.png" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Deluxe Premier Room</h4>
@@ -114,16 +114,16 @@
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/executive1.jpeg" alt="Executive Cityscape Room" />
-              <img class="room__img secondary" src="assets/executive1.1.jpeg " alt="Executive Cityscape alternate" />
+              <img class="room__img primary" src="assets/rooms/executive(jpeg)/executive1.jpeg" alt="Executive Cityscape Room" />
+              <img class="room__img secondary" src="assets/rooms/executive(jpeg)/executive1.1.jpeg " alt="Executive Cityscape alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/executive2.jpeg" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/executive3.1.jpeg" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/executive4.jpeg" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive2.jpeg" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive3.1.jpeg" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive4.jpeg" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Executive Cityscape Room</h4>
@@ -136,16 +136,16 @@
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/Presidentialbed.png" alt="Family Garden Retreat" />
-              <img class="room__img secondary" src="assets/Presidentialmain.png" alt="Family Garden alternate" />
+              <img class="room__img primary" src="assets/rooms/presidential(png)/Presidentialbed.png" alt="Family Garden Retreat" />
+              <img class="room__img secondary" src="assets/rooms/presidential(png)/Presidentialmain.png" alt="Family Garden alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/Presidentialbed.png" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/Presidential3.png" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/Presidential4.png" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidentialbed.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential3.png" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential4.png" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Presidential Suite</h4>
@@ -161,6 +161,9 @@
 
       <section class="service" id="service">
         <div class="section__container service__container">
+          <div class="service__image">
+            <img src="assets/bg/services.jpeg" alt="Aurora Hotel services" />
+          </div>
           <div class="service__content">
             <p class="section__subheader">SERVICES</p>
             <h2 class="section__header">Excellence in Every Detail</h2>
