@@ -1,5 +1,6 @@
 .contact__container {
   padding-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 .contact__overview {
@@ -34,6 +35,7 @@
 
 .contact__form__section {
   margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .contact__form__wrapper {

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../Styles/index.css" />
-    <link rel="stylesheet" href="../Styles/checkin.css" />
-    <link rel="icon" href="../Assets/iconred.png" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/checkin.css" />
+    <link rel="icon" href="assets/iconred.png" />
     <title>Check-In | Hotel Booking</title>
 </head>
 <body>
@@ -15,22 +15,21 @@
         <nav>
             <div class="nav__bar">
                 <div class="logo">
-                    <a href="index.php"><img src="../Assets/logo.png" alt="logo" /></a>
+                 <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
                 </div>
                 <div class="nav__menu__btn" id="menu-btn">
                     <i class="ri-menu-line"></i>
                 </div>
             </div>
-            <ul class="nav__links" id="nav-links">
-                <li><a href="index.php#home">Home</a></li>
-                <li><a href="index.php#about">About</a></li>
-                <li><a href="room.php">Rooms</a></li>
-                <li><a href="hotel-facilities.php">Facilities</a></li>
-                <li><a href="events.php">Events</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li><a href="index.php#contact">Contact</a></li>
-            </ul>
-            <button class="btn nav__btn">Book Now</button>
+       <ul class="nav__links" id="nav-links">
+          <li><a href="./index.php">Home</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a href="hotel-facilities.php">Facilities</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="reviews.php">Reviews</a></li>
+          <li><a href="contactus.php">Contact</a></li>
+        </ul>
+            <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
         </nav>
         <div class="section__container header__container checkin-title">
             <h1>Check-In & Booking</h1>
@@ -245,7 +244,55 @@
         </div>
     </section>
 
-    <script src="../Js/main.js"></script>
-    <script src="../Js/checkin.js"></script>
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="../index.php"><img src="assets/logo.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.
+          </p>
+          <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="room.php">Rooms</a></li>
+            <li><a href="hotel-facilities.php">Facilities</a></li>
+            <li><a href="events.php">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Concierge Assistance</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Wellness & Recreation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 Aurora Hotel. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/checkin.js"></script>
 </body>
 </html>
