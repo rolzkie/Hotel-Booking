@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/room.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="icon" href="assets/icon/iconred.png" />
     <title>Rooms | Aurora Hotel</title>
   </head>
   <body>

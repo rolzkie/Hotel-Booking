@@ -9,7 +9,7 @@
       />
       <link rel="stylesheet" href="styles/index.css" />
       <link rel="stylesheet" href="styles/room.css" />
-      <link rel="icon" href="assets/icon/ICON.png" />
+      <link rel="icon" href="assets/svg/ICON.svg" />
       <title>Aurora Hotel | Your Perfect Escape Awaits</title>
     </head>
     <body>
