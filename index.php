@@ -61,10 +61,10 @@
             </div>  
           </div>
           <div class="input__group">
-            <span><i class="ri-user-fill"></i></span>
+            <span><i class="ri-coupon-2-line"></i></span>
             <div>
-              <label for="guest">GUEST</label>
-              <input type="number" placeholder=" " />
+              <label for="promo">PROMO CODE</label>
+              <input type="text" id="promo" name="promo" placeholder=" " />
             </div>
           </div>
           <div class="input__group input__btn">
@@ -93,13 +93,13 @@
         <div class="room__grid">
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/rooms/deluxepremier/PremierRoom.png" alt="Deluxe Ocean View" />
-              <img class="room__img secondary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
+              <img class="room__img primary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Deluxe Ocean View" />
+              <img class="room__img secondary" src="assets/rooms/deluxepremier/premierlivingroom.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/rooms/deluxepremier/PremierBed.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/deluxepremier/premiercr.jpeg" alt="option 1" /></div>
               <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.png" alt="option 2" /></div>
               <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.1.png" alt="option 3" /></div>
             </div>
@@ -109,7 +109,10 @@
                 An upgraded deluxe experience with a more spacious interior, elegant furnishings, city or pool view, premium bedding, and complimentary breakfast for two.
               </p>
               <span>₱5,200 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+                <a href="room.php" class="btn btn--alt">View Details</a>
+              </div>
             </div>
           </div>
           <div class="room__card">
@@ -131,7 +134,10 @@
                Designed for business and luxury travelers, this suite includes a separate living area, work desk, king-sized bed, high-speed Wi-Fi, minibar, and exclusive comfort for longer stays.
               </p>
             <span>₱7,800 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+                <a href="room.php" class="btn btn--alt">View Details</a>
+              </div>
             </div>
           </div>
           <div class="room__card">
@@ -153,7 +159,10 @@
                The most luxurious accommodation in the hotel featuring a grand living room, dining area, master bedroom, premium furnishings, panoramic views, VIP amenities, and personalized service for an unforgettable experience.
               </p>
               <span>₱25,000 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+                <a href="room.php" class="btn btn--alt">View Details</a>
+              </div>
             </div>
           </div>
         </div>
@@ -213,7 +222,7 @@
           <div class="explore__content">
             <p class="section__description">March 10, 2026</p>
             <h4>Join Aurora Hotel for exclusive seasonal celebrations and premium experiences.</h4>
-            <button class="btn">View Events</button>
+            <a href="events.php"><button class="btn">View Events</button></a>
           </div>
         </div>
       </section>
@@ -222,7 +231,7 @@
         <div class="section__container footer__container">
           <div class="footer__col">
             <div class="logo">
-              <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+              <a href="#home"><img src="assets/icon/ICON.png" alt="logo" /></a>
             </div>
             <p class="section__description">
               Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
@@ -254,10 +263,10 @@
               <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
             </ul>
             <div class="footer__socials">
-              <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-              <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-              <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-              <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+              <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
+              <a href="#"><img src="assets/icon/instagram.png" alt="instagram" /></a>
+              <a href="#"><img src="assets/icon/youtube.png" alt="youtube" /></a>
+              <a href="#"><img src="assets/icon/twitter.png" alt="twitter" /></a>
             </div>
           </div>
         </div>

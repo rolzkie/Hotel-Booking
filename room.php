@@ -14,6 +14,9 @@
   </head>
   <body>
     <header class="header">
+      <video autoplay muted loop id="header-Video">
+        <source src="assets/vid/headerVideo.mp4">
+      </video>
       <nav>
         <div class="nav__bar">
           <div class="logo">
@@ -45,67 +48,76 @@
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/rooms/room-1.jpg" alt="Deluxe Ocean View" />
-            <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe alternate" />
+            <img class="room__img primary" src="assets/rooms/deluxeroom/Deluxebedroom.jpeg" alt="Deluxe Ocean View" />
+            <img class="room__img secondary" src="assets/rooms/deluxeroom/deluxelivingroom.jpeg" alt="Deluxe alternate" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/1.png" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/deluxeroom/deluxecr.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/deluxeroom/deluxekitchen.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/deluxeroom/deluxelaundry.jpeg" alt="option 3" /></div>
+          </div>
+          <div class="room__card__details">
+            <h4>Deluxe Room</h4>
+            <p>A cozy and stylish room perfect for solo travelers or couples. Features a queen-sized bed, smart TV, air conditioning, free Wi-Fi, minibar, and modern bathroom amenities for a relaxing stay.</p>
+            <span>₱3,500 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room__card">
+          <div class="room__card__image">
+            <img class="room__img primary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Executive Cityscape" />
+            <img class="room__img secondary" src="assets/rooms/deluxepremier/premierlivingroom.png" alt="City alternate" />
+           
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+            </div>
+          </div>
+          <div class="room__thumbs">
+            <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.1.png" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.png" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/deluxepremier/premiercr.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Deluxe Premier Room</h4>
             <p>An upgraded deluxe experience with a more spacious interior, elegant furnishings, city or pool view, premium bedding, and complimentary breakfast for two.</p>
-            <h5>From <span>₱5,200 / night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <span>₱5,200 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/rooms/room-2.jpg" alt="Executive Cityscape" />
-            <img class="room__img secondary" src="assets/about.jpg" alt="City alternate" />
+            <img class="room__img primary" src="assets/rooms/executive(jpeg)/executive1.1.jpeg" alt="Family Garden Retreat" />
+            <img class="room__img secondary" src="assets/rooms/executive(jpeg)/executive3.jpeg" alt="Garden alternate" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/explore.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/about.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive2.2.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive4.1.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/executive(jpeg)/executive4.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Deluxe Premier</h4>
-            <p>Sophisticated urban living at Aurora Hotel with panoramic city vistas. Perfect for the business traveler seeking comfort and convenience.</p>
-            <h5>From <span>₱9,499/night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
-          </div>
-        </div>
-
-        <div class="room__card">
-          <div class="room__card__image">
-            <img class="room__img primary" src="assets/rooms/room-3.jpg" alt="Family Garden Retreat" />
-            <img class="room__img secondary" src="assets/explore.jpg" alt="Garden alternate" />
-           
-            <div class="room__card__icons">
-              <span><i class="ri-heart-fill"></i></span>
+            <h4>Executive Suite</h4>
+            <p>Designed for business and luxury travelers, this suite includes a separate living area, work desk, king-sized bed, high-speed Wi-Fi, minibar, and exclusive comfort for longer stays.</p>
+            <span>₱7,800 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
             </div>
-          </div>
-          <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/rooms/room-1.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/rooms/room-3.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="option 3" /></div>
-          </div>
-          <div class="room__card__details">
-            <h4>Family Garden Retreat</h4>
-            <p>Spacious and welcoming family suite at Aurora Hotel, ideal for creating cherished memories with loved ones and garden views.</p>
-            <h5>From <span>₱11,999/night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
 
@@ -125,8 +137,11 @@
           <div class="room__card__details">
             <h4>Junior Suite</h4>
             <p>Bright, contemporary suite with premium fixtures and modern conveniences. Ideal for short stays at Aurora Hotel.</p>
-            <h5>From <span>₱8,499/night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <span>₱8,499 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -147,8 +162,11 @@
           <div class="room__card__details">
             <h4>Premium Retreat</h4>
             <p>Refined elegance and exceptional space with personalized touches for an unforgettable luxury stay at Aurora Hotel.</p>
-            <h5>From <span>₱16,999/night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <span>₱16,999 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -169,8 +187,11 @@
           <div class="room__card__details">
             <h4>Signature Suite</h4>
             <p>Aurora Hotel's crown jewel - an exclusive suite experience with premium seating, modern design, and impeccable service.</p>
-            <h5>From <span>₱19,999/night</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <span>₱19,999 / night</span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Book Now</a>
+              <a href="room.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
       </div>

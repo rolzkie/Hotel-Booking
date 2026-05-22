@@ -9,11 +9,15 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/facilities.css" />
+    <link rel="stylesheet" href="styles/room.css" />
     <link rel="icon" href="assets/iconred.png" />
     <title>Facilities | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
+      <video autoplay muted loop id="header-Video">
+        <source src="assets/vid/headerVideo.mp4">
+      </video>
       <nav>
         <div class="nav__bar">
           <div class="logo">
@@ -60,8 +64,11 @@
           <div class="room__card__details">
             <h4>Spa & Wellness</h4>
             <p>Indulge in luxurious spa treatments, sauna, and wellness therapies at Aurora Hotel. Complete rejuvenation awaits.</p>
-            <h5>Available <span>24/7</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Available <span>24/7</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -82,8 +89,11 @@
           <div class="room__card__details">
             <h4>Pool & Terrace</h4>
             <p>Swim, relax, and enjoy breathtaking views from Aurora Hotel's elegant outdoor terrace area.</p>
-            <h5>Open <span>7am - 10pm</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Open <span>7am - 10pm</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -104,8 +114,11 @@
           <div class="room__card__details">
             <h4>Gym & Fitness</h4>
             <p>State-of-the-art equipment and personal training spaces at Aurora Hotel for your fitness journey.</p>
-            <h5>Open <span>6am - 11pm</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Open <span>6am - 11pm</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -126,8 +139,11 @@
           <div class="room__card__details">
             <h4>Dining & Bar</h4>
             <p>Enjoy gourmet cuisine, signature cocktails, and premium coffee in Aurora Hotel's elegant dining venues.</p>
-            <h5>Open <span>7am - 12am</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Open <span>7am - 12am</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -148,8 +164,11 @@
           <div class="room__card__details">
             <h4>Conference Hall</h4>
             <p>Modern meeting spaces perfect for corporate events, presentations, and seminars at Aurora Hotel.</p>
-            <h5>Up to <span>120 guests</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Up to <span>120 guests</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
 
@@ -170,8 +189,11 @@
           <div class="room__card__details">
             <h4>Lounge & Lobby</h4>
             <p>Meet, relax, and unwind in Aurora Hotel's beautifully designed social spaces and elegant lobby.</p>
-            <h5>Open <span>All day</span></h5>
-            <a href="Check-In-Page.php"><button class="btn">Reserve</button></a>
+            <span>Open <span>All day</span></span>
+            <div class="room__card__actions">
+              <a href="Check-In-Page.php" class="btn">Reserve</a>
+              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+            </div>
           </div>
         </div>
       </div>
