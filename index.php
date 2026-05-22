@@ -9,7 +9,7 @@
       />
       <link rel="stylesheet" href="styles/index.css" />
       <link rel="stylesheet" href="styles/room.css" />
-      <link rel="icon" href="assets/ICON.png" />
+      <link rel="icon" href="assets/svg/ICON.svg" />
       <title>Aurora Hotel | Your Perfect Escape Awaits</title>
     </head>
     <body>
@@ -84,9 +84,6 @@
           <p class="section__description">
             Aurora Hotel stands as a beacon of hospitality, dedicated to providing exceptional accommodations, personalized service, and seamless bookings. We ensure that every traveler begins their journey with confidence and unforgettable memories at our premium property.
           </p>
-          <div class="about__btn">
-            <button class="btn">Learn More</button>
-          </div>
         </div>
       </section>
 
@@ -96,77 +93,67 @@
         <div class="room__grid">
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/room-1.jpg" alt="Deluxe Ocean View" />
-              <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe Ocean View alternate" />
-              <div class="room__hover-btn">
-                <button class="btn">View Details</button>
-              </div>
-              <div class="room__card__icons">
+              <img class="room__img primary" src="assets/PremierRoom.png" alt="Deluxe Ocean View" />
+              <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/1.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/PremierBed.png" alt="option 1" /></div>
               <div class="room__thumb"><img src="assets/2.png" alt="option 2" /></div>
               <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
-              <h4>Deluxe Ocean View</h4>
+              <h4>Deluxe Premier Room</h4>
               <p>
-                Tamasahin ang kasiyahan ng maikling oras na may kagandahang view ng dagat mula sa iyong pribadong suite.
+                An upgraded deluxe experience with a more spacious interior, elegant furnishings, city or pool view, premium bedding, and complimentary breakfast for two.
               </p>
-              <h5>Nagsisimula sa <span>$299/gabi</span></h5>
-              <button class="btn">Mag-Book Na</button>
+              <span>₱5,200 / night</span>
+              <button class="btn">Book Now</button>
             </div>
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/room-2.jpg" alt="Executive Cityscape Room" />
-              <img class="room__img secondary" src="assets/about.jpg" alt="Executive Cityscape alternate" />
-              <div class="room__hover-btn">
-                <button class="btn">View Details</button>
-              </div>
+              <img class="room__img primary" src="assets/executive1.jpeg" alt="Executive Cityscape Room" />
+              <img class="room__img secondary" src="assets/executive1.1.jpeg " alt="Executive Cityscape alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/2.1.png" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/about.jpg" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/executive2.jpeg" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/executive3.1.jpeg" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/executive4.jpeg" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Executive Cityscape Room</h4>
               <p>
-                Maranasan ang urban elegance at modernong kaginhawahan sa puso ng siyudad.
+               Designed for business and luxury travelers, this suite includes a separate living area, work desk, king-sized bed, high-speed Wi-Fi, minibar, and exclusive comfort for longer stays.
               </p>
-              <h5>Nagsisimula sa <span>$199/gabi</span></h5>
-              <button class="btn">Mag-Book Na</button>
+            <span>₱7,800 / night</span>
+              <button class="btn">Book Now</button>
             </div>
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/room-3.jpg" alt="Family Garden Retreat" />
-              <img class="room__img secondary" src="assets/explore.jpg" alt="Family Garden alternate" />
-              <div class="room__hover-btn">
-                <button class="btn">View Details</button>
-              </div>
+              <img class="room__img primary" src="assets/Presidentialbed.png" alt="Family Garden Retreat" />
+              <img class="room__img secondary" src="assets/Presidentialmain.png" alt="Family Garden alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/explore.jpg" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/service.jpg" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/room-3.jpg" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/Presidentialbed.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/Presidential3.png" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/Presidential4.png" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
-              <h4>Family Garden Retreat</h4>
+              <h4>Presidential Suite</h4>
               <p>
-                Malawak at mainit, perpekto para sa paglikha ng mga alaala kasama ang mga mahal sa buhay.
+               The most luxurious accommodation in the hotel featuring a grand living room, dining area, master bedroom, premium furnishings, panoramic views, VIP amenities, and personalized service for an unforgettable experience.
               </p>
-              <h5>Nagsisimula sa <span>$249/gabi</span></h5>
-              <button class="btn">Mag-Book Na</button>
+              <span>₱25,000 / night</span>
+              <button class="btn">Book Now</button>
             </div>
           </div>
         </div>

@@ -54,9 +54,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/service.jpg" alt="Spa & Wellness" />
             <img class="room__img secondary" src="assets/about.jpg" alt="Spa alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -78,9 +76,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/explore.jpg" alt="Pool & Terrace" />
             <img class="room__img secondary" src="assets/room-1.jpg" alt="Pool alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -102,9 +98,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/header.jpg" alt="Gym & Fitness" />
             <img class="room__img secondary" src="assets/service.jpg" alt="Gym alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -126,9 +120,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/about.jpg" alt="Dining & Bar" />
             <img class="room__img secondary" src="assets/room-3.jpg" alt="Dining alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -150,9 +142,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-2.jpg" alt="Conference Hall" />
             <img class="room__img secondary" src="assets/explore.jpg" alt="Conference alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -174,9 +164,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-1.jpg" alt="Lounge & Lobby" />
             <img class="room__img secondary" src="assets/service.jpg" alt="Lounge alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">View Facility</button>
-            </div>
+          
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>

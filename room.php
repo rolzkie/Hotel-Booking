@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/room.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="icon" href="assets/icon/iconred.png" />
     <title>Rooms | Aurora Hotel</title>
   </head>
   <body>
@@ -54,9 +54,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-1.jpg" alt="Deluxe Ocean View" />
             <img class="room__img secondary" src="assets/PremierRoom.png" alt="Deluxe alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
+           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -67,9 +65,9 @@
             <div class="room__thumb"><img src="assets/2.1.png" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Deluxe Ocean View</h4>
-            <p>Experience morning sunrises over the ocean from your private balcony at Aurora Hotel. Luxurious amenities and breathtaking views await.</p>
-            <h5>From <span>₱14,999/night</span></h5>
+            <h4>Deluxe Premier Room</h4>
+            <p>An upgraded deluxe experience with a more spacious interior, elegant furnishings, city or pool view, premium bedding, and complimentary breakfast for two.</p>
+            <h5>From <span>₱5,200 / night</span></h5>
             <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
         </div>
@@ -78,9 +76,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-2.jpg" alt="Executive Cityscape" />
             <img class="room__img secondary" src="assets/about.jpg" alt="City alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
+           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -91,7 +87,7 @@
             <div class="room__thumb"><img src="assets/about.jpg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Executive Cityscape</h4>
+            <h4>Deluxe Premier</h4>
             <p>Sophisticated urban living at Aurora Hotel with panoramic city vistas. Perfect for the business traveler seeking comfort and convenience.</p>
             <h5>From <span>₱9,499/night</span></h5>
             <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
@@ -102,9 +98,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/room-3.jpg" alt="Family Garden Retreat" />
             <img class="room__img secondary" src="assets/explore.jpg" alt="Garden alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
+           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -126,9 +120,6 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/about.jpg" alt="Junior Suite" />
             <img class="room__img secondary" src="assets/service.jpg" alt="Suite alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -150,9 +141,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/explore.jpg" alt="Premium Retreat" />
             <img class="room__img secondary" src="assets/room-2.jpg" alt="Premium alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
+           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
@@ -174,9 +163,7 @@
           <div class="room__card__image">
             <img class="room__img primary" src="assets/service.jpg" alt="Signature Suite" />
             <img class="room__img secondary" src="assets/room-3.jpg" alt="Signature alternate" />
-            <div class="room__hover-btn">
-              <button class="btn">Tingnan ang Detalye</button>
-            </div>
+           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
