@@ -15,7 +15,7 @@
         <nav>
             <div class="nav__bar">
                 <div class="logo">
-                 <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+                 <a href="index.php"><img src="./assets/svg/AURORA.svg" alt="logo" class="nav-logo" /></a>
                 </div>
                 <div class="nav__menu__btn" id="menu-btn">
                     <i class="ri-menu-line"></i>
@@ -292,6 +292,7 @@
       </footer>
 
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="Js/main.js"></script>
+      <script src="./js/checkin.js"></script>
+      <script src="./js/main.js"></script>
     </body>
   </html>

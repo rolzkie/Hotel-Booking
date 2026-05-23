@@ -41,38 +41,6 @@
           <h1>Welcome to <span>Aurora Hotel</span><br />Your Perfect Escape Awaits.</h1>
         </div>
       </header>
-    
-        
-      <section class="section__container booking__container">
-        <form action="/" class="booking__form">
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-in">CHECK-IN</label>
-            <input type="date" id="checkin" name="checkin" />
-
-            </div>
-          </div>
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-out">CHECK-OUT</label>
-              <input type="date" placeholder="Check Out" /> 
-            </div>  
-          </div>
-          <div class="input__group">
-            <span><i class="ri-user-fill"></i></span>
-            <div>
-              <label for="guest">GUEST</label>
-              <input type="number" placeholder=" " />
-            </div>
-          </div>
-          <div class="input__group input__btn">
-   <!-- Use just a link instead of a button inside a form -->
-   <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
-</div>
-        </form>
-      </section>
 
       <section class="section__container about__container" id="about">
         <div class="about__image">

@@ -2,8 +2,8 @@
 
 /* Header Styling */
 .checkin-header {
-    background: linear-gradient(135deg, rgba(232, 37, 116, 0.95), rgba(188, 28, 92, 0.95)), 
-                url("../assets/header.jpg");
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark)), 
+                url("../assets/bg/1.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
