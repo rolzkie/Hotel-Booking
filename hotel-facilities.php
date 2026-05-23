@@ -49,17 +49,16 @@
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/bg/services.jpeg" alt="Spa & Wellness" />
-            <img class="room__img secondary" src="assets/about.jpg" alt="Spa alternate" />
+            <img class="room__img primary" src="assets/facilities/spa 1.jpeg" alt="Spa & Wellness" />
+            <img class="room__img secondary" src="assets/facilities/spa 2.jpeg" alt="Spa alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/1.png" alt="spa" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="wellness" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="treatment" /></div>
+            <div class="room__thumb"><img src="assets/facilities/spa 1.jpeg" alt="spa" /></div>
+            <div class="room__thumb"><img src="assets/facilities/spa 2.jpeg" alt="wellness" /></div>
           </div>
           <div class="room__card__details">
             <h4>Spa & Wellness</h4>
@@ -73,17 +72,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/explore.jpg" alt="Pool & Terrace" />
-            <img class="room__img secondary" src="assets/room-1.jpg" alt="Pool alternate" />
+            <img class="room__img primary" src="assets/facilities/pool 1.jpeg" alt="Pool & Terrace" />
+            <img class="room__img secondary" src="assets/facilities/pool 2.jpeg" alt="Pool alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-1.jpg" alt="pool" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="sunset" /></div>
-            <div class="room__thumb"><img src="assets/about.jpg" alt="terrace" /></div>
+            <div class="room__thumb"><img src="assets/facilities/pool 3.jpeg" alt="pool" /></div>
+            <div class="room__thumb"><img src="assets/facilities/pool 6.jpeg" alt="sunset" /></div>
+            <div class="room__thumb"><img src="assets/facilities/pool 5.jpeg" alt="terrace" /></div>
           </div>
           <div class="room__card__details">
             <h4>Pool & Terrace</h4>
@@ -97,17 +96,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/header.jpg" alt="Gym & Fitness" />
-            <img class="room__img secondary" src="assets/rooms/room-3.jpg" alt="Gym alternate" />
+            <img class="room__img primary" src="assets/facilities/gym 1.jpeg" alt="Gym & Fitness" />
+            <img class="room__img secondary" src="assets/facilities/gym 2.jpeg" alt="Gym alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/2.1.png" alt="fitness" /></div>
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="cardio" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="weights" /></div>
+            <div class="room__thumb"><img src="assets/facilities/gym 1.jpeg" alt="fitness" /></div>
+            <div class="room__thumb"><img src="assets/facilities/gym 2.jpeg" alt="cardio" /></div>
+            <div class="room__thumb"><img src="assets/facilities/small gym 1.jpeg" alt="weights" /></div>
           </div>
           <div class="room__card__details">
             <h4>Gym & Fitness</h4>
@@ -121,17 +120,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/about.jpg" alt="Dining & Bar" />
-            <img class="room__img secondary" src="assets/room-3.jpg" alt="Dining alternate" />
+            <img class="room__img primary" src="assets/facilities/bar 1.jpeg" alt="Dining & Bar" />
+            <img class="room__img secondary" src="assets/facilities/bar 2.jpeg" alt="Dining alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="dining" /></div>
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="bar" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="restaurant" /></div>
+            <div class="room__thumb"><img src="assets/facilities/bar 1.jpeg" alt="dining" /></div>
+            <div class="room__thumb"><img src="assets/facilities/bar 2.jpeg" alt="bar" /></div>
+            <div class="room__thumb"><img src="assets/facilities/bar with human.jpeg" alt="restaurant" /></div>
           </div>
           <div class="room__card__details">
             <h4>Dining & Bar</h4>
@@ -145,17 +144,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-2.jpg" alt="Conference Hall" />
-            <img class="room__img secondary" src="assets/explore.jpg" alt="Conference alternate" />
+            <img class="room__img primary" src="assets/facilities/conference room 1.jpeg" alt="Conference Hall" />
+            <img class="room__img secondary" src="assets/facilities/conference room 2.jpeg" alt="Conference alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/bg/1.png" alt="conference" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="events" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="meeting" /></div>
+            <div class="room__thumb"><img src="assets/facilities/conference room 1.jpeg" alt="conference" /></div>
+            <div class="room__thumb"><img src="assets/facilities/conference room 2.jpeg" alt="events" /></div>
+            <div class="room__thumb"><img src="assets/facilities/conference room 3.jpeg" /></div>
           </div>
           <div class="room__card__details">
             <h4>Conference Hall</h4>
@@ -169,17 +168,12 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/room-1.jpg" alt="Lounge & Lobby" />
-            <img class="room__img secondary" src="assets/rooms/room-3.jpg" alt="Lounge alternate" />
+            <img class="room__img primary" src="assets/facilities/lobby 1.jpeg" alt="Lounge & Lobby" />
+            <img class="room__img secondary" src="assets/facilities/lobby 2.jpeg" alt="Lounge alternate" />
           
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
-          </div>
-          <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/about.jpg" alt="lounge" /></div>
-            <div class="room__thumb"><img src="assets/2.1.png" alt="lobby" /></div>
-            <div class="room__thumb"><img src="assets/room-3.jpg" alt="social" /></div>
           </div>
           <div class="room__card__details">
             <h4>Lounge & Lobby</h4>
