@@ -58,8 +58,34 @@
 
 .contact__overview {
   max-width: 760px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+  width: min(760px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.contact__overview .section__subheader::after {
+  display: none;
+}
+
+.contact__overview .section__description {
+  position: relative;
+  padding-bottom: 1.4rem;
+}
+
+.contact__overview .section__description::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 4rem;
+  height: 2px;
+  background-color: var(--primary-color);
 }
 
 .contact__grid {
@@ -74,6 +100,7 @@
   background-color: var(--white);
   border-radius: 20px;
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
 }
 
 .contact__card h4 {
@@ -85,6 +112,7 @@
 .contact__card p {
   color: var(--text-light);
   line-height: 1.7;
+  margin-bottom: 0.5rem;
 }
 
 .contact__form__section {
@@ -241,6 +269,10 @@
   font-weight: 700;
   box-shadow: 0 8px 20px rgba(186, 66, 43, 0.3);
   flex-shrink: 0;
+}
+
+.collab__avatar img {
+  display: none; 
 }
 
 .collab__info {

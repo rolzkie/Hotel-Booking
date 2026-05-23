@@ -3,7 +3,8 @@
 .room__grid {
   margin-top: 4rem;
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .room__card {
@@ -11,6 +12,9 @@
   border-radius: 24px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 540px;
 }
 
 .room__card:hover {
@@ -22,7 +26,7 @@
   isolation: isolate;
   overflow: hidden;
   border-radius: 24px;
-  min-height: 250px;
+  min-height: 320px;
 }
 
 .room__card__image::after {
@@ -157,7 +161,12 @@
 }
 
 .room__card__details {
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1 1 auto;
+  padding-bottom: 2rem;
 }
 
 .room__card h4 {
@@ -168,8 +177,29 @@
 }
 
 .room__card p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   color: var(--text-light);
+  line-height: 1.6;
+}
+
+.room__card__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.room__card__actions .btn--alt {
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.room__card__actions .btn,
+.room__card__actions .btn--alt {
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
 }
 
 .room__card h5 {
@@ -182,4 +212,69 @@
 .room__card h5 span {
   font-size: 1.1rem;
   color: var(--text-dark);
+}
+
+/* Responsive Media Queries */
+@media (width > 576px) {
+  .room__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+  nav {
+    padding: 2rem 10rem;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__bar {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    padding: 0;
+    width: unset;
+    position: static;
+    transform: none;
+    flex-direction: row;
+    background-color: transparent;
+  }
+
+  .nav__btn {
+    display: block;
+  }
+
+  .nav__links a::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: 0.3s;
+    transform-origin: left;
+  }
+
+  .nav__links a:hover::after {
+    width: 100%;
+  }
+
+  .room__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+  .room__grid {
+    gap: 2rem;
+  }
 }

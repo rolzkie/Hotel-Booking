@@ -41,6 +41,38 @@
           <h1>Welcome to <span>Aurora Hotel</span><br />Your Perfect Escape Awaits.</h1>
         </div>
       </header>
+    
+        
+      <section class="section__container booking__container">
+        <form action="/" class="booking__form">
+          <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-in">CHECK-IN</label>
+            <input type="date" id="checkin" name="checkin" />
+
+            </div>
+          </div>
+          <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-out">CHECK-OUT</label>
+              <input type="date" placeholder="Check Out" /> 
+            </div>  
+          </div>
+          <div class="input__group">
+            <span><i class="ri-user-fill"></i></span>
+            <div>
+              <label for="guest">GUEST</label>
+              <input type="number" placeholder=" " />
+            </div>
+          </div>
+          <div class="input__group input__btn">
+   <!-- Use just a link instead of a button inside a form -->
+   <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
+</div>
+        </form>
+      </section>
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
@@ -61,13 +93,13 @@
         <div class="room__grid">
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/rooms/deluxepremier/PremierRoom.png" alt="Deluxe Ocean View" />
-              <img class="room__img secondary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
+              <img class="room__img primary" src="assets/rooms/deluxepremier/PremierBed.png" alt="Deluxe Ocean View" />
+              <img class="room__img secondary" src="assets/rooms/deluxepremier/premierlivingroom.png" alt="Deluxe Ocean View alternate" /> <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/rooms/deluxepremier/PremierBed.png" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/deluxepremier/premiercr.jpeg" alt="option 1" /></div>
               <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.png" alt="option 2" /></div>
               <div class="room__thumb"><img src="assets/rooms/deluxepremier/2.1.png" alt="option 3" /></div>
             </div>
@@ -77,7 +109,9 @@
                 An upgraded deluxe experience with a more spacious interior, elegant furnishings, city or pool view, premium bedding, and complimentary breakfast for two.
               </p>
               <span>₱5,200 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+              </div>
             </div>
           </div>
           <div class="room__card">
@@ -99,21 +133,23 @@
                Designed for business and luxury travelers, this suite includes a separate living area, work desk, king-sized bed, high-speed Wi-Fi, minibar, and exclusive comfort for longer stays.
               </p>
             <span>₱7,800 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+              </div>
             </div>
           </div>
           <div class="room__card">
             <div class="room__card__image">
-              <img class="room__img primary" src="assets/rooms/presidential(png)/Presidentialbed.png" alt="Family Garden Retreat" />
-              <img class="room__img secondary" src="assets/rooms/presidential(png)/Presidentialmain.png" alt="Family Garden alternate" />
+              <img class="room__img primary" src="assets/rooms/presidential(png)/presidentialbed.jpeg" alt="Family Garden Retreat" />
+              <img class="room__img secondary" src="assets/rooms/presidential(png)/GuestRoom.jpeg" alt="Family Garden alternate" />
               <div class="room__card__icons">
                 <span><i class="ri-heart-fill"></i></span>
               </div>
             </div>
             <div class="room__thumbs">
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidentialbed.png" alt="option 1" /></div>
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential3.png" alt="option 2" /></div>
-              <div class="room__thumb"><img src="assets/rooms/presidential(png)/Presidential4.png" alt="option 3" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/MasterBathroom.jpeg" alt="option 1" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/livingroom.jpeg" alt="option 2" /></div>
+              <div class="room__thumb"><img src="assets/rooms/presidential(png)/winestorage.jpeg" alt="option 3" /></div>
             </div>
             <div class="room__card__details">
               <h4>Presidential Suite</h4>
@@ -121,7 +157,9 @@
                The most luxurious accommodation in the hotel featuring a grand living room, dining area, master bedroom, premium furnishings, panoramic views, VIP amenities, and personalized service for an unforgettable experience.
               </p>
               <span>₱25,000 / night</span>
-              <button class="btn">Book Now</button>
+              <div class="room__card__actions">
+                <a href="Check-In-Page.php" class="btn">Book Now</a>
+              </div>
             </div>
           </div>
         </div>
@@ -181,7 +219,7 @@
           <div class="explore__content">
             <p class="section__description">March 10, 2026</p>
             <h4>Join Aurora Hotel for exclusive seasonal celebrations and premium experiences.</h4>
-            <button class="btn">View Events</button>
+            <a href="events.php"><button class="btn">View Events</button></a>
           </div>
         </div>
       </section>
@@ -190,42 +228,41 @@
         <div class="section__container footer__container">
           <div class="footer__col">
             <div class="logo">
-              <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+              <a href="#home"><img src="assets/icon/ICON.png" alt="logo" /></a>
             </div>
             <p class="section__description">
               Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
             </p>
-            <a href="./Php/Check-In-Page.php"><button class="btn">Book Now</button></a>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
           <div class="footer__col">
             <h4>QUICK LINKS</h4>
             <ul class="footer__links">
-              <li><a href="#">Browse All Rooms</a></li>
-              <li><a href="#">Special Offers</a></li>
-              <li><a href="#">Room Types & Amenities</a></li>
-              <li><a href="#">Guest Reviews</a></li>
-              <li><a href="#">Travel Guides</a></li>
+              <li><a href="room.php">Browse All Rooms</a></li>
+              <li><a href="room-types.php">Room Types & Amenities</a></li>
+              <li><a href="reviews.php">Guest Reviews</a></li>
+              <li><a href="events.php">Events</a></li>
             </ul>
           </div>
           <div class="footer__col">
             <h4>OUR SERVICES</h4>
             <ul class="footer__links">
-              <li><a href="#">Concierge Service</a></li>
-              <li><a href="#">Flexible Booking</a></li>
-              <li><a href="#">Airport Transfers</a></li>
-              <li><a href="#">Wellness & Recreation</a></li>
+              <li>Concierge Service</li>
+              <li>Flexible Booking</li>
+              <li>Airport Transfers</li>
+              <li>Wellness & Recreation</li>
             </ul>
           </div>
           <div class="footer__col">
             <h4>CONTACT US</h4>
             <ul class="footer__links">
-              <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+                <li><a href="mailto:aurora.hotelresort@gmail.com">aurora.hotelresort@gmail.com</a></li>
             </ul>
             <div class="footer__socials">
-              <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-              <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-              <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-              <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+              <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
+              <a href="#"><img src="assets/icon/instagram.png" alt="instagram" /></a>
+              <a href="#"><img src="assets/icon/youtube.png" alt="youtube" /></a>
+              <a href="#"><img src="assets/icon/twitter.png" alt="twitter" /></a>
             </div>
           </div>
         </div>
@@ -235,6 +272,6 @@
       </footer>
 
       <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="./Js/main.js"></script>
+      <script src="Js/main.js"></script>
     </body>
   </html>
