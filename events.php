@@ -132,7 +132,7 @@
           <div class="footer__col">
             <h4>CONTACT US</h4>
             <ul class="footer__links">
-              <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+                <li><a href="mailto:aurora.hotelresort@gmail.com">aurora.hotelresort@gmail.com</a></li>
             </ul>
             <div class="footer__socials">
               <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
