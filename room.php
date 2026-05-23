@@ -147,17 +147,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/RoyalBedroom.jpeg" alt="Royal Suite" />
-            <img class="room__img secondary" src="assets/RoyalLivingRoom.jpeg" alt="Royal Suite" />
+            <img class="room__img primary" src="assets/rooms/RoyalSuite/RoyalBedroom.jpeg" alt="Royal Suite" />
+            <img class="room__img secondary" src="assets/rooms/RoyalSuite/RoyalLivingRoom.jpeg" alt="Royal Suite" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/rooms/RoyalBedroom.jpeg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/RoyalLivingRoom.jpeg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/rooms/RoyalDiningRoom.jpeg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/RoyalSuite/RoyalBedroom.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/rooms/RoyalSuite/RoyalLivingRoom.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/RoyalSuite/RoyalDiningRoom.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Royal Suite</h4>
@@ -172,17 +172,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/rooms/presidentialbed.jpeg" alt="Signature Suite" />
-            <img class="room__img secondary" src="assets/livingroom.jpeg" alt="Signature alternate" />
+            <img class="room__img primary" src="assets/rooms/presidential(png)/presidentialbed.jpeg" alt="Presidential Suite" />
+            <img class="room__img secondary" src="assets/rooms/presidential(png)/livingroom.jpeg" alt="Presidential alternate" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/winestorage.jpeg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/MasterBathroom.jpeg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/massageroom.jpeg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/presidential(png)/winestorage.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/presidential(png)/MasterBathroom.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/presidential(png)/massageroom.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Presidential Suite</h4>
