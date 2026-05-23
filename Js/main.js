@@ -2,6 +2,18 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
+window.addEventListener("load", function() {
+  const loaderWrapper = document.getElementById("loader-wrapper");
+  
+  // Fade out
+  loaderWrapper.style.opacity = "0";
+  
+  // Remove from DOM after fading
+  setTimeout(function() {
+    loaderWrapper.style.display = "none";
+  }, 500);
+});
+
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");
 

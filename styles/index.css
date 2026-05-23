@@ -17,6 +17,41 @@
   box-sizing: border-box;
 }
 
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000; /* Page background color */
+  z-index: 9999; /* Ensures it is on top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease;
+}
+
+.loader {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  pointer-events: none;
+  z-index: 1;
+  box-shadow: -10px -10px 10px var(--primary-color), 0px -10px 10px 0px #c29e57, 10px -10px 10px #f5be50, 10px 0 10px #ffd889, 10px 10px 10px 0px var(--primary-color-dark), 0 10px 10px 0px #b18f64, -10px 10px 10px 0px #70431e;
+  animation: rot55 1.5s linear infinite;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -670,4 +705,10 @@ nav {
      with the JS delay offset (4s steps). 33% of 12s ≈ 4s visible. */
   0%, 33% { opacity: 1; }
   45%, 100% { opacity: 0; }
+}
+
+@keyframes rot55 {
+  to {
+    transform: rotate(360deg);
+  }
 }

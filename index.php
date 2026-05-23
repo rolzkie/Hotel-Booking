@@ -13,6 +13,12 @@
       <title>Aurora Hotel | Your Perfect Escape Awaits</title>
     </head>
     <body>
+      <div id="loader-wrapper">
+        <div class="loader">
+          <img src="./assets/svg/ICON.svg" alt="">
+        </div>
+      </div>
+
       <header class="header">
         <video autoplay muted loop id="header-Video">
           <source src="assets/vid/headerVidNew.mp4">

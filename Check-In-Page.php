@@ -10,6 +10,7 @@
     <title>Check-In | Hotel Booking</title>
 </head>
 <body>
+
     <!-- Navigation Header -->
     <header class="header checkin-header">
         <nav>
