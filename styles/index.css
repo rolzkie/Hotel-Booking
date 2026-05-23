@@ -474,6 +474,10 @@ nav {
   color: var(--text-light);
   transition: 0.3s;
 }
+.footer__links li {
+  color: var(--text-light);
+  transition: 0.3s;
+}
 
 .footer__links a:hover {
   color: var(--white);

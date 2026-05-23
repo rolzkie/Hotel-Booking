@@ -258,20 +258,19 @@
           <div class="footer__col">
             <h4>QUICK LINKS</h4>
             <ul class="footer__links">
-              <li><a href="#">Browse All Rooms</a></li>
-              <li><a href="#">Special Offers</a></li>
-              <li><a href="#">Room Types & Amenities</a></li>
-              <li><a href="#">Guest Reviews</a></li>
-              <li><a href="#">Travel Guides</a></li>
+              <li><a href="room.php">Browse All Rooms</a></li>
+              <li><a href="room-types.php">Room Types & Amenities</a></li>
+              <li><a href="reviews.php">Guest Reviews</a></li>
+              <li><a href="events.php">Events</a></li>
             </ul>
           </div>
           <div class="footer__col">
             <h4>OUR SERVICES</h4>
             <ul class="footer__links">
-              <li><a href="#">Concierge Service</a></li>
-              <li><a href="#">Flexible Booking</a></li>
-              <li><a href="#">Airport Transfers</a></li>
-              <li><a href="#">Wellness & Recreation</a></li>
+              <li>Concierge Service</li>
+              <li>Flexible Booking</li>
+              <li>Airport Transfers</li>
+              <li>Wellness & Recreation</li>
             </ul>
           </div>
           <div class="footer__col">
@@ -294,6 +293,5 @@
 
       <script src="https://unpkg.com/scrollreveal"></script>
       <script src="Js/main.js"></script>
-      <script src="Js/checkin.js"></script>
     </body>
   </html>
