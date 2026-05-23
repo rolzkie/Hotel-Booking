@@ -33,10 +33,6 @@
         </ul>
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
-      <div class="section__container header__container" id="home">
-        <p class="hero-sub">Guest Stories</p>
-        <h1 class="hero-title">Real Reviews<br />From Our Visitors.</h1>
-      </div>
     </header>
 
     <section class="section__container review__container">
