@@ -91,7 +91,9 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">C</div>
+          <div class="collab__avatar">
+              <img src="assets\face\Jes.jpg" alt="Jesreel Cyrus Domanais">
+          </div>
           <div class="collab__info">
             <h4>Jesreel Cyrus Domanais</h4>
             <p class="collab__role">Document Controller</p>
@@ -119,7 +121,9 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">E</div>
+          <div class="collab__avatar">
+              <img src="assets\face\irol.jpg" alt="Errol">
+          </div>
           <div class="collab__info">
             <h4>Errol Miranda</h4>
             <p class="collab__role">Front-End Developer</p>
