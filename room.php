@@ -147,17 +147,17 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/explore.jpg" alt="Premium Retreat" />
-            <img class="room__img secondary" src="assets/room-2.jpg" alt="Premium alternate" />
+            <img class="room__img primary" src="assets/RoyalBedroom.jpeg" alt="Royal Suite" />
+            <img class="room__img secondary" src="assets/RoyalLivingRoom.jpeg" alt="Royal Suite" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/rooms/room-1.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/about.jpg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/rooms/room-2.jpg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/RoyalBedroom.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/RoyalLivingRoom.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/rooms/RoyalDiningRoom.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Royal Suite</h4>
@@ -172,22 +172,22 @@
 
         <div class="room__card">
           <div class="room__card__image">
-            <img class="room__img primary" src="assets/rooms/room-1.jpg" alt="Signature Suite" />
-            <img class="room__img secondary" src="assets/room-3.jpg" alt="Signature alternate" />
+            <img class="room__img primary" src="assets/rooms/presidentialbed.jpeg" alt="Signature Suite" />
+            <img class="room__img secondary" src="assets/livingroom.jpeg" alt="Signature alternate" />
            
             <div class="room__card__icons">
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
           <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/room-2.jpg" alt="option 1" /></div>
-            <div class="room__thumb"><img src="assets/1.png" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/2.png" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/winestorage.jpeg" alt="option 1" /></div>
+            <div class="room__thumb"><img src="assets/MasterBathroom.jpeg" alt="option 2" /></div>
+            <div class="room__thumb"><img src="assets/massageroom.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
-            <h4>Signature Suite</h4>
-            <p>Aurora Hotel's crown jewel - an exclusive suite experience with premium seating, modern design, and impeccable service.</p>
-            <span>₱19,999 / night</span>
+            <h4>Presidential Suite</h4>
+            <p>The most luxurious accommodation in the hotel featuring a grand living room, dining area, master bedroom, premium furnishings, panoramic views, VIP amenities, and personalized service for an unforgettable experience.</p>
+            <span>₱25,000 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
               <a href="room.php" class="btn btn--alt">View Details</a>
