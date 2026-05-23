@@ -91,9 +91,7 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">
-              <img src="assets\face\Jes.jpg" alt="Jesreel Cyrus Domanais">
-          </div>
+          <div class="collab__avatar" style="background-image: url('assets/face/Jes.jpg'); background-size: cover; background-position: center;"></div>
           <div class="collab__info">
             <h4>Jesreel Cyrus Domanais</h4>
             <p class="collab__role">Document Controller</p>
@@ -106,9 +104,7 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">
-            <img src="assets\face\Kev.jpg" alt="Kevin Rei">
-          </div>
+          <div class="collab__avatar" style="background-image: url('assets/face/Kev.jpg'); background-size: cover; background-position: center;"></div>
           <div class="collab__info">
             <h4>Kevin Rei Gelle</h4>
             <p class="collab__role">Document Controller</p>
@@ -121,9 +117,7 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">
-              <img src="assets\face\irol.jpg" alt="Errol">
-          </div>
+          <div class="collab__avatar" style="background-image: url('assets/face/irol.jpg'); background-size: cover; background-position: center;"></div>
           <div class="collab__info">
             <h4>Errol Miranda</h4>
             <p class="collab__role">Front-End Developer</p>
