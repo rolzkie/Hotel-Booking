@@ -104,7 +104,9 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">D</div>
+          <div class="collab__avatar">
+            <img src="assets\face\Kev.jpg" alt="Kevin Rei">
+          </div>
           <div class="collab__info">
             <h4>Kevin Rei Gelle</h4>
             <p class="collab__role">Document Controller</p>
