@@ -45,7 +45,7 @@
       <div class="event__grid">
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/room-1.jpg" alt="Gourmet Dinner" />
+            <img src="assets/events/GourmetDinnerNight.png" alt="Gourmet Dinner" />
           </div>
           <div class="event__details">
             <h4>Gourmet Dinner Night</h4>
@@ -55,7 +55,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/explore.jpg" alt="Live Music" />
+            <img src="assets/events/LiveMusicLounge.png" alt="Live Music" />
           </div>
           <div class="event__details">
             <h4>Live Music Lounge</h4>
@@ -65,7 +65,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/bg/services.jpeg" alt="Wellness Retreat" />
+            <img src="assets/facilities/gym 1.jpeg" alt="Wellness Retreat" />
           </div>
           <div class="event__details">
             <h4>Wellness Retreat</h4>
@@ -75,7 +75,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/room-2.jpg" alt="Sky Terrace" />
+            <img src="assets/events/Skyterracesocial.png" alt="Sky Terrace" />
           </div>
           <div class="event__details">
             <h4>Sky Terrace Social</h4>
@@ -85,7 +85,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/room-3.jpg" alt="Family Brunch" />
+            <img src="assets/events/Family brunch.png" alt="Family Brunch" />
           </div>
           <div class="event__details">
             <h4>Family Brunch</h4>
@@ -95,7 +95,7 @@
         </article>
         <article class="event__card">
           <div class="event__image">
-            <img src="assets/about.jpg" alt="Art Showcase" />
+            <img src="assets/events/Art&Culture Night.png" alt="Art Showcase" />
           </div>
           <div class="event__details">
             <h4>Art & Culture Night</h4>
