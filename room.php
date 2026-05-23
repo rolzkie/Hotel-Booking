@@ -182,7 +182,7 @@
           <div class="room__thumbs">
             <div class="room__thumb"><img src="assets/rooms/presidential(png)/winestorage.jpeg" alt="option 1" /></div>
             <div class="room__thumb"><img src="assets/rooms/presidential(png)/MasterBathroom.jpeg" alt="option 2" /></div>
-            <div class="room__thumb"><img src="assets/rooms/presidential(png)/massageroom.jpeg" alt="option 3" /></div>
+            <div class="room__thumb"><img src="assets/rooms/presidential(png)/studyroom.jpeg" alt="option 3" /></div>
           </div>
           <div class="room__card__details">
             <h4>Presidential Suite</h4>
