@@ -66,7 +66,7 @@
             <span>₱3,500 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
             <span>₱5,200 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
             <span>₱7,800 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@
             <span>₱9,500 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
             <span>₱14,500 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@
             <span>₱25,000 / night</span>
             <div class="room__card__actions">
               <a href="Check-In-Page.php" class="btn">Book Now</a>
-              <a href="room.php" class="btn btn--alt">View Details</a>
+
             </div>
           </div>
         </div>

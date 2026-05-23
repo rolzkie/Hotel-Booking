@@ -35,7 +35,7 @@
           <li><a href="reviews.php">Reviews</a></li>
           <li><a href="contactus.php">Contact</a></li>
         </ul>
-        <a href="Check-In-Page.php"><button class="btn nav__btn">Mag-Book Na</button></a>
+        <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>World-Class Amenities</p>
@@ -65,7 +65,7 @@
             <p>Indulge in luxurious spa treatments, sauna, and wellness therapies at Aurora Hotel. Complete rejuvenation awaits.</p>
             <span>Available <span>24/7</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
             <p>Swim, relax, and enjoy breathtaking views from Aurora Hotel's elegant outdoor terrace area.</p>
             <span>Open <span>7am - 10pm</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             <p>State-of-the-art equipment and personal training spaces at Aurora Hotel for your fitness journey.</p>
             <span>Open <span>6am - 11pm</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@
             <p>Enjoy gourmet cuisine, signature cocktails, and premium coffee in Aurora Hotel's elegant dining venues.</p>
             <span>Open <span>7am - 12am</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>
@@ -151,17 +151,12 @@
               <span><i class="ri-heart-fill"></i></span>
             </div>
           </div>
-          <div class="room__thumbs">
-            <div class="room__thumb"><img src="assets/facilities/conference room 1.jpeg" alt="conference" /></div>
-            <div class="room__thumb"><img src="assets/facilities/conference room 2.jpeg" alt="events" /></div>
-            <div class="room__thumb"><img src="assets/facilities/conference room 3.jpeg" /></div>
-          </div>
           <div class="room__card__details">
             <h4>Conference Hall</h4>
             <p>Modern meeting spaces perfect for corporate events, presentations, and seminars at Aurora Hotel.</p>
             <span>Up to <span>120 guests</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>
@@ -180,7 +175,7 @@
             <p>Meet, relax, and unwind in Aurora Hotel's beautifully designed social spaces and elegant lobby.</p>
             <span>Open <span>All day</span></span>
             <div class="room__card__actions">
-              <a href="hotel-facilities.php" class="btn btn--alt">View Details</a>
+      
             </div>
           </div>
         </div>

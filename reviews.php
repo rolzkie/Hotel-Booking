@@ -177,7 +177,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-3.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon1.jpg" alt="reviewer" />
           </div>
           <h4>Isabella M.</h4>
           <p>"Our family had the most wonderful vacation here. The kids' activities were fun, and the family suites were spacious and comfortable!"</p>
@@ -192,7 +192,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/about.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon2.jpg" alt="reviewer" />
           </div>
           <h4>Christopher L.</h4>
           <p>"Top-notch business facilities and reliable WiFi made my stay productive. The restaurant food was outstanding!"</p>
@@ -207,7 +207,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon3.jpg" alt="reviewer" />
           </div>
           <h4>Victoria N.</h4>
           <p>"The executive lounge was an amazing perk. Free refreshments, quiet workspace, and helpful staff made it perfect for business travelers."</p>
@@ -222,7 +222,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon4.jpg" alt="reviewer" />
           </div>
           <h4>Robert G.</h4>
           <p>"Clean rooms, courteous staff, and great amenities. The location is perfect for exploring the city. Highly satisfied!"</p>
