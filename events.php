@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/events.css" />
-    <link rel="icon" href="assets/iconred.png" />
+     <link rel="icon" href="assets/icon/ICON.png" />
     <title>Events | Aurora Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+                        <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -33,13 +33,7 @@
         </ul>
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
-      <div class="section__container header__container" id="home">
-        <p>Events & Experiences</p>
-        <h1>Upcoming Hotel Events<br />And Special Moments.</h1>
-      </div>
-    </header>
-
-    <section class="section__container event__container">
+      <section class="section__container event__container">
       <p class="section__subheader">EVENTS</p>
       <h2 class="section__header">Join our curated experiences this season.</h2>
       <div class="event__grid">

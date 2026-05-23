@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/facilities.css" />
     <link rel="stylesheet" href="styles/room.css" />
-    <link rel="icon" href="assets/iconred.png" />
+     <link rel="icon" href="assets/icon/ICON.png" />
     <title>Facilities | Aurora Hotel</title>
   </head>
   <body>
     <header class="header">
       <video autoplay muted loop id="header-Video">
-        <source src="assets/vid/headerVideo.mp4">
+        <source src="assets/vid/facilities.mp4">
       </video>
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+                   <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>

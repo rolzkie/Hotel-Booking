@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
-    <link rel="icon" href="assets/iconred.png" />
+  <link rel="icon" href="assets/icon/ICON.png" />
     <title>Reviews | Aurora Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+         <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -87,7 +87,7 @@
       <div class="review__grid">
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon1.jpg" alt="reviewer" />
           </div>
           <h4>Anna S.</h4>
           <p>"A perfect stay from arrival to checkout. The rooms were clean, the staff were attentive, and the breakfast was exceptional."</p>
@@ -102,7 +102,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon2.jpg" alt="reviewer" />
           </div>
           <h4>Michael T.</h4>
           <p>"The event night was beautiful, and the service made our anniversary unforgettable. Highly recommended!"</p>
@@ -117,7 +117,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-3.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon3.jpg" alt="reviewer" />
           </div>
           <h4>Sophia R.</h4>
           <p>"Loved the decor, the amenities, and the calm ambiance. The fitness center and dining options were a great bonus."</p>
@@ -132,7 +132,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/about.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon4.jpg" alt="reviewer" />
           </div>
           <h4>Jason P.</h4>
           <p>"Everything was on point — from check-in to room service. A wonderful place for a relaxing city escape."</p>
@@ -147,7 +147,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon5.jpg" alt="reviewer" />
           </div>
           <h4>Emily W.</h4>
           <p>"Exceptional hospitality and attention to detail. The concierge team went above and beyond to make our stay special. We'll definitely be back!"</p>
@@ -162,7 +162,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon6.jpg" alt="reviewer" />
           </div>
           <h4>David K.</h4>
           <p>"Great location with stunning views. The spa facilities were world-class, and the staff made everything so convenient."</p>

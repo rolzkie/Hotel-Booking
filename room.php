@@ -15,7 +15,7 @@
   <body>
     <header class="header">
       <video autoplay muted loop id="header-Video">
-        <source src="assets/vid/headerVideo.mp4">
+        <source src="assets/vid/rooms.mp4">
       </video>
       <nav>
         <div class="nav__bar">

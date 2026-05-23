@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/contactus.css" />
-    <link rel="icon" href="assets/icon/iconred.png" />
+  <link rel="icon" href="assets/icon/ICON.png" />
     <title>Contact Us | Aurora Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+          <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -67,65 +67,65 @@
         <article class="collab__card">
           <div class="collab__avatar">A</div>
           <div class="collab__info">
-            <h4>Andrea Cruz</h4>
-            <p class="collab__role">Front-End Developer</p>
+            <h4>Rolando Anacta Jr.</h4>
+            <p class="collab__role">Full-Stack Developer</p>
             <p>+63 912 345 6789</p>
             <div class="collab__socials">
-              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="https://www.facebook.com/seikiii" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.instagram.com/boss.j_r/" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="https://github.com/Atcana0" aria-label="GitHub"><i class="ri-github-fill"></i></a>
             </div>
           </div>
         </article>
         <article class="collab__card">
           <div class="collab__avatar">B</div>
           <div class="collab__info">
-            <h4>Bernard Lim</h4>
-            <p class="collab__role">UI/UX Designer</p>
+            <h4>Thervin Ranehart Bandril</h4>
+            <p class="collab__role">Back-End Developer</p>
             <p>+63 917 234 5678</p>
             <div class="collab__socials">
-              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="https://www.facebook.com/thervTZY" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.facebook.com/thervTZY" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="https://github.com/Thervs-Studio" aria-label="GitHub"><i class="ri-github-fill"></i></a>
             </div>
           </div>
         </article>
         <article class="collab__card">
           <div class="collab__avatar">C</div>
           <div class="collab__info">
-            <h4>Carlos De Leon</h4>
-            <p class="collab__role">Back-End Developer</p>
+            <h4>Jesreel Cyrus Domanais</h4>
+            <p class="collab__role">Document Controller</p>
             <p>+63 918 456 7890</p>
             <div class="collab__socials">
-              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="https://www.facebook.com/shynnn.Jcy" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.instagram.com/shyn.cyy/?igsh=MXQ2dWhlb3h2NHJkZg%3D%3D&utm_source=qr&fbclid=IwY2xjawR-Kc9leHRuA2FlbQIxMABicmlkETFVZXl2WTZjZWNFeGZBbmxPc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiH4Q067A3-OzTZTdQpN5aCCXhqRdd6MVUqcUjDaINlIIIDbPC058pAmS2CB_aem_YWdncwBEwZDzjBWjm_5IX1j1bj6M&brid=YWdncwHeqiTWt1FL931_javeFLf_" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="https://github.com/ashynto" aria-label="GitHub"><i class="ri-github-fill"></i></a>
             </div>
           </div>
         </article>
         <article class="collab__card">
           <div class="collab__avatar">D</div>
           <div class="collab__info">
-            <h4>Diana Salazar</h4>
-            <p class="collab__role">Content Strategist</p>
+            <h4>Kevin Rei Gelle</h4>
+            <p class="collab__role">Document Controller</p>
             <p>+63 919 567 8901</p>
             <div class="collab__socials">
-              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="https://www.facebook.com/kev.rei.gelle" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.instagram.com/kevreigelle/" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="https://github.com/Kevin1117-23" aria-label="GitHub"><i class="ri-github-fill"></i></a>
             </div>
           </div>
         </article>
         <article class="collab__card">
           <div class="collab__avatar">E</div>
           <div class="collab__info">
-            <h4>Elijah Torres</h4>
-            <p class="collab__role">Project Coordinator</p>
+            <h4>Errol Miranda</h4>
+            <p class="collab__role">Front-End Developer</p>
             <p>+63 920 678 9012</p>
             <div class="collab__socials">
-              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-              <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-              <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+              <a href="https://www.facebook.com/ErrolMiranda1827" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.instagram.com/rolzkiemrnd/" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+              <a href="https://github.com/rolzkie" aria-label="GitHub"><i class="ri-github-fill"></i></a>
             </div>
           </div>
         </article>
