@@ -65,7 +65,7 @@
       <h2 class="section__header">Website Collaborators</h2>
       <div class="collaborators__grid">
         <article class="collab__card">
-          <div class="collab__avatar">A</div>
+          <div class="collab__avatar" style="background-image: url('assets/face/Jr.jpg'); background-size: cover; background-position: center;"></div>
           <div class="collab__info">
             <h4>Rolando Anacta Jr.</h4>
             <p class="collab__role">Full-Stack Developer</p>
@@ -78,7 +78,7 @@
           </div>
         </article>
         <article class="collab__card">
-          <div class="collab__avatar">B</div>
+          <div class="collab__avatar" style="background-image: url('assets/face/Therv.jpg'); background-size: cover; background-position: center;"></div>
           <div class="collab__info">
             <h4>Thervin Ranehart Bandril</h4>
             <p class="collab__role">Back-End Developer</p>
