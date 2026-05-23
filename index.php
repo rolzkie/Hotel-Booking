@@ -15,12 +15,12 @@
     <body>
       <header class="header">
         <video autoplay muted loop id="header-Video">
-          <source src="assets/vid/headerVideo.mp4">
+          <source src="assets/vid/headerVidNew.mp4">
         </video>
         <nav>
           <div class="nav__bar">
             <div class="logo">
-              <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
+              <a href="index.php"><img src="assets/svg/AURORA.svg" alt="logo" class="nav-logo" /></a>
             </div>
             <div class="nav__menu__btn" id="menu-btn">
               <i class="ri-menu-line"></i>
@@ -41,38 +41,6 @@
           <h1>Welcome to <span>Aurora Hotel</span><br />Your Perfect Escape Awaits.</h1>
         </div>
       </header>
-    
-        
-      <section class="section__container booking__container">
-        <form action="/" class="booking__form">
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-in">CHECK-IN</label>
-            <input type="date" id="checkin" name="checkin" />
-
-            </div>
-          </div>
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-out">CHECK-OUT</label>
-              <input type="date" placeholder="Check Out" /> 
-            </div>  
-          </div>
-          <div class="input__group">
-            <span><i class="ri-user-fill"></i></span>
-            <div>
-              <label for="guest">GUEST</label>
-              <input type="number" placeholder=" " />
-            </div>
-          </div>
-          <div class="input__group input__btn">
-   <!-- Use just a link instead of a button inside a form -->
-   <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
-</div>
-        </form>
-      </section>
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
