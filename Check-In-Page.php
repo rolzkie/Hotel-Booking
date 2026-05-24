@@ -70,7 +70,7 @@
             <div class="booking__section">
                 <h2 class="section__header">Complete Your Reservation</h2>
                 
-                <form class="booking__form" id="checkinForm">
+                <form class="booking__form" id="checkinForm" method="post" action="Check-in-done.php">
                     <div class="form__grid">
                         <!-- Check-in Date -->
                         <div class="form__group">
@@ -115,10 +115,12 @@
                                 <i class="ri-home-smile-2-fill"></i>
                                 <select id="roomtype" name="roomtype" required>
                                     <option value="">Select a room type</option>
-                                    <option value="single">Single Room</option>
-                                    <option value="double">Double Room</option>
-                                    <option value="suite">Suite</option>
-                                    <option value="deluxe">Deluxe Suite</option>
+                                    <option value="1">Deluxe Room</option>
+                                    <option value="2">Deluxe Premier Room</option>
+                                    <option value="3">Executive Suite</option>
+                                    <option value="4">Family Suite</option>
+                                    <option value="5">Royal Suite</option>
+                                    <option value="6">Presidential Suite</option>
                                 </select>
                             </div>
                         </div>
