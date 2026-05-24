@@ -13,19 +13,22 @@
       <title>Aurora Hotel | Your Perfect Escape Awaits</title>
     </head>
     <body>
+      <div id="loader-wrapper">
+        <div class="loader">
+          <img src="./assets/svg/ICON.svg" alt="">
+        </div>
+      </div>
+
       <header class="header">
         <video autoplay muted loop id="header-Video">
-          <source src="assets/vid/headerVideo.mp4">
+          <source src="assets/vid/headerVidNew.mp4">
         </video>
         <nav>
-          <div class="nav__bar">
-            <div class="logo">
-              <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
-            </div>
-            <div class="nav__menu__btn" id="menu-btn">
-              <i class="ri-menu-line"></i>
-            </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
           </div>
+          <a href="index.php" class="nav__brand"><img src="assets/svg/AURORA.svg" alt="Aurora logo" /></a>
+          <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
           <ul class="nav__links" id="nav-links">
             <li><a href="index.php">Home</a></li>
             <li><a href="room.php">Rooms</a></li>
@@ -34,45 +37,12 @@
             <li><a href="reviews.php">Reviews</a></li>
             <li><a href="contactus.php">Contact</a></li>
           </ul>
-          <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
         </nav>
         <div class="section__container header__container" id="home">
           <p>Elegance - Comfort - Excellence</p>
           <h1>Welcome to <span>Aurora Hotel</span><br />Your Perfect Escape Awaits.</h1>
         </div>
       </header>
-    
-        
-      <section class="section__container booking__container">
-        <form action="/" class="booking__form">
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-in">CHECK-IN</label>
-            <input type="date" id="checkin" name="checkin" />
-
-            </div>
-          </div>
-          <div class="input__group">
-            <span><i class="ri-calendar-2-fill"></i></span>
-            <div>
-              <label for="check-out">CHECK-OUT</label>
-              <input type="date" placeholder="Check Out" /> 
-            </div>  
-          </div>
-          <div class="input__group">
-            <span><i class="ri-coupon-2-line"></i></span>
-            <div>
-              <label for="promo">PROMO CODE</label>
-              <input type="text" id="promo" name="promo" placeholder=" " />
-            </div>
-          </div>
-          <div class="input__group input__btn">
-   <!-- Use just a link instead of a button inside a form -->
-   <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
-</div>
-        </form>
-      </section>
 
       <section class="section__container about__container" id="about">
         <div class="about__image">
@@ -256,7 +226,7 @@
           <div class="footer__col">
             <h4>CONTACT US</h4>
             <ul class="footer__links">
-              <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+                <li><a href="mailto:aurora.hotelresort@gmail.com">aurora.hotelresort@gmail.com</a></li>
             </ul>
             <div class="footer__socials">
               <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
