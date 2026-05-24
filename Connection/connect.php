@@ -3,21 +3,21 @@ function connect() {
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "bookings";
+$database = "aurora_db";
 
-$con = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($host, $username, $password, $database);
 
-if ($con->connect_error) {
-    die();
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 } else  {
-    return $con;
+    return $conn;
 }
 }
-//This function allows you to connect to the database.
+//This function allows you to connect to the database guys.
 
-//How to use:
+//How to use this:
 
-//*** insert this syntax in your chosen php file ***.
+//*** insert this syntax in your chosen php file :)***.
 
 //include_once("../Connection/connect.php");
 //$con = connect();

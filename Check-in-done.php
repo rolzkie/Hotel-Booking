@@ -2,41 +2,56 @@
     // ================================
     // DATABASE CONNECTION
     // ================================
-    $host = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "aurora-db";
+    include_once("Connection/connect.php");
+    $conn = connect();
 
-    $conn = new mysqli($host, $username, $password, $database);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection Failed: " . $conn->connect_error);
-    }
 
     // ================================
     // GET FORM DATA
     // ================================
-    $full_name      = $_POST['full_name'];
-    $email          = $_POST['email'];
-    $phone_number   = $_POST['phone_number'];
+    $full_name      = $_POST['fullname'] ?? '';
+    $email          = $_POST['email'] ?? '';
+    $phone_number   = $_POST['phone'] ?? '';
 
-    $room_type_id   = $_POST['room_type_id'];
-    $promo_code_id  = !empty($_POST['promo_code_id']) ? $_POST['promo_code_id'] : NULL;
+    $room_type_id   = $_POST['roomtype'] ?? '';
 
-    $check_in       = $_POST['check_in'];
-    $check_out      = $_POST['check_out'];
-    $num_of_nights  = $_POST['num_of_nights'];
-    $num_of_guests  = $_POST['num_of_guests'];
+    $check_in       = $_POST['checkin'] ?? '';
+    $check_out      = $_POST['checkout'] ?? '';
+    $num_of_nights  = $_POST['nights'] ?? 0;
+    $num_of_guests  = $_POST['guests'] ?? 1;
 
-    $special_request = $_POST['special_request'];
+    $special_request = $_POST['comments'] ?? '';
     $booking_status  = "Pending";
+
+
+    // ================================
+    // GET PROMO CODE ID (convert code → ID)
+    // ================================
+    $promo_code_id = NULL;
+
+    if (!empty($_POST['specialcode'])) {
+        $code = $_POST['specialcode'];
+
+        $promo_stmt = $conn->prepare("
+            SELECT promo_code_id 
+            FROM promo_codes 
+            WHERE promo_code = ?
+        ");
+
+        $promo_stmt->bind_param("s", $code);
+        $promo_stmt->execute();
+        $promo_stmt->bind_result($promo_code_id);
+        $promo_stmt->fetch();
+        $promo_stmt->close();
+    }
+
+
+
 
     // ================================
     // INSERT INTO GUESTS TABLE
     // ================================
-    $guest_sql = "INSERT INTO guests (full_name, email, phone_number)
-    VALUES (?, ?, ?)";
+    $guest_sql = "INSERT INTO guests (full_name, email, phone_number) VALUES (?, ?, ?)";
 
     $guest_stmt = $conn->prepare($guest_sql);
     $guest_stmt->bind_param("sss", $full_name, $email, $phone_number);
@@ -66,7 +81,7 @@
         $booking_stmt = $conn->prepare($booking_sql);
 
         $booking_stmt->bind_param(
-            "iiissiiss",
+            "iiisssiss",
             $guest_id,
             $room_type_id,
             $promo_code_id,
