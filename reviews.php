@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
-    <link rel="icon" href="assets/iconred.png" />
+  <link rel="icon" href="assets/icon/ICON.png" />
     <title>Reviews | Aurora Hotel</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.php"><img src="assets/Logo.svg" alt="logo" class="nav-logo" /></a>
+         <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -33,10 +33,6 @@
         </ul>
         <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
-      <div class="section__container header__container" id="home">
-        <p class="hero-sub">Guest Stories</p>
-        <h1 class="hero-title">Real Reviews<br />From Our Visitors.</h1>
-      </div>
     </header>
 
     <section class="section__container review__container">
@@ -91,7 +87,7 @@
       <div class="review__grid">
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon1.jpg" alt="reviewer" />
           </div>
           <h4>Anna S.</h4>
           <p>"A perfect stay from arrival to checkout. The rooms were clean, the staff were attentive, and the breakfast was exceptional."</p>
@@ -106,7 +102,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon2.jpg" alt="reviewer" />
           </div>
           <h4>Michael T.</h4>
           <p>"The event night was beautiful, and the service made our anniversary unforgettable. Highly recommended!"</p>
@@ -121,7 +117,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-3.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon3.jpg" alt="reviewer" />
           </div>
           <h4>Sophia R.</h4>
           <p>"Loved the decor, the amenities, and the calm ambiance. The fitness center and dining options were a great bonus."</p>
@@ -136,7 +132,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/about.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon4.jpg" alt="reviewer" />
           </div>
           <h4>Jason P.</h4>
           <p>"Everything was on point — from check-in to room service. A wonderful place for a relaxing city escape."</p>
@@ -151,7 +147,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon5.jpg" alt="reviewer" />
           </div>
           <h4>Emily W.</h4>
           <p>"Exceptional hospitality and attention to detail. The concierge team went above and beyond to make our stay special. We'll definitely be back!"</p>
@@ -166,7 +162,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon6.jpg" alt="reviewer" />
           </div>
           <h4>David K.</h4>
           <p>"Great location with stunning views. The spa facilities were world-class, and the staff made everything so convenient."</p>
@@ -181,7 +177,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-3.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon1.jpg" alt="reviewer" />
           </div>
           <h4>Isabella M.</h4>
           <p>"Our family had the most wonderful vacation here. The kids' activities were fun, and the family suites were spacious and comfortable!"</p>
@@ -196,7 +192,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/about.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon2.jpg" alt="reviewer" />
           </div>
           <h4>Christopher L.</h4>
           <p>"Top-notch business facilities and reliable WiFi made my stay productive. The restaurant food was outstanding!"</p>
@@ -211,7 +207,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-1.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon3.jpg" alt="reviewer" />
           </div>
           <h4>Victoria N.</h4>
           <p>"The executive lounge was an amazing perk. Free refreshments, quiet workspace, and helpful staff made it perfect for business travelers."</p>
@@ -226,7 +222,7 @@
         </article>
         <article class="review__card">
           <div class="review__avatar">
-            <img src="assets/room-2.jpg" alt="reviewer" />
+            <img src="assets/reviews/anon4.jpg" alt="reviewer" />
           </div>
           <h4>Robert G.</h4>
           <p>"Clean rooms, courteous staff, and great amenities. The location is perfect for exploring the city. Highly satisfied!"</p>
@@ -242,53 +238,54 @@
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="logo">
-            <a href="index.php"><img src="assets/logo.png" alt="logo" /></a>
+      <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="logo">
+              <a href="#home"><img src="assets/icon/ICON.png" alt="logo" /></a>
+            </div>
+            <p class="section__description">
+              Discover a world of elegance, luxury, and unforgettable moments as you explore Aurora Hotel's carefully curated accommodations and world-class amenities.
+            </p>
+            <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
           </div>
-          <p class="section__description">
-            Read guest reviews and see why our hotel is a top choice for travelers and special occasions.
-          </p>
-          <a href="Check-In-Page.php"><button class="btn">Book Now</button></a>
-        </div>
-        <div class="footer__col">
-          <h4>QUICK LINKS</h4>
-          <ul class="footer__links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="room.php">Rooms</a></li>
-            <li><a href="hotel-facilities.php">Facilities</a></li>
-            <li><a href="events.php">Events</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>OUR SERVICES</h4>
-          <ul class="footer__links">
-            <li><a href="#">Concierge Assistance</a></li>
-            <li><a href="#">Flexible Booking Options</a></li>
-            <li><a href="#">Airport Transfers</a></li>
-            <li><a href="#">Spa & Fitness</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4>CONTACT US</h4>
-          <ul class="footer__links">
-            <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
-          </ul>
-          <div class="footer__socials">
-            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
-            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
-            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
-            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          <div class="footer__col">
+            <h4>QUICK LINKS</h4>
+            <ul class="footer__links">
+              <li><a href="room.php">Browse All Rooms</a></li>
+              <li><a href="room-types.php">Room Types & Amenities</a></li>
+              <li><a href="reviews.php">Guest Reviews</a></li>
+              <li><a href="events.php">Events</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>OUR SERVICES</h4>
+            <ul class="footer__links">
+              <li>Concierge Service</li>
+              <li>Flexible Booking</li>
+              <li>Airport Transfers</li>
+              <li>Wellness & Recreation</li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>CONTACT US</h4>
+            <ul class="footer__links">
+              <li><a href="mailto:info@aurorahotel.com">info@aurorahotel.com</a></li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><img src="assets/icon/facebook.png" alt="facebook" /></a>
+              <a href="#"><img src="assets/icon/instagram.png" alt="instagram" /></a>
+              <a href="#"><img src="assets/icon/youtube.png" alt="youtube" /></a>
+              <a href="#"><img src="assets/icon/twitter.png" alt="twitter" /></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer__bar">
-        Copyright © 2026 Aurora Hotel. All rights reserved.
-      </div>
-    </footer>
+        <div class="footer__bar">
+          Copyright © 2026 Aurora Hotel. All rights reserved.
+        </div>
+      </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-  </body>
-</html>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="Js/main.js"></script>
+    </body>
+  </html>

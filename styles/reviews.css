@@ -164,6 +164,7 @@
 }
 
 .review__card {
+  position: relative;
   padding: 2.5rem;
   background-color: var(--white);
   border-radius: 24px;
@@ -173,6 +174,22 @@
   gap: 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
+}
+
+.review__card::before {
+  content: "👤";
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(201, 76, 47, 0.08);
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  border: 1px solid rgba(201, 76, 47, 0.18);
 }
 
 .review__card:hover {
