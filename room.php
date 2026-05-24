@@ -13,19 +13,21 @@
     <title>Rooms | Aurora Hotel</title>
   </head>
   <body>
+    <div id="loader-wrapper">
+      <div class="loader">
+        <img src="./assets/svg/ICON.svg" alt="">
+      </div>
+    </div>
     <header class="header">
       <video autoplay muted loop id="header-Video">
         <source src="assets/vid/rooms.mp4">
       </video>
       <nav>
-        <div class="nav__bar">
-          <div class="logo">
-         <a href="index.php"><img src="assets/svg/Logo.svg" alt="logo" class="nav-logo" /></a>
-          </div>
-          <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
-          </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
         </div>
+        <a href="index.php" class="nav__brand"><img src="assets/svg/AURORA.svg" alt="Aurora logo" /></a>
+        <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
          <ul class="nav__links" id="nav-links">
           <li><a href="index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
@@ -34,7 +36,6 @@
           <li><a href="reviews.php">Reviews</a></li>
           <li><a href="contactus.php">Contact</a></li>
         </ul>
-        <a href="Check-In-Page.php"><button class="btn nav__btn">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Premium Accommodations</p>
@@ -244,6 +245,8 @@
         </div>
       </footer>
 
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="Js/main.js"></script>
       <script src="https://unpkg.com/scrollreveal"></script>
       <script src="Js/main.js"></script>
     </body>
