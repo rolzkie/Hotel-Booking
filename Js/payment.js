@@ -3,12 +3,12 @@
 class PaymentPage {
     constructor() {
         this.roomRates = {
-            1: 150,  // Deluxe Room
-            2: 200,  // Deluxe Premier Room
-            3: 250,  // Executive Suite
-            4: 280,  // Family Suite
-            5: 350,  // Royal Suite
-            6: 450   // Presidential Suite
+            1: 3500,  // Deluxe Room
+            2: 5200,  // Deluxe Premier Room
+            3: 7800,  // Executive Suite
+            4: 9500,  // Family Suite
+            5: 14500,  // Royal Suite
+            6: 25000   // Presidential Suite
         };
         
         this.roomNames = {
