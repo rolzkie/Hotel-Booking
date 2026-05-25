@@ -38,12 +38,12 @@
     ];
 
     $room_rates = [
-        1 => 150,
-        2 => 200,
-        3 => 250,
-        4 => 280,
-        5 => 350,
-        6 => 450
+        1 => 3500,
+        2 => 5200,
+        3 => 7800,
+        4 => 9500,
+        5 => 14500,
+        6 => 25000
     ];
 
     $selected_room = $room_names[$room_type_id] ?? 'Unknown Room';
@@ -471,7 +471,7 @@
                     <div class="billing__info">
                         <div class="billing__row">
                             <span>Room Rate per Night:</span>
-                            <span>$<?php echo number_format($room_rate, 2); ?></span>
+                            <span>₱<?php echo number_format($room_rate, 2); ?></span>
                         </div>
                         <div class="billing__row">
                             <span>Number of Nights:</span>
@@ -479,15 +479,15 @@
                         </div>
                         <div class="billing__row">
                             <span>Subtotal:</span>
-                            <span>$<?php echo number_format($subtotal, 2); ?></span>
+                            <span>₱<?php echo number_format($subtotal, 2); ?></span>
                         </div>
                         <div class="billing__row">
                             <span>Taxes & Fees (10%):</span>
-                            <span>$<?php echo number_format($taxes, 2); ?></span>
+                            <span>₱<?php echo number_format($taxes, 2); ?></span>
                         </div>
                         <div class="billing__row total">
                             <span>Total Amount Paid:</span>
-                            <span>$<?php echo number_format($total_amount, 2); ?></span>
+                            <span>₱<?php echo number_format($total_amount, 2); ?></span>
                         </div>
                     </div>
                 </div>

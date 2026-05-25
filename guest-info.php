@@ -191,7 +191,7 @@
                             <h4 style="margin-top: 0; color: var(--text-dark);">Price Summary</h4>
                             <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">
                                 <span>Room Rate per Night:</span>
-                                <span id="roomRate" style="font-weight: 600; color: var(--primary-color);">$150.00</span>
+                                <span id="roomRate" style="font-weight: 600; color: var(--primary-color);">₱150.00</span>
                             </div>
                             <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">
                                 <span>Number of Nights:</span>
@@ -199,15 +199,15 @@
                             </div>
                             <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">
                                 <span>Subtotal:</span>
-                                <span id="subtotal" style="font-weight: 600; color: var(--primary-color);">$150.00</span>
+                                <span id="subtotal" style="font-weight: 600; color: var(--primary-color);">₱150.00</span>
                             </div>
                             <div style="display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">
                                 <span>Taxes & Fees (10%):</span>
-                                <span id="taxes" style="font-weight: 600; color: var(--primary-color);">$15.00</span>
+                                <span id="taxes" style="font-weight: 600; color: var(--primary-color);">₱15.00</span>
                             </div>
                             <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-top: 2px solid #e0e0e0; font-size: 1.1rem;">
                                 <span style="font-weight: 600;">Total Amount:</span>
-                                <span id="totalAmount" style="font-weight: 700; color: var(--primary-color); font-size: 1.2rem;">$165.00</span>
+                                <span id="totalAmount" style="font-weight: 700; color: var(--primary-color); font-size: 1.2rem;">₱165.00</span>
                             </div>
                         </div>
 
@@ -370,12 +370,12 @@
       <script>
         // Room rates mapping
         const roomRates = {
-            1: 150,
-            2: 200,
-            3: 250,
-            4: 280,
-            5: 350,
-            6: 450
+            1: 3500,
+            2: 5200,
+            3: 7800,
+            4: 9500,
+            5: 14500,
+            6: 25000
         };
 
         // Initialize payment form

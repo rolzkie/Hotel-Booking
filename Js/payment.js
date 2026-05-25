@@ -188,13 +188,13 @@ class PaymentPage {
         const total = subtotal + taxes;
 
         // Update summary display
-        document.getElementById('roomRate').textContent = `$${roomRate.toFixed(2)}`;
-        document.getElementById('subtotal').textContent = `$${subtotal.toFixed(2)}`;
-        document.getElementById('taxes').textContent = `$${taxes.toFixed(2)}`;
-        document.getElementById('totalAmount').textContent = `$${total.toFixed(2)}`;
+        document.getElementById('roomRate').textContent = `₱${roomRate.toFixed(2)}`;
+        document.getElementById('subtotal').textContent = `₱${subtotal.toFixed(2)}`;
+        document.getElementById('taxes').textContent = `₱${taxes.toFixed(2)}`;
+        document.getElementById('totalAmount').textContent = `₱${total.toFixed(2)}`;
         document.getElementById('summaryNights').textContent = nights;
 
-        console.log(`Payment Summary: Room: $${roomRate}, Nights: ${nights}, Total: $${total.toFixed(2)}`);
+        console.log(`Payment Summary: Room: ₱${roomRate}, Nights: ${nights}, Total: ₱${total.toFixed(2)}`);
     }
 
     handlePaymentSubmit(e) {

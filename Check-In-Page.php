@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/checkin.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
-    <link rel="icon" href="assets/iconred.png" />
+    <link rel="icon" href="assets/icon/ICON.png" />
     <title>Check-In | Hotel Booking</title>
 </head>
 <body>
