@@ -46,7 +46,6 @@
                 <i class="ri-menu-line"></i>
             </div>
             <a href="index.php" class="nav__brand"><img src="./assets/svg/AURORA.svg" alt="Aurora logo" /></a>
-            <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
        <ul class="nav__links" id="nav-links">
           <li><a href="./index.php">Home</a></li>
           <li><a href="room.php">Rooms</a></li>
