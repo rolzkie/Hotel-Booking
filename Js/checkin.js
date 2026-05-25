@@ -235,21 +235,13 @@ class CheckInCalendar {
             return;
         }
 
-        if (!data.fullname || !data.email || !data.phone) {
-            alert('Please fill in all guest information fields.');
+        if (!data.guests) {
+            alert('Please select number of guests.');
             return;
         }
 
         console.log('Form submitted with data:', data);
-
-        // Show confirmation message
-        alert('Booking submitted! Redirecting to room selection...');
-
-        // Here you would typically send the data to a server
-        // Example: fetch('/api/booking', { method: 'POST', body: JSON.stringify(data) })
-
-        // Redirect to next step (room selection)
-        // window.location.href = '/rooms.html';
+        document.getElementById('checkinForm').submit();
     }
 
     resetCalendar() {

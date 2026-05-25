@@ -1,0 +1,607 @@
+/* ================================
+   COMPREHENSIVE MOBILE RESPONSIVE STYLES
+   ================================ */
+
+/* Mobile First: Base Styles */
+@media (max-width: 1024px) {
+    .section__container {
+        max-width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .section__header {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .section__subheader {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 0.65rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    .booking__section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+}
+
+/* Tablet: 768px and below */
+@media (max-width: 768px) {
+    :root {
+        --max-width: 100%;
+    }
+
+    /* ===== HEADER & NAVIGATION ===== */
+    header.header {
+        padding: 1rem;
+    }
+
+    .nav__brand img {
+        height: 35px !important;
+    }
+
+    .nav__links {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        background-color: var(--white);
+        padding: 2rem 1rem;
+        transition: 0.3s;
+        z-index: 999;
+    }
+
+    .nav__links.active {
+        left: 0;
+    }
+
+    .nav__links li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .nav__menu__btn {
+        display: block !important;
+    }
+
+    .nav__btn {
+        display: none !important;
+    }
+
+    /* ===== SECTIONS ===== */
+    .section__container {
+        padding: 2rem 1rem;
+    }
+
+    .section__header {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .section__description {
+        font-size: 0.95rem;
+    }
+
+    /* ===== FORMS ===== */
+    .form__grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .form__group {
+        width: 100%;
+    }
+
+    .form__group full-width {
+        grid-column: 1 / -1;
+    }
+
+    .form__actions {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+    /* ===== CARDS & GRIDS ===== */
+    .room__grid,
+    .info__cards {
+        grid-template-columns: 1fr !important;
+    }
+
+    .room__card {
+        margin-bottom: 1.5rem;
+    }
+
+    /* ===== PROGRESS STEPS ===== */
+    .checkin__steps,
+    .payment__steps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .step {
+        flex: 0 1 calc(50% - 0.5rem);
+        text-align: center;
+    }
+
+    .step__circle {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .step p {
+        font-size: 0.7rem;
+        margin-top: 0.3rem;
+    }
+
+    .step__line {
+        width: 2px;
+        height: 30px;
+        margin: 0 0.2rem;
+    }
+
+    /* ===== CALENDAR ===== */
+    .calendar__header h4 {
+        font-size: 1rem;
+    }
+
+    .calendar__nav {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .calendar__date {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .day-label {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+
+    /* ===== BOOKING SECTION ===== */
+    .booking__section {
+        padding: 1.5rem;
+        margin-top: -4rem;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .booking__section > div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+
+    .input__wrapper {
+        font-size: 0.95rem;
+    }
+
+    input[type="date"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="text"],
+    select,
+    textarea {
+        font-size: 1rem !important;
+        padding: 0.6rem 0.8rem !important;
+        width: 100%;
+    }
+
+    /* ===== HEADERS ===== */
+    .checkin-header,
+    .payment-header {
+        min-height: 40vh !important;
+        padding-top: 3rem !important;
+    }
+
+    .checkin-title h1,
+    .payment-title h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .checkin-title p,
+    .payment-title p {
+        font-size: 1rem;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer__container {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+
+    .footer__col {
+        text-align: center;
+    }
+
+    /* ===== PAYMENT FORM ===== */
+    .payment__form__section {
+        padding: 1.5rem;
+    }
+
+    .method__options {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+
+    .payment__option {
+        margin-bottom: 0.5rem;
+    }
+
+    /* ===== SUMMARY SECTIONS ===== */
+    .booking__summary,
+    .price__summary,
+    .billing__info {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .info__grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+
+    .summary__details {
+        grid-template-columns: 1fr !important;
+    }
+
+    .detail__row {
+        padding: 0.5rem 0 !important;
+        font-size: 0.95rem;
+    }
+
+    /* ===== LEGENDS ===== */
+    .legend__items {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .legend__item {
+        width: 100%;
+    }
+}
+
+/* Small Phones: 480px and below */
+@media (max-width: 480px) {
+    /* ===== TYPOGRAPHY ===== */
+    body {
+        font-size: 14px;
+    }
+
+    .section__container {
+        padding: 1.5rem 1rem;
+    }
+
+    .section__header {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .section__description {
+        font-size: 0.9rem;
+    }
+
+    /* ===== HEADERS ===== */
+    .checkin-header,
+    .payment-header {
+        min-height: 30vh !important;
+        padding-top: 2rem !important;
+    }
+
+    .checkin-title h1,
+    .payment-title h1,
+    .payment-title,
+    .checkin-title {
+        font-size: 1.4rem !important;
+    }
+
+    .checkin-title p,
+    .payment-title p {
+        font-size: 0.9rem;
+    }
+
+    /* ===== FORMS ===== */
+    .form__grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .form__group {
+        margin-bottom: 0.8rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 16px !important; /* Prevents zoom on iOS */
+        padding: 0.5rem 0.7rem !important;
+    }
+
+    .input__wrapper i {
+        font-size: 1rem;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .form__actions {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    /* ===== PROGRESS STEPS ===== */
+    .step {
+        flex: 0 1 calc(50% - 0.3rem);
+        margin-bottom: 0.5rem;
+    }
+
+    .step__circle {
+        width: 32px;
+        height: 32px;
+        font-size: 0.9rem;
+    }
+
+    .step p {
+        font-size: 0.65rem;
+    }
+
+    .step__line {
+        display: none;
+    }
+
+    /* ===== CALENDAR ===== */
+    .calendar__section {
+        margin-top: 1rem;
+    }
+
+    .calendar {
+        padding: 0.5rem;
+    }
+
+    .calendar__header h4 {
+        font-size: 0.95rem;
+    }
+
+    .calendar__nav {
+        width: 28px;
+        height: 28px;
+        font-size: 0.8rem;
+    }
+
+    .calendar__date {
+        font-size: 0.75rem;
+        padding: 0.3rem;
+        min-height: 35px;
+    }
+
+    .day-label {
+        font-size: 0.65rem;
+        padding: 0.3rem;
+        font-weight: 600;
+    }
+
+    /* ===== ROOM CARDS ===== */
+    .room__card {
+        margin-bottom: 1rem;
+    }
+
+    .room__card__image {
+        height: 200px;
+    }
+
+    .room__thumbs {
+        display: none;
+    }
+
+    .room__card__details h4 {
+        font-size: 1.1rem;
+    }
+
+    .room__card__details p {
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    .room__card__details span {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    /* ===== BOOKING SUMMARY ===== */
+    .booking__summary {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .info__item {
+        padding: 0.8rem !important;
+    }
+
+    .info__label {
+        font-size: 0.8rem;
+    }
+
+    .info__value {
+        font-size: 0.95rem;
+    }
+
+    /* ===== PAYMENT METHODS ===== */
+    .method__options {
+        grid-template-columns: 1fr !important;
+        gap: 0.8rem !important;
+    }
+
+    .option__content {
+        padding: 0.8rem !important;
+        font-size: 0.9rem;
+    }
+
+    .option__content i {
+        font-size: 1.5rem;
+    }
+
+    /* ===== TABLES/GRIDS ===== */
+    .summary__row {
+        padding: 0.5rem 0 !important;
+        font-size: 0.9rem;
+    }
+
+    .detail__row {
+        padding: 0.4rem 0 !important;
+        font-size: 0.9rem;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .footer__col {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__col h4 {
+        font-size: 1rem;
+    }
+
+    .footer__col p {
+        font-size: 0.9rem;
+    }
+
+    .footer__links li {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* ===== INFO CARDS ===== */
+    .info__cards {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+
+    .info__card {
+        padding: 1rem !important;
+    }
+
+    .info__card i {
+        font-size: 2rem;
+    }
+
+    .info__card h4 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .info__card p {
+        font-size: 0.85rem;
+    }
+
+    /* ===== LEGENDS ===== */
+    .legend__items {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .legend__item {
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    /* ===== SPECIAL SECTIONS ===== */
+    .confirmation__container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .success__header {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .success__icon {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+
+    .success__title {
+        font-size: 1.5rem;
+    }
+
+    .booking__reference {
+        font-size: 0.9rem;
+    }
+
+    .section__title {
+        font-size: 1rem;
+    }
+
+    .action__buttons {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .action__buttons .btn {
+        width: 100%;
+    }
+}
+
+/* Extra Small: 360px and below */
+@media (max-width: 360px) {
+    .section__header {
+        font-size: 1.2rem;
+    }
+
+    .step p {
+        font-size: 0.6rem !important;
+    }
+
+    .calendar__date {
+        font-size: 0.7rem;
+        min-height: 30px;
+        padding: 0.2rem;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 16px !important;
+        padding: 0.45rem 0.6rem !important;
+    }
+
+    .btn {
+        padding: 0.55rem 0.9rem;
+        font-size: 0.9rem;
+    }
+}

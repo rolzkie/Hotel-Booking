@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/checkin.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
     <link rel="icon" href="assets/iconred.png" />
     <title>Check-In | Hotel Booking</title>
 </head>
@@ -55,88 +56,96 @@
                     <div class="step__circle">
                         <i class="ri-home-2-fill"></i>
                     </div>
-                    <p>Select Rooms & Rates</p>
+                    <p>Select Room</p>
+                </div>
+                <div class="step__line"></div>
+                <div class="step">
+                    <div class="step__circle">
+                        <i class="ri-user-line"></i>
+                    </div>
+                    <p>Guest Information</p>
+                </div>
+                <div class="step__line"></div>
+                <div class="step">
+                    <div class="step__circle">
+                        <i class="ri-bank-card-line"></i>
+                    </div>
+                    <p>Payment</p>
                 </div>
                 <div class="step__line"></div>
                 <div class="step">
                     <div class="step__circle">
                         <i class="ri-check-double-line"></i>
                     </div>
-                    <p>Booking Confirmation</p>
+                    <p>Check-in Done</p>
                 </div>
             </div>
 
             <!-- Booking Form -->
             <div class="booking__section">
                 <h2 class="section__header">Complete Your Reservation</h2>
-                
-                <form class="booking__form" id="checkinForm" method="post" action="Check-in-done.php">
-                    <div class="form__grid">
-                        <!-- Check-in Date -->
-                        <div class="form__group">
-                            <label for="checkin-date">Check-in Date</label>
-                            <div class="input__wrapper">
-                                <i class="ri-calendar-2-fill"></i>
-                                <input type="date" id="checkin-date" name="checkin" required />
-                            </div>
-                        </div>
 
-                        <!-- Check-out Date -->
-                        <div class="form__group">
-                            <label for="checkout-date">Check-out Date</label>
-                            <div class="input__wrapper">
-                                <i class="ri-calendar-2-fill"></i>
-                                <input type="date" id="checkout-date" name="checkout" required />
-                            </div>
-                        </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
+                    <!-- Form Section -->
+                    <div>
+                        <form class="booking__form" id="checkinForm" method="post" action="room-selection.php">
+                            <div class="form__grid" style="grid-template-columns: 1fr;">
+                                <!-- Check-in Date -->
+                                <div class="form__group">
+                                    <label for="checkin-date">Check-in Date</label>
+                                    <div class="input__wrapper">
+                                        <i class="ri-calendar-2-fill"></i>
+                                        <input type="date" id="checkin-date" name="checkin" required />
+                                    </div>
+                                </div>
 
-                        <!-- Number of Nights -->
-                        <div class="form__group">
-                            <label for="nights">Number of Nights</label>
-                            <div class="input__wrapper">
-                                <i class="ri-moon-clear-fill"></i>
-                                <input type="number" id="nights" name="nights" value="1" min="1" readonly />
-                            </div>
-                        </div>
+                                <!-- Check-out Date -->
+                                <div class="form__group">
+                                    <label for="checkout-date">Check-out Date</label>
+                                    <div class="input__wrapper">
+                                        <i class="ri-calendar-2-fill"></i>
+                                        <input type="date" id="checkout-date" name="checkout" required />
+                                    </div>
+                                </div>
 
-                        <!-- Number of Guests -->
-                        <div class="form__group">
-                            <label for="guests">Number of Guests</label>
-                            <div class="input__wrapper">
-                                <i class="ri-user-multiple-fill"></i>
-                                <input type="number" id="guests" name="guests" value="1" min="1" max="8" required />
-                            </div>
-                        </div>
+                                <!-- Number of Nights -->
+                                <div class="form__group">
+                                    <label for="nights">Number of Nights</label>
+                                    <div class="input__wrapper">
+                                        <i class="ri-moon-clear-fill"></i>
+                                        <input type="number" id="nights" name="nights" value="1" min="1" readonly />
+                                    </div>
+                                </div>
 
-                        <!-- Room Type -->
-                        <div class="form__group">
-                            <label for="roomtype">Room Type</label>
-                            <div class="input__wrapper">
-                                <i class="ri-home-smile-2-fill"></i>
-                                <select id="roomtype" name="roomtype" required>
-                                    <option value="">Select a room type</option>
-                                    <option value="1">Deluxe Room</option>
-                                    <option value="2">Deluxe Premier Room</option>
-                                    <option value="3">Executive Suite</option>
-                                    <option value="4">Family Suite</option>
-                                    <option value="5">Royal Suite</option>
-                                    <option value="6">Presidential Suite</option>
-                                </select>
-                            </div>
-                        </div>
+                                <!-- Number of Guests -->
+                                <div class="form__group">
+                                    <label for="guests">Number of Guests</label>
+                                    <div class="input__wrapper">
+                                        <i class="ri-user-multiple-fill"></i>
+                                        <input type="number" id="guests" name="guests" value="1" min="1" max="8" required />
+                                    </div>
+                                </div>
 
-                        <!-- Special Code -->
-                        <div class="form__group">
-                            <label for="specialcode">Special Code (Optional)</label>
-                            <div class="input__wrapper">
-                                <i class="ri-coupon-2-fill"></i>
-                                <input type="text" id="specialcode" name="specialcode" placeholder="Enter code if you have one" />
+                                <!-- Special Code -->
+                                <div class="form__group">
+                                    <label for="specialcode">Special Code (Optional)</label>
+                                    <div class="input__wrapper">
+                                        <i class="ri-coupon-2-fill"></i>
+                                        <input type="text" id="specialcode" name="specialcode" placeholder="Enter code if you have one" />
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+
+                            <!-- Submit Button -->
+                            <div class="form__actions">
+                                <button type="submit" class="btn btn-primary" style="width: 100%;">Continue to Room Selection</button>
+                                <button type="reset" class="btn btn-secondary" style="width: 100%;">Clear Form</button>
+                            </div>
+                        </form>
                     </div>
 
                     <!-- Calendar Display -->
-                    <div class="calendar__section">
+                    <div class="calendar__section" style="margin-top: 0;">
                         <h3>Select Your Dates</h3>
                         <div class="calendar__wrapper">
                             <div class="calendar">
@@ -162,46 +171,27 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Guest Information -->
-                    <div class="guest__info">
-                        <h3>Guest Information</h3>
-                        <div class="form__grid">
-                            <div class="form__group full-width">
-                                <label for="fullname">Full Name</label>
-                                <div class="input__wrapper">
-                                    <i class="ri-user-line"></i>
-                                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
-                                </div>
-                            </div>
-                            <div class="form__group full-width">
-                                <label for="email">Email Address</label>
-                                <div class="input__wrapper">
-                                    <i class="ri-mail-line"></i>
-                                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
-                                </div>
-                            </div>
-                            <div class="form__group full-width">
-                                <label for="phone">Phone Number</label>
-                                <div class="input__wrapper">
-                                    <i class="ri-phone-line"></i>
-                                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
-                                </div>
-                            </div>
-                            <div class="form__group full-width">
-                                <label for="comments">Special Requests (Optional)</label>
-                                <textarea id="comments" name="comments" placeholder="Any special requests or needs?"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <div class="form__actions">
-                        <button type="submit" class="btn btn-primary">Continue to Room Selection</button>
-                        <button type="reset" class="btn btn-secondary">Clear Form</button>
-                    </div>
-                </form>
+                </div>
             </div>
+
+                <!-- Legend Section -->
+    <section class="section__container legend__section">
+        <h3>Calendar Legend</h3>
+        <div class="legend__items">
+            <div class="legend__item">
+                <div class="legend__color available"></div>
+                <span>Available</span>
+            </div>
+            <div class="legend__item">
+                <div class="legend__color unavailable"></div>
+                <span>Unavailable</span>
+            </div>
+            <div class="legend__item">
+                <div class="legend__color selected"></div>
+                <span>Selected</span>
+            </div>
+        </div>
+    </section>
 
             <!-- Info Cards -->
             <div class="info__cards">
@@ -229,24 +219,7 @@
         </div>
     </section>
 
-    <!-- Legend Section -->
-    <section class="section__container legend__section">
-        <h3>Calendar Legend</h3>
-        <div class="legend__items">
-            <div class="legend__item">
-                <div class="legend__color available"></div>
-                <span>Available</span>
-            </div>
-            <div class="legend__item">
-                <div class="legend__color unavailable"></div>
-                <span>Unavailable</span>
-            </div>
-            <div class="legend__item">
-                <div class="legend__color selected"></div>
-                <span>Selected</span>
-            </div>
-        </div>
-    </section>
+
 
     <footer class="footer" id="contact">
         <div class="section__container footer__container">
