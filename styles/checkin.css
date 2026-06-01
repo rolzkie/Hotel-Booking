@@ -345,27 +345,6 @@
     border: none;
 }
 
-/* Guest Info Section */
-.guest__info {
-    margin: 3rem 0;
-    padding: 2.5rem;
-    background-color: #fafafa;
-    border-radius: 8px;
-    border-left: 4px solid var(--primary-color);
-    width: 100%;
-}
-
-.guest__info h3 {
-    font-size: 1.2rem;
-    color: var(--text-dark);
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-}
-
-.guest__info .form__grid {
-    margin-bottom: 0;
-}
-
 /* Form Actions */
 .form__actions {
     display: grid;

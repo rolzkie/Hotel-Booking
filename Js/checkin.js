@@ -26,9 +26,6 @@ class CheckInCalendar {
         document.getElementById('checkin-date')?.addEventListener('change', (e) => this.handleDateInput(e));
         document.getElementById('checkout-date')?.addEventListener('change', (e) => this.handleCheckoutInput(e));
 
-        // Guest count
-        document.getElementById('guests')?.addEventListener('change', () => this.updateFormData());
-
         // Form submission
         document.getElementById('checkinForm')?.addEventListener('submit', (e) => this.handleFormSubmit(e));
 
@@ -47,18 +44,8 @@ class CheckInCalendar {
     }
 
     generateUnavailableDates() {
-        // Example: Mark some dates as unavailable
-        const unavailable = [];
-        const today = new Date();
-
-        // Add some random unavailable dates for demo
-        for (let i = 0; i < 5; i++) {
-            const date = new Date(today);
-            date.setDate(date.getDate() + Math.floor(Math.random() * 60) + 20);
-            unavailable.push(this.formatDate(date));
-        }
-
-        return unavailable;
+        // Calendar doesn't currently mark unavailable dates
+        return [];
     }
 
     formatDate(date) {
@@ -216,11 +203,6 @@ class CheckInCalendar {
     nextMonth() {
         this.currentDate.setMonth(this.currentDate.getMonth() + 1);
         this.renderCalendar();
-    }
-
-    updateFormData() {
-        // Update any dependent form fields
-        console.log('Form data updated');
     }
 
     handleFormSubmit(e) {

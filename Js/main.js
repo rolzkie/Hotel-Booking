@@ -144,39 +144,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-
-// Slideshow manual control (initialize after DOM ready and expose globals)
-document.addEventListener('DOMContentLoaded', () => {
-  let currentSlide = 0;
-  const slideItems = document.querySelectorAll(".slideshow-item");
-  const totalSlides = slideItems.length;
-
-  function showSlide(n) {
-    if (totalSlides === 0) return;
-
-    currentSlide = (n + totalSlides) % totalSlides;
-
-    // Remove animation temporarily
-    slideItems.forEach(item => {
-      item.style.animation = "none";
-      item.style.opacity = "0";
-    });
-
-    // Force reflow to restart animation
-    void (slideItems[0] && slideItems[0].offsetWidth);
-
-    // Show the current slide and update animation delays
-    slideItems.forEach((item, index) => {
-      const delayOffset = (index - currentSlide + totalSlides) % totalSlides;
-      item.style.animation = `slideshow 12s infinite`;
-      item.style.animationDelay = (delayOffset * 4) + "s";
-    });
-  }
-
-  // Expose functions so inline onclick handlers work
-  window.slideshowNext = function() { showSlide(currentSlide + 1); };
-  window.slideshowPrev = function() { showSlide(currentSlide - 1); };
-
-  // Initialize
-  showSlide(0);
-});

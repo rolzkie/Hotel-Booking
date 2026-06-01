@@ -305,10 +305,6 @@
     margin-bottom: 2rem;
 }
 
-.card__details.hidden {
-    display: none;
-}
-
 .card__details .form__grid {
     margin-bottom: 0;
 }

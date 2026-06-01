@@ -96,10 +96,6 @@
         width: 100%;
     }
 
-    .form__group full-width {
-        grid-column: 1 / -1;
-    }
-
     .form__actions {
         flex-direction: column;
         gap: 0.8rem;

@@ -247,7 +247,5 @@
 
       <script src="https://unpkg.com/scrollreveal"></script>
       <script src="Js/main.js"></script>
-      <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="Js/main.js"></script>
     </body>
   </html>
