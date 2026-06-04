@@ -170,7 +170,7 @@
     <style>
         .confirmation__container {
             max-width: 800px;
-            margin: 3rem auto;
+            margin: 1.5rem auto;
             padding: 2rem;
             background-color: white;
             border-radius: 12px;
@@ -345,48 +345,57 @@
                 <i class="ri-menu-line"></i>
             </div>
             <a href="index.php" class="nav__brand"><img src="assets/svg/AURORA.svg" alt="Aurora logo" /></a>
+            <a href="Check-In-Page.php" class="btn nav__btn">Book Now</a>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="room.php">Rooms</a></li>
+                <li><a href="hotel-facilities.php">Facilities</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="reviews.php">Reviews</a></li>
+                <li><a href="contactus.php">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+            <a href="index.php" class="nav-desktop__brand"><img src="assets/svg/AURORA.svg" alt="Aurora logo" /></a>
+            <ul class="nav-desktop__menu">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="room.php">Rooms</a></li>
+                <li><a href="hotel-facilities.php">Facilities</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="reviews.php">Reviews</a></li>
+                <li><a href="contactus.php">Contact</a></li>
+            </ul>
+            <div class="nav-desktop__right"><a href="Check-In-Page.php" class="nav-desktop__btn">Book Now</a></div>
         </nav>
     </header>
 
-    <main class="section__container" style="background-color: #f9f7f4; padding: 3rem 1rem;">
+    <main style="background-color: #f9f7f4; padding: 1rem;">
         <?php if ($booking_success): ?>
             <!-- Progress Steps -->
-            <section class="section__container" style="padding: 2rem 1rem; background-color: #f9f7f4; margin-bottom: 2rem;">
-                <div class="section__container" style="max-width: var(--max-width); margin: auto;">
+            <section style="padding: 2rem 1rem; background-color: #f9f7f4; margin-bottom: 0;">
+                <div style="max-width: var(--max-width); margin: auto;">
                     <div class="checkin__steps">
                         <div class="step completed">
                             <div class="step__circle">
                                 <i class="ri-calendar-2-fill"></i>
                             </div>
-                            <p>Check-in & Check-out</p>
+                            <p>Select Dates</p>
                         </div>
                         <div class="step__line"></div>
                         <div class="step completed">
                             <div class="step__circle">
                                 <i class="ri-home-2-fill"></i>
                             </div>
-                            <p>Select Room</p>
-                        </div>
-                        <div class="step__line"></div>
-                        <div class="step completed">
-                            <div class="step__circle">
-                                <i class="ri-user-line"></i>
-                            </div>
-                            <p>Guest Information</p>
-                        </div>
-                        <div class="step__line"></div>
-                        <div class="step completed">
-                            <div class="step__circle">
-                                <i class="ri-bank-card-line"></i>
-                            </div>
-                            <p>Payment</p>
+                            <p>Choose Room</p>
                         </div>
                         <div class="step__line"></div>
                         <div class="step completed active">
                             <div class="step__circle">
-                                <i class="ri-check-double-line"></i>
+                                <i class="ri-bank-card-2-fill"></i>
                             </div>
-                            <p>Check-in Done</p>
+                            <p>Complete Booking</p>
                         </div>
                     </div>
                 </div>

@@ -45,7 +45,7 @@
 /* Main Container */
 .checkin__container {
     background-color: #f9f7f4;
-    padding: 15rem 1rem 3rem 1rem;
+    padding: 1.5rem 1rem 3rem 1rem;
     margin-top: 0;
 }
 
@@ -81,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     gap: 1rem;
     padding: 2rem;
     background-color: var(--white);
@@ -152,7 +152,7 @@
     padding: 2.5rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     margin-bottom: 3rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     position: relative;
     z-index: 5;
     width: 100%;

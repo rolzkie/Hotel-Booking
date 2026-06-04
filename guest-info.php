@@ -84,35 +84,21 @@
                     <div class="step__circle">
                         <i class="ri-calendar-2-fill"></i>
                     </div>
-                    <p>Check-in & Check-out</p>
+                    <p>Select Dates</p>
                 </div>
                 <div class="step__line"></div>
                 <div class="step completed">
                     <div class="step__circle">
                         <i class="ri-home-2-fill"></i>
                     </div>
-                    <p>Select Room</p>
+                    <p>Choose Room</p>
                 </div>
                 <div class="step__line"></div>
                 <div class="step active">
                     <div class="step__circle">
-                        <i class="ri-user-line"></i>
+                        <i class="ri-bank-card-2-fill"></i>
                     </div>
-                    <p>Guest Information</p>
-                </div>
-                <div class="step__line"></div>
-                <div class="step">
-                    <div class="step__circle">
-                        <i class="ri-bank-card-line"></i>
-                    </div>
-                    <p>Payment</p>
-                </div>
-                <div class="step__line"></div>
-                <div class="step">
-                    <div class="step__circle">
-                        <i class="ri-check-double-line"></i>
-                    </div>
-                    <p>Check-in Done</p>
+                    <p>Complete Booking</p>
                 </div>
             </div>
         </div>
