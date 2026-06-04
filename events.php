@@ -34,6 +34,21 @@
           <li><a href="contactus.php">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop">
+        <a href="index.php" class="nav-desktop__brand"><img src="assets/svg/AURORA.svg" alt="Aurora logo" /></a>
+        <ul class="nav-desktop__menu">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a href="hotel-facilities.php">Facilities</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="reviews.php">Reviews</a></li>
+          <li><a href="contactus.php">Contact</a></li>
+        </ul>
+        <div class="nav-desktop__right"><a href="Check-In-Page.php" class="nav-desktop__btn">Mag-Book Na</a></div>
+      </nav>
+
       <section class="section__container event__container">
       <p class="section__subheader">EVENTS</p>
       <h2 class="section__header">Join our curated experiences this season.</h2>

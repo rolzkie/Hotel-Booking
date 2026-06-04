@@ -37,7 +37,31 @@
 
     /* ===== HEADER & NAVIGATION ===== */
     header.header {
-        padding: 1rem;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    nav {
+        display: grid !important;
+        position: fixed;
+        isolation: isolate;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        width: 100%;
+        z-index: 300;
+        background-color: rgba(255, 255, 255, 0.98);
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-items: center;
+        padding: 1rem 1.5rem;
+        gap: 1rem;
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-desktop {
+        display: none !important;
     }
 
     .nav__brand img {
@@ -70,6 +94,11 @@
 
     .nav__btn {
         display: none !important;
+    }
+
+    .header__container {
+        margin-top: 0;
+        padding-top: 6rem;
     }
 
     /* ===== SECTIONS ===== */
@@ -303,20 +332,30 @@
     /* ===== HEADERS ===== */
     .checkin-header,
     .payment-header {
-        min-height: 30vh !important;
-        padding-top: 2rem !important;
+        min-height: auto !important;
+        padding-top: 0 !important;
+        margin-top: 60px !important;
+        background: none !important;
+    }
+
+    .checkin-title,
+    .payment-title {
+        background-color: #ffffff !important;
+        color: #000000 !important;
     }
 
     .checkin-title h1,
-    .payment-title h1,
-    .payment-title,
-    .checkin-title {
+    .payment-title h1 {
         font-size: 1.4rem !important;
+        color: #000000 !important;
+        text-shadow: none !important;
     }
 
     .checkin-title p,
     .payment-title p {
         font-size: 0.9rem;
+        color: #000000 !important;
+        opacity: 1 !important;
     }
 
     /* ===== FORMS ===== */
